@@ -9,18 +9,31 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from crawl_utils.html_request import * 
 
+def query_re(query):
+    '''
+    input : query(str)
+    input : query(str)
+
+    delete things inside () including parenthsis
+    '''
+    par_open = query.find('(')
+    par_close = query.find(')')
+    return query.replace(query[par_open:par_close + 1], "")
+
+
+
 def get_main_page(query):
     '''
     input : query(str)
     output : list of tuples(text, href)
     
-    search from naver given query
+    search from naver given queryfoursquare
     '''
-    url = download("https://search.naver.com/search.naver?", params = {'query':query})
+    url = download("https://search.naver.com/search.naver?", params = {'query':query_re(query)})
     dom = BeautifulSoup(url.text,"lxml")
     hspt_top = lambda dom : list(zip([_["href"] for _ in dom.select('.nsite.section._nsiteTop dl dt a')],
                                 [_.text for _ in dom.select('.nsite.section._nsiteTop dl dt b.hl')]))
-    hspt_title_link = [(_["href"], _.text)                        for _ in dom.select('.title_link') if not is_portal(_["href"])]
+    hspt_title_link = [(_["href"], _.text) for _ in dom.select('.title_link') if not is_portal(_["href"])]
     hspt_title_link += hspt_top(dom)
     return hspt_title_link
 
@@ -59,8 +72,13 @@ def is_portal(url):
     
     see whether url is not offical one but other portal site such as facebook
     '''
-    portals = ['facebook', 'naver', 'saramin', 'jobplanet', 'facebook', 
-               'coupang', '11st', 'incruit','blog', 'jobkorea', 'tistory', 'hidoc']
+    portals = ['facebook', 'naver', 'saramin', 'jobplanet', 'instagram', 
+               'coupang', '11st', 'incruit','blog', 'jobkorea', 'tistory', 'hidoc',
+               'health.chosun', 'kakao', 'recruit', 'youtube', 'localmap', 'mediup',
+               'hira', 'gailbo', 'modoodoc', 'kookje', 'news', 'foursquare', '/m.', 
+               'catch', 'e-gen', 'press', 'koreaknee', 'namu.wiki', 'gangseo.soul',
+               'mgoon', 'fosquare', 'career', '/healthstory/'
+               ]
     return any(p in url for p in portals)
 
 
@@ -73,14 +91,14 @@ def similar(a, b):
     
     betweetn two string, get the number of string in common
     '''
-    return SequenceMatcher(None, a, b).get_matching_blocks()[0]
+    return len(set(a).intersection(set(b)))
 
 
 
 
 def get_valid_html(HSPT_URL):
     '''
-    input :  list of tuples (text, href)
+    input :  {text : [(html, text of html), ... ]} (dict)
     output : {text, set of urls} (dict)
     
     get valid urls by using rule module 'similar' and 'is_portal' 
@@ -88,31 +106,36 @@ def get_valid_html(HSPT_URL):
     '''
     HSPT_URL_VALID = {}
     for hspt, url_list in HSPT_URL.items():
-        HSPT_URL_VALID.update({hspt:set(html_re(link) for link, name in url_list 
-                                        if similar(name, hspt).size > 2
+        HSPT_URL_VALID.update({hspt:set((html_re(link), similar(name, hspt)) 
+                                        for link, name in url_list 
+                                        if similar(name, hspt) > 2
                                         and not is_portal(link))})
     return HSPT_URL_VALID
 
 
 
-def sub_pages(url):
+def sub_pages(url, visited=set([])):
     '''
     input : url(str)
     output : list of tuples(text, href)
     
     get sub pages given url
     '''
-    return [(_.text.strip(), _["href"])
-            for _ in parsing(url).select('a') 
-            if _.has_attr("href") 
-            and _.text.strip()
-            and "#" not in _["href"]
-            and "javascript" not in _["href"]]
+    sub_pages = []
+    if url.startswith("http"):
+        for _ in parsing(url).select('a'):
+            if _.has_attr("href") and _.text.strip() and "#" not in _["href"] and "javascript" not in _["href"]:
+                if _["href"] not in visited and not is_portal(_["href"]):
+                    if _["href"].startswith('http'):
+                        sub_pages.append((_.text.strip(), _["href"]))
+                        visited.update(_["href"])
+                    else: 
+                        sub_pages.append((_.text.strip(), urljoin(url, _["href"])))
+    return sub_pages
 
 
 
-
-def get_sub_pages(main_pages):
+def get_sub_pages(main_pages, visited=set([])):
     '''
     input : {hspt, list of url}(dict)
     output : list of tuples (text, lisf of urls)
@@ -122,28 +145,11 @@ def get_sub_pages(main_pages):
     main_sub_pages = []
     for hspt, url in main_pages.items():
         for u in url:
-            main_sub_pages.append((hspt, sub_pages(u)))
+            main_sub_pages.append((hspt, sub_pages(u, visited)))
     return main_sub_pages
 
 
-
-def root_path_join(row, main_pages):
-    '''
-    input : row from HSPT_CHILDREN_URL(Series)
-    output : path(str)
-    
-    made in order to do 'apply' in axis 1
-    if html is made of relative url, make it absolute by joining with root url   
-    '''
-    url = row["url"]
-    hspt = row["hspt"]
-    if not url.startswith("http"):
-        return urljoin(main_pages[hspt][0][0], url)
-    return url
-
-
-
-def get_html_table(main_sub_pages, main_pages):
+def get_html_table(main_sub_pages, depth=1):
     '''
     input : list having tuples (text, lisf of urls)
     output :list of DataFrame
@@ -158,10 +164,8 @@ def get_html_table(main_sub_pages, main_pages):
         if len(zipped):
             HSPT_CHILDREN_URL["text"] = list(zipped[0])
             HSPT_CHILDREN_URL["url"] = list(zipped[1])
-            HSPT_CHILDREN_URL["depth"] = [1 for _ in range(len(contents))]
+            HSPT_CHILDREN_URL["depth"] = [depth for _ in range(len(contents))]
             HSPT_CHILDREN_URL["hspt"] = [hspt for _ in range(len(contents))]
-            HSPT_CHILDREN_URL["full_url"] = HSPT_CHILDREN_URL.apply(lambda row: \
-                root_path_join(row, main_pages), axis=1)
             HSPT_CHILDREN_URL_list.append(HSPT_CHILDREN_URL)
     return HSPT_CHILDREN_URL_list
 
@@ -185,6 +189,6 @@ def drop_duplicate_by_column(df, column):
     drop rows having overlapped item in selected column 
     '''
     df_reduced = df.drop_duplicates(column)
-    print('{} ->  {}'.format(df.shape[0], df_reduced.shape[0]))
+    print('deleted duplicated rows by {} : {} ->  {}'.format(column, df.shape[0], df_reduced.shape[0]))
     return df_reduced
 

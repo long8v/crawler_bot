@@ -13,16 +13,16 @@ from crawl_utils.url_extractor import *
 
 def table_parsing(html):
     '''
-    input : url(str)
+    input : html(str)
     output : list of table(DataFrame)
 
-    get list of table given url
+    get list of table given html
     '''
     table_df_list = []
-    soup = parsing(html)
+    soup = BeautifulSoup(html, 'lxml')
     tables = soup.find_all('table')
-    print('table found in {}'.format(html) 
-          if tables else "no table in {}".format(html))
+    # print('table found in {}'.format(html) 
+    #       if tables else "no table in {}".format(html))
     if tables:
         for table in tables:
             table_df = pd.DataFrame()
@@ -69,8 +69,8 @@ def get_table_list(df):
     using table parser, get list of tables given dataframe with full_url 
     '''
     table_list = []
-    for _ in df["full_url"][:]:
-        table = table_parsing(_)
+    for _ in df["full"][:]:
+        table = table_parsing(get_html_text(_))
         if table:
             table_list += [table]
     return table_list
