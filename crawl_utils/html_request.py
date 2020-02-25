@@ -18,7 +18,8 @@ def download(url="https://www.google.com/search",params={},retries=3):
     otherwise, print error name, error reason, and header
     """
     resp = None
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36"
+    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36'
+    # user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36"
     header = {"user-agent":user_agent}
     try:
         resp = requests.get(url,params=params,headers=header)
@@ -34,6 +35,15 @@ def download(url="https://www.google.com/search",params={},retries=3):
             print(e.response.reason)
             print(e.response.headers)
             print(url)
+    except:
+        print('{} : Error'.format(url))
+        if retries > 0:
+            print(retries)
+            resp = download(url,params,retries-1)
+        if retries == 0:
+            print('failed to download {}'.format(url))
+            resp = ''
+            return resp
     return resp
 
 def get_html_text(url):

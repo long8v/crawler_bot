@@ -7,6 +7,7 @@ from urllib.parse import urljoin
 from functools import reduce
 from collections import defaultdict
 from difflib import SequenceMatcher
+from datetime import datetime
 from crawl_utils.html_request import * 
 
 def query_re(query):
@@ -75,9 +76,9 @@ def is_portal(url):
     portals = ['facebook', 'naver', 'saramin', 'jobplanet', 'instagram', 
                'coupang', '11st', 'incruit','blog', 'jobkorea', 'tistory', 'hidoc',
                'health.chosun', 'kakao', 'recruit', 'youtube', 'localmap', 'mediup',
-               'hira', 'gailbo', 'modoodoc', 'kookje', 'news', 'foursquare', '/m.', 
+               'hira', 'gailbo', 'modoodoc', 'kookje', 'news', 'foursquare',  
                'catch', 'e-gen', 'press', 'koreaknee', 'namu.wiki', 'gangseo.soul',
-               'mgoon', 'fosquare', 'career', '/healthstory/'
+               'mgoon', 'fosquare', 'career', '/healthstory/', 'amc', 'youtu.be'
                ]
     return any(p in url for p in portals)
 
@@ -124,50 +125,38 @@ def sub_pages(url, visited=set([])):
     sub_pages = []
     if url.startswith("http"):
         for _ in parsing(url).select('a'):
-            if _.has_attr("href") and _.text.strip() and "#" not in _["href"] and "javascript" not in _["href"]:
-                if _["href"] not in visited and not is_portal(_["href"]):
-                    if _["href"].startswith('http'):
-                        sub_pages.append((_.text.strip(), _["href"]))
-                        visited.update(_["href"])
-                    else: 
-                        sub_pages.append((_.text.strip(), urljoin(url, _["href"])))
-    return sub_pages
+            if _.has_attr("href") and _.text.strip() \
+            and "#" not in _["href"] and not is_portal(_["href"]): #and "javascript" not in _["href"]:
+                if _["href"].startswith('http'):
+                    link = _["href"]
+                else: 
+                    link = urljoin(url, _["href"])
+                if link not in visited:
+                    if link.startswith(url):
+                        sub_pages.append((_.text, link))
+                        visited.update([link])
+    return sub_pages, visited 
 
 
 
 def get_sub_pages(main_pages, visited=set([])):
     '''
-    input : {hspt, list of url}(dict)
+    input : {hspt: url}(DataFrane)
     output : list of tuples (text, lisf of urls)
     
     get sub pages given dictionary
     '''
     main_sub_pages = []
-    for hspt, url in main_pages.items():
-        for u in url:
-            main_sub_pages.append((hspt, sub_pages(u, visited)))
+    for idx, page in main_pages.iterrows(): 
+        hspt = page["hspt_name"]
+        try:
+            url = page["root_url"]
+        except:
+            url = page["url"]
+        sub, visited = sub_pages(url, visited)
+        main_sub_pages.append((hspt, sub))
     return main_sub_pages
 
-
-def get_html_table(main_sub_pages, depth=1):
-    '''
-    input : list having tuples (text, lisf of urls)
-    output :list of DataFrame
-    
-    get html table having text of url, url, depth, url name(hspt)
-    we will list these dataframes into list
-    '''
-    HSPT_CHILDREN_URL_list = []
-    for hspt, contents in main_sub_pages:
-        HSPT_CHILDREN_URL = pd.DataFrame({'hspt':[], 'url':[],'depth':[],'text':[]})
-        zipped = list(zip(*contents))
-        if len(zipped):
-            HSPT_CHILDREN_URL["text"] = list(zipped[0])
-            HSPT_CHILDREN_URL["url"] = list(zipped[1])
-            HSPT_CHILDREN_URL["depth"] = [depth for _ in range(len(contents))]
-            HSPT_CHILDREN_URL["hspt"] = [hspt for _ in range(len(contents))]
-            HSPT_CHILDREN_URL_list.append(HSPT_CHILDREN_URL)
-    return HSPT_CHILDREN_URL_list
 
 
 def concat_from_list(df_list):
@@ -177,10 +166,11 @@ def concat_from_list(df_list):
     
     concatenate dataframes from list 
     '''
-    return reduce(lambda a, b: pd.concat([a,b], axis=0), df_list)
-
-
-
+    if len(df_list) > 1:
+        return reduce(lambda a, b: pd.concat([a,b], axis=0), df_list)
+    if df_list:
+        return df_list[0]
+"""
 def drop_duplicate_by_column(df, column):
     '''
     input : dataframe, column(str or list of str)
@@ -191,4 +181,26 @@ def drop_duplicate_by_column(df, column):
     df_reduced = df.drop_duplicates(column)
     print('deleted duplicated rows by {} : {} ->  {}'.format(column, df.shape[0], df_reduced.shape[0]))
     return df_reduced
+"""
+
+def get_html_table(main_sub_pages, depth=1):
+    '''
+    input : list having tuples (text, lisf of urls)
+    output : DataFrame
+    
+    get html table having text of url, url, depth, url name(hspt)
+    we will list these dataframes into list
+    '''
+    HSPT_CHILDREN_URL_list = []
+    for hspt, contents in main_sub_pages:
+        HSPT_CHILDREN_URL = pd.DataFrame({'hspt_name':[], 'url':[],'depth':[],'text':[]})
+        zipped = list(zip(*contents))
+        if len(zipped):
+            HSPT_CHILDREN_URL["text"] = list(zipped[0])
+            HSPT_CHILDREN_URL["url"] = list(zipped[1])
+            HSPT_CHILDREN_URL["depth"] = [depth for _ in range(len(contents))]
+            HSPT_CHILDREN_URL["hspt_name"] = [hspt for _ in range(len(contents))]
+            HSPT_CHILDREN_URL["date"] = [datetime.today().strftime('%y%m%d') for _ in range(len(contents))]
+            HSPT_CHILDREN_URL_list.append(HSPT_CHILDREN_URL)
+    return concat_from_list(HSPT_CHILDREN_URL_list)
 
