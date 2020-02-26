@@ -127,12 +127,14 @@ def sub_pages(url, visited=set([])):
         for _ in parsing(url).select('a'):
             if _.has_attr("href") and _.text.strip() \
             and "#" not in _["href"] and not is_portal(_["href"]): #and "javascript" not in _["href"]:
+                if 'javascript' in _['href'].lower():
+                    print('{} has {} '.format(url, _["href"]))
                 if _["href"].startswith('http'):
                     link = _["href"]
                 else: 
                     link = urljoin(url, _["href"])
                 if link not in visited:
-                    if link.startswith(url):
+                    if link.startswith(html_re(url)):
                         sub_pages.append((_.text, link))
                         visited.update([link])
     return sub_pages, visited 

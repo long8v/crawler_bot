@@ -25,16 +25,17 @@ def create_hspt_url_table():
     HSPT_URL.to_csv('HSPT_URL.csv', index=False)
     print('"HSPT_URL.csv" is saved')
 
-def create_hspt_children_url(df, depth = 1):
-    main_sub_url = get_sub_pages(df)
+def create_hspt_children_url(df, visited, depth = 1):
+    main_sub_url = get_sub_pages(df, visited)
     HSPT_CHILDREN_URL = get_html_table(main_sub_url, depth)
     return HSPT_CHILDREN_URL
 
-def create_hspt_children_url_until(df, until_depth = 2):
-    children_list = []
+def create_hspt_children_url_until(df, visited, until_depth = 2):
+    children_list = [df]
     current_depth = max(df.depth)
-    for depth in range(current_depth, until_depth + 1):
-        print(depth)
-        df = create_hspt_children_url(df, depth)
+    for depth in range(current_depth + 1, until_depth + 1):
+        print('doing depth {}...'.format(depth))
+        df = create_hspt_children_url(df, visited, depth)
+        visited.update(set(df.url))
         children_list += [df]
     return concat_from_list(children_list)
