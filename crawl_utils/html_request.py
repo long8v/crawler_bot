@@ -13,7 +13,7 @@ def download(url="https://www.google.com/search",params={},retries=3):
     input : url(str), parameter(dict)
     output : resp(object)
     
-    using package requests, get object resp given url
+    using requests, get object resp given url
     for robustness, if error is server error(500s), retry at most 3 times
     otherwise, print error name, error reason, and header
     """

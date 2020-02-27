@@ -28,7 +28,7 @@ def get_main_page(query):
     input : query(str)
     output : list of tuples(text, href)
     
-    search from naver given queryfoursquare
+    search from naver given query
     '''
     url = download("https://search.naver.com/search.naver?", params = {'query':query_re(query)})
     dom = BeautifulSoup(url.text,"lxml")
@@ -44,7 +44,7 @@ def get_main_page(query):
 def get_main_page_dict(query_list):
     '''
     input : list of query(str)
-    output : {query : lis of url given url}(dict)
+    output : {query : list of url given url}(dict)
     
     get dictionary having main page list given query 
     '''
@@ -81,8 +81,6 @@ def is_portal(url):
                'mgoon', 'fosquare', 'career', '/healthstory/', 'amc', 'youtu.be'
                ]
     return any(p in url for p in portals)
-
-
 
 
 def similar(a, b):
@@ -123,12 +121,13 @@ def sub_pages(url, visited=set([])):
     get sub pages given url
     '''
     sub_pages = []
+    java_pages = []
     if url.startswith("http"):
         for _ in parsing(url).select('a'):
             if _.has_attr("href") and _.text.strip() \
             and "#" not in _["href"] and not is_portal(_["href"]): #and "javascript" not in _["href"]:
                 if 'javascript' in _['href'].lower():
-                    print('{} has {} '.format(url, _["href"]))
+                    java_pages.append((url, _["href"]))
                 if _["href"].startswith('http'):
                     link = _["href"]
                 else: 
@@ -137,6 +136,8 @@ def sub_pages(url, visited=set([])):
                     if link.startswith(html_re(url)):
                         sub_pages.append((_.text, link))
                         visited.update([link])
+    if java_pages:
+        print(url, len(java_pages))
     return sub_pages, visited 
 
 
@@ -172,6 +173,7 @@ def concat_from_list(df_list):
         return reduce(lambda a, b: pd.concat([a,b], axis=0), df_list)
     if df_list:
         return df_list[0]
+
 """
 def drop_duplicate_by_column(df, column):
     '''
@@ -190,8 +192,7 @@ def get_html_table(main_sub_pages, depth=1):
     input : list having tuples (text, lisf of urls)
     output : DataFrame
     
-    get html table having text of url, url, depth, url name(hspt)
-    we will list these dataframes into list
+    get html table having text from url, url, depth, url name
     '''
     HSPT_CHILDREN_URL_list = []
     for hspt, contents in main_sub_pages:
