@@ -18,11 +18,12 @@ def create_hspt_url_table():
     hspt_valid_url = get_valid_html(hspt_url)
     hspt_sorted_url = {}
     for key, value in hspt_valid_url.items():
-        hspt_sorted_url[key] = sorted(hspt_valid_url[key], key=lambda e: e[1], reverse=True)
+        hspt_sorted_url[key] = sorted(hspt_valid_url[key], \
+                    key=lambda e: [e[1], -len(e[2])], reverse=True)
     hspt_final_url = {}
     for key, value in hspt_sorted_url.items():
         if hspt_valid_url[key]:
-            hspt_final_url[key] = list(hspt_valid_url[key])[0][0]
+            hspt_final_url[key] = list(hspt_sorted_url[key])[0][0]
         else:
             try: 
                 hspt_final_url[key] = hspt_url[key][0][0]
@@ -59,5 +60,24 @@ def create_hspt_children_url_until(df, visited, until_depth = 2):
         print('doing depth {}...'.format(depth))
         df = create_hspt_children_url(df, visited, depth)
         visited.update(set(df.url))
+        children_list += [df]
+    return concat_from_list(children_list)
+
+def create_hspt_children_url_forever(df, visited):
+    '''
+    input : df(DataFrame), visited(set)
+    output : DataFrame
+
+    given DataFrame with url, get childeren of children until no more url is gathered
+    '''
+    children_list = [df]
+    current_depth = max(df.depth)
+    for depth in range(current_depth + 1, 100):
+        print('doing depth {}...'.format(depth))
+        df = create_hspt_children_url(df, visited, depth)
+        visited.update(set(df.url))
+        print(df)
+        if df.empty:
+            break
         children_list += [df]
     return concat_from_list(children_list)

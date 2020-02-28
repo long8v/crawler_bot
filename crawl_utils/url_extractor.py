@@ -105,7 +105,7 @@ def get_valid_html(HSPT_URL):
     '''
     HSPT_URL_VALID = {}
     for hspt, url_list in HSPT_URL.items():
-        HSPT_URL_VALID.update({hspt:set((html_re(link), similar(name, hspt)) 
+        HSPT_URL_VALID.update({hspt:set((link, similar(name, hspt), name) 
                                         for link, name in url_list 
                                         if similar(name, hspt) > 2
                                         and not is_portal(link))})
@@ -192,7 +192,7 @@ def get_html_table(main_sub_pages, depth=1):
     input : list having tuples (text, lisf of urls)
     output : DataFrame
     
-    get html table having text from url, url, depth, url name
+    get html table having text from url, url, depth, url name(hspt)
     '''
     HSPT_CHILDREN_URL_list = []
     for hspt, contents in main_sub_pages:
