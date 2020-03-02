@@ -34,6 +34,7 @@ def create_hspt_url_table():
     HSPT_URL.to_csv('HSPT_URL.csv', index=False)
     print('"HSPT_URL.csv" is saved')
 
+
 def create_hspt_first_child():
     '''
     input : None
@@ -47,6 +48,7 @@ def create_hspt_first_child():
     HSPT_CHILDREN_URL.to_csv('HSPT_CHILDREN_URL_depth_1.csv', index=False)
     print('"HSPT_CHILDREN_URL_depth_1.csv" is saved')
 
+
 def create_hspt_children_url(df, visited, depth = 1):
     '''
     input : df(DataFrame), visited(set), depth(int)
@@ -58,6 +60,7 @@ def create_hspt_children_url(df, visited, depth = 1):
     main_sub_url = get_sub_pages(df, visited)
     HSPT_CHILDREN_URL = get_html_table(main_sub_url, depth)
     return HSPT_CHILDREN_URL
+
 
 def create_hspt_children_url_until(df, visited, until_depth = 2):
     '''
@@ -71,7 +74,7 @@ def create_hspt_children_url_until(df, visited, until_depth = 2):
     for depth in range(current_depth + 1, until_depth + 1):
         print('doing depth {}...'.format(depth))
         df = create_hspt_children_url(df, visited, depth)
-        if not df:
+        if df.empty:
             break
         visited.update(set(df.url))
         children_list += [df]
