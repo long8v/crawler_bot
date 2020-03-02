@@ -9,6 +9,18 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from datetime import datetime
 from crawl_utils.html_request import * 
+from selenium import webdriver
+
+def indirect(url):
+    '''
+    input : url(str)
+    ouput : url(str)
+
+    get real main page using Selenium
+    '''
+    driver = webdriver.Chrome()
+    driver.get(url)
+    return driver.current_url
 
 def query_re(query):
     '''
@@ -105,7 +117,7 @@ def get_valid_html(HSPT_URL):
     '''
     HSPT_URL_VALID = {}
     for hspt, url_list in HSPT_URL.items():
-        HSPT_URL_VALID.update({hspt:set((link, similar(name, hspt), name) 
+        HSPT_URL_VALID.update({hspt:set((indirect(html_re(link)), similar(name, hspt), name) 
                                         for link, name in url_list 
                                         if similar(name, hspt) > 2
                                         and not is_portal(link))})
@@ -113,7 +125,7 @@ def get_valid_html(HSPT_URL):
 
 
 
-def sub_pages(url, visited=set([])):
+def sub_pages(url, visited=set([]), show_javascript=False):
     '''
     input : url(str)
     output : list of tuples(text, href)
@@ -123,20 +135,23 @@ def sub_pages(url, visited=set([])):
     sub_pages = []
     java_pages = []
     if url.startswith("http"):
-        for _ in parsing(url).select('a'):
-            if _.has_attr("href") and _.text.strip() \
-            and "#" not in _["href"] and not is_portal(_["href"]): #and "javascript" not in _["href"]:
-                if 'javascript' in _['href'].lower():
-                    java_pages.append((url, _["href"]))
-                if _["href"].startswith('http'):
-                    link = _["href"]
-                else: 
-                    link = urljoin(url, _["href"])
-                if link not in visited:
-                    if link.startswith(html_re(url)):
-                        sub_pages.append((_.text, link))
+        parsed = parsing(url)
+        if parsed:
+            for _ in parsed.select('a'):
+                if _.has_attr("href") and _.text.strip() \
+                and "#" not in _["href"] and not is_portal(_["href"]): #and "javascript" not in _["href"]:
+                    if 'javascript' in _['href'].lower():
+                        java_pages.append((url, _["href"]))
+                    if _["href"].startswith('http'):
+                        link = _["href"]
+                    else: 
+                        link = urljoin(url, _["href"])
+                    if link not in visited:
+                        if link.startswith(html_re(url)):
+                            sub_pages.append((_.text, link))
                         visited.update([link])
-    if java_pages:
+
+    if java_pages and show_javascript:
         print(url, len(java_pages))
     return sub_pages, visited 
 

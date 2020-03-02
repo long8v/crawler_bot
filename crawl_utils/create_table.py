@@ -12,7 +12,6 @@ def create_hspt_url_table():
     and get offical page for the name
     and save it as a csv file
     '''
-
     hspt_table = pd.read_csv('HSPT_CODE.csv')
     hspt_url = get_main_page_dict(hspt_table['hspt_name'])
     hspt_valid_url = get_valid_html(hspt_url)
@@ -34,6 +33,19 @@ def create_hspt_url_table():
     HSPT_URL["root_url"] = hspt_final_url.values()
     HSPT_URL.to_csv('HSPT_URL.csv', index=False)
     print('"HSPT_URL.csv" is saved')
+
+def create_hspt_first_child():
+    '''
+    input : None
+    output : None
+
+    given HSPT_URL csv, get all html from main page
+    '''
+    HSPT_URL = pd.read_csv('HSPT_URL.csv')
+    main_sub_url = get_sub_pages(HSPT_URL, visited=set())
+    HSPT_CHILDREN_URL = get_html_table(main_sub_url)
+    HSPT_CHILDREN_URL.to_csv('HSPT_CHILDREN_URL_depth_1.csv', index=False)
+    print('"HSPT_CHILDREN_URL_depth_1.csv" is saved')
 
 def create_hspt_children_url(df, visited, depth = 1):
     '''
@@ -59,6 +71,8 @@ def create_hspt_children_url_until(df, visited, until_depth = 2):
     for depth in range(current_depth + 1, until_depth + 1):
         print('doing depth {}...'.format(depth))
         df = create_hspt_children_url(df, visited, depth)
+        if not df:
+            break
         visited.update(set(df.url))
         children_list += [df]
     return concat_from_list(children_list)

@@ -42,10 +42,9 @@ def download(url="https://www.google.com/search",params={},retries=3):
             resp = download(url,params,retries-1)
         if retries == 0:
             print('failed to download {}'.format(url))
-            resp = ''
-            return resp
     return resp
 
+"""
 def get_html_text(url):
     '''
     input : url(str)
@@ -55,6 +54,7 @@ def get_html_text(url):
     '''
     url = download(url)
     return url.text
+"""
 
 def parsing(url):
     '''
@@ -63,14 +63,15 @@ def parsing(url):
     
     get dom given url
     '''
-    dom_text = get_html_text(url)
-    dom = BeautifulSoup(dom_text, 'lxml')
-    return dom
+    html = download(url)
+    if html:
+        dom = BeautifulSoup(html.text, 'lxml')
+        return dom
 
 def html_parsing(df, query):
     '''
-    input : dataframe, query(str)
-    output : dataframe
+    input : DataFrame, query(str)
+    output : DataFrame
     
     find rows having query from given data frame 
     '''
