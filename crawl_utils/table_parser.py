@@ -11,6 +11,16 @@ from difflib import SequenceMatcher
 from crawl_utils.html_request import * 
 from crawl_utils.url_extractor import *
 
+
+def strip_all(text):
+    '''
+    input : text(str)
+    output : text(str)
+
+    strip all blank in the text
+    '''
+    return text.strip().replace(" ", "").replace("\n", "").replace("\t", "").replace('\r',"")
+
 def get_table_column(table):
     '''
     input : table(dom obejct)
@@ -46,18 +56,8 @@ def get_table_column(table):
                     final_row = []
                     break
     else:
-        final_row = [th.text for th in table.find_all(['th'])]
+        final_row = [strip_all(th.text) for th in table.find_all(['th'])]
     return final_row
-
-
-def strip_all(text):
-    '''
-    input : text(str)
-    output : text(str)
-
-    strip all blank in the text
-    '''
-    return text.strip().replace(" ", "").replace("\n", "").replace("\t", "")
 
 
 def table_parsing(url):
