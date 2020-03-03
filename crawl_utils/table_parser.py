@@ -12,13 +12,53 @@ from crawl_utils.html_request import *
 from crawl_utils.url_extractor import *
 
 def get_table_column(table):
+    '''
+    input : table(dom obejct)
+    output : column(list)
+    
+    given table dom, get column list 
+    if having double column, ignore first
+    '''
+    columns = []
+    columns_final = []
+    trs = table.find_all('tr')
     if len(table.find_all('tr')) > 1:
-        first_row = [tr.find_all('th') for tr in table.find_all('tr')][0]
-        second_row = [tr.find_all('th') for tr in table.find_all('tr')][1]
-        col = [_.text for _ in first_row if _.has_attr('rowspan')] + [_.text for _ in second_row] 
+        for tr in trs:
+            columns.append(tr.find_all(['th', 'td']))
+        first_row = []
+        for c in columns[0]:
+            if c.has_attr('rowspan'):
+                first_row += [c.text]
+            elif c.has_attr('colspan'):
+                first_row += [None for _ in range(int(c["colspan"]))]
+            else:
+                first_row += [None]
+
+        second_row = [strip_all(c.text) for c in columns[1]]
+        final_row = []
+        for f in first_row:
+            if f:
+                final_row += [f]
+            else:
+                try:
+                    final_row += [second_row.pop()]
+                except:
+                    final_row = []
+                    break
     else:
-        col = [_.text for _ in table.find_all('th')]
-    return col
+        final_row = [th.text for th in table.find_all(['th'])]
+    return final_row
+
+
+def strip_all(text):
+    '''
+    input : text(str)
+    output : text(str)
+
+    strip all blank in the text
+    '''
+    return text.strip().replace(" ", "").replace("\n", "").replace("\t", "")
+
 
 def table_parsing(url):
     '''
@@ -28,6 +68,8 @@ def table_parsing(url):
     get list of table given url
     '''
     table_df_list = []
+    columns = []
+    element = []
     soup = parsing(url)
     if soup:
         tables = soup.find_all('table')
@@ -36,29 +78,30 @@ def table_parsing(url):
                 table_df = pd.DataFrame()
                 table_head = table.find('thead')
                 table_body = table.find('tbody')
-                if table_head:
-                    columns_head = get_table_column(table_head)
                 if table_body:
                     columns_body = get_table_column(table_body)
                     rows = table_body.find_all('tr')
                     for row in rows:
-                        element = row.find_all('td')
-                        element = [e.text.replace('\r', '').strip() for e in element]
-                        if len(element) == len(columns_body):
-                            columns = columns_body
-                        else:
-                            try:
-                                if len(element) == len(columns_head):
-                                    columns = columns_head
-                                else:
-                                    columns = [_ for _ in range(len(element))]
-                            except:
-                                columns = [_ for _ in range(len(element))]
-                        if columns and element:
-                            cols_dict = {c: e for c, e
-                                        in zip(columns, element)}
-                            table_df = table_df.append(cols_dict, ignore_index=True)
-                    table_df_list.append(table_df)
+                        element = row.find_all(['td', 'th'])
+                        element = [e.text.replace('\r', '').strip() \
+                            for e in element]
+                else:
+                    continue
+                if table_head:
+                    columns_head = get_table_column(table_head)
+                    if len(element) == len(columns_head):
+                        columns = columns_head
+                elif len(element) == len(columns_body):
+                    columns = columns_body
+                if not columns:
+                    print('cannot parse column name {}'.format(url))
+                    columns = [str(_) for _ in range(len(element))]
+                    columns = list(map(strip_all, columns))
+                if columns and element:
+                    cols_dict = {c: e for c, e
+                                   in zip(columns, element)}
+                    table_df = table_df.append(cols_dict, ignore_index=True)
+                table_df_list.append(table_df)
             table_df_list = [table for table in table_df_list if any(table)]
     return table_df_list
 
