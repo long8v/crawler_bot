@@ -94,6 +94,8 @@ def create_hspt_children_url_forever(df, visited):
         df = create_hspt_children_url(df, visited, depth)
         visited.update(set(df.url))
         print(df)
+        if df is None:
+            break
         if df.empty:
             break
         children_list += [df]

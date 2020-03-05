@@ -151,8 +151,8 @@ def sub_pages(url, visited=set([]), show_javascript=False):
                         if link.startswith(html_re(url)):
                             sub_pages.append((_.text, link))
                         visited.update([link])
-    if not sub_pages:
-        print('no sub page in {}'.format(url))
+    # if not sub_pages:
+    #     print('no sub page in {}'.format(url))
     if java_pages and show_javascript:
         print(url, len(java_pages))
     return sub_pages, visited 
