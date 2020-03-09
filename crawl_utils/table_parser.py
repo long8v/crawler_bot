@@ -24,9 +24,9 @@ def get_table_element(dom):
     '''
     input : dom
     output : list
-    get element whose tag name is 'td' or 'th'
+    get element whose tag name is 'td' or 'th' or
     '''
-    return dom.find_all(['td', 'th'])
+    return dom.find_all(['td', 'th', 'dd'])
 
 
 def get_template(row):
@@ -38,7 +38,10 @@ def get_template(row):
     template = []
     for r in row:
         if r.has_attr('rowspan'):
-            template += [strip_all(r.text)]
+            if r.has_attr('colspan'):
+                template += [r.text for _ in range(int(r["colspan"]))]
+            else:
+                template += [r.text]
         elif r.has_attr('colspan'):
             template += [None for _ in range(int(r["colspan"]))]
         else:
@@ -52,18 +55,14 @@ def merge_template(template, row):
 
     '''
     merged = []
-
     for temp in template:
-        if temp:
+        if temp is not None:
             merged += [temp]
         else:
-            try:
-                merged += [row.pop(0)]
-            except:
-                pass
+            merged += [row.pop(0)]
     return merged
     
-
+    
 def tbody_parsing(rows):
     '''
     input : nested list(# of columns, # of rows)
@@ -77,13 +76,23 @@ def tbody_parsing(rows):
         for row in rows:
             emnt = get_table_element(row)
             if emnt:
-                if len(emnt) == standard_len:
+                if any(e for e in emnt if e.has_attr('rowspan')):
+                    template_sub = get_template(emnt)
+                if len(emnt) == standard_len: # any(e for e in emnt if e.has_attr('rowspan')):
                     template = get_template(emnt)
                     element = get_row(emnt)
                 else:
-                    element = merge_template(template, get_row(emnt))
+                    try:
+                        element = merge_template(template, get_row(emnt))
+                    except:
+                        try:
+                            template_ = merge_template(template, template_sub)
+                            element = merge_template(template_, get_row(emnt))
+                        except:
+                            element = []
             element_list.append(element)
         return element_list
+
 
 
 def get_table_column(table):
@@ -119,8 +128,6 @@ def table_parsing(url):
     '''
     table_df_list = []
     columns = []
-    columns_head = []
-    columns_body = []
     soup = parsing(url)
     if soup:
         tables = soup.find_all('table')
@@ -128,7 +135,6 @@ def table_parsing(url):
             table_df = pd.DataFrame()
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')
-        
             element_list = tbody_parsing(rows)
             columns, n = get_table_column(table)
             len_element = max(len(e) for e in element_list)
