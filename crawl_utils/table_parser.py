@@ -132,7 +132,7 @@ def table_parsing(url):
     if soup:
         tables = soup.find_all('table')
         for table in tables:
-            table_df = pd.DataFrame()
+
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')
             element_list = tbody_parsing(rows)
@@ -143,8 +143,14 @@ def table_parsing(url):
             if not columns:
                 columns = [str(_) for _ in range(len_element)]
             columns = list(map(strip_all, columns))
+            i = 1
+            table_df = pd.DataFrame()
             for key, value in zip(columns, zip(*element_list)):
-                table_df[key] = [v for v in list(value)]         
+                if key not in table_df:
+                    table_df[key] = [v for v in list(value)]         
+                else:
+                    table_df["{}_{}".format(key, i)] = [v for v in list(value)] 
+                    i += 1
             table_df_list.append(table_df)
     table_df_list = [table for table in table_df_list if any(table)]
     return table_df_list
