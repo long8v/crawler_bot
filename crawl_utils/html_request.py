@@ -9,14 +9,14 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 
 def download(url="https://www.google.com/search",params={},retries=3):
-    """
+    '''
     input : url(str), parameter(dict)
     output : resp(object)
     
     using requests, get object resp given url
     for robustness, if error is server error(500s), retry at most 3 times
     otherwise, print error name, error reason, and header
-    """
+    '''
     resp = None
     user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36'
     # user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36"

@@ -12,6 +12,12 @@ def strip_all(text):
 
 
 def get_row(row):
+    '''
+    input : row(bs4.element.ResultSet)
+    output : element(list)
+
+    get list of text from row
+    '''
     element = []
     for r in row:
         if r.has_attr('colspan'):
@@ -24,7 +30,8 @@ def get_table_element(dom):
     '''
     input : dom
     output : list
-    get element whose tag name is 'td' or 'th' or
+
+    get element whose tag name is 'td' or 'th' or 'dd'
     '''
     return dom.find_all(['td', 'th', 'dd'])
 
@@ -32,8 +39,9 @@ def get_table_element(dom):
 def get_template(row):
     '''
     input : row(bs4.element.ResultSet)
-    output : list 
+    output : template(list)
 
+    get text whose tag has attribute rowspan, otherwise None
     '''
     template = []
     for r in row:
@@ -53,6 +61,8 @@ def merge_template(template, row):
     input : template(list), row(list)
     output : merged(list)
 
+    given template(mostly row having rowspan element),
+    merge it with row
     '''
     merged = []
     for temp in template:
@@ -65,8 +75,10 @@ def merge_template(template, row):
     
 def tbody_parsing(rows):
     '''
-    input : nested list(# of columns, # of rows)
-    output : 
+    input : rows(list of bs4.element.ResultSet)
+    output : element_list(list)
+
+    parse 
     '''
     element = []
     element_list = []
@@ -78,7 +90,7 @@ def tbody_parsing(rows):
             if emnt:
                 if any(e for e in emnt if e.has_attr('rowspan')):
                     template_sub = get_template(emnt)
-                if len(emnt) == standard_len: # any(e for e in emnt if e.has_attr('rowspan')):
+                if len(emnt) == standard_len: 
                     template = get_template(emnt)
                     element = get_row(emnt)
                 else:
@@ -101,12 +113,12 @@ def get_table_column(table):
     output : column(list)
     
     given table dom, get column list 
-    if having double column, ignore first
+    if having double column, merge first and second
     '''
     columns = []
     columns_final = []
     trs = table.find_all('tr')
-    if len(table.find_all('tr')) > 1:
+    if len(trs) > 1:
         for tr in trs:
             columns.append(tr.find_all(['th', 'td']))
         first_row = get_template(columns[0])
@@ -132,7 +144,6 @@ def table_parsing(url):
     if soup:
         tables = soup.find_all('table')
         for table in tables:
-
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')
             element_list = tbody_parsing(rows)
