@@ -1,6 +1,6 @@
 from crawl_utils.html_request import * 
-#from crawl_utils.url_extractor import *
 import copy
+
 def strip_all(text):
     '''
     input : text(str)
@@ -210,7 +210,7 @@ def table_parsing(url):
         table_df_list.append(df)
     table_list = []
     for table, column in zip(table_df_list, columns_list):
-        if table.shape[0] == column[0]:
+        if table.shape[1] == len(column[0]):
             table.columns = column[0]
         table_list.append(table.loc[column[1]:].fillna(method ='ffill'))
     return table_list
