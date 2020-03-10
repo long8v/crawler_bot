@@ -1,6 +1,6 @@
 from crawl_utils.html_request import * 
-from crawl_utils.url_extractor import *
-
+#from crawl_utils.url_extractor import *
+import copy
 def strip_all(text):
     '''
     input : text(str)
@@ -130,38 +130,87 @@ def get_table_column(table):
             return (get_row(columns[0]), 1)
     else:
         return (get_row(trs[0].find_all(['th', 'td'])), 1)
-
+    
+    
 def table_parsing(url):
-    '''
-    input : url(str)
-    output : list of table(DataFrame)
-
-    get list of table given url
-    '''
     table_df_list = []
-    columns = []
+    columns_list = []
     soup = parsing(url)
-    if soup:
-        tables = soup.find_all('table')
-        for table in tables:
-            columns_body, n = get_table_column(table)
-            rows = table.find_all('tr')
-            element_list = tbody_parsing(rows)
-            columns, n = get_table_column(table)
-            len_element = max(len(e) for e in element_list)
-            for _ in range(n):
-                element_list.pop(0)
-            if not columns:
-                columns = [str(_) for _ in range(len_element)]
-            columns = list(map(strip_all, columns))
-            i = 1
-            table_df = pd.DataFrame()
-            for key, value in zip(columns, zip(*element_list)):
-                if key not in table_df:
-                    table_df[key] = [v for v in list(value)]         
-                else:
-                    table_df["{}_{}".format(key, i)] = [v for v in list(value)] 
-                    i += 1
-            table_df_list.append(table_df)
-    table_df_list = [table for table in table_df_list if any(table)]
-    return table_df_list
+    tables = soup.find_all('table')
+    for n in range(0, len(tables)):
+        n_cols = 0
+        n_rows = 0
+        for row in tables[n].find_all("tr"):
+            col_tags = row.find_all(["td", "th"])
+
+            if len(col_tags) > 0:
+                n_rows += 1
+                if len(col_tags) > n_cols:
+                    n_cols = len(col_tags)    
+        df = pd.DataFrame(index = range(0, n_rows), columns = range(0, n_cols))
+        # Create list to store rowspan values 
+        skip_index = [0 for i in range(0, n_cols)]
+        # Start by iterating over each row in this table...
+        row_counter = 0
+        for row in tables[n].find_all("tr"):
+            # Skip row if it's blank
+            if len(row.find_all(["td", "th"])) == 0:
+                next
+            else:
+                # Get all cells containing data in this row
+                columns = row.find_all(["td", "th"])
+                col_dim = []
+                row_dim = []
+                col_dim_counter = -1
+                row_dim_counter = -1
+                col_counter = -1
+                this_skip_index = copy.deepcopy(skip_index)
+                for col in columns:
+                    # Determine cell dimensions
+                    colspan = col.get("colspan")
+                    if colspan is None:
+                        col_dim.append(1)
+                    else:
+                        col_dim.append(int(colspan))
+                    col_dim_counter += 1
+
+                    rowspan = col.get("rowspan")
+                    if rowspan is None:
+                        row_dim.append(1)
+                    else:
+                        row_dim.append(int(rowspan))
+                    row_dim_counter += 1
+
+                    # Adjust column counter
+                    if col_counter == -1:
+                        col_counter = 0  
+                    else:
+                        col_counter = col_counter + col_dim[col_dim_counter - 1]
+
+                    while skip_index[col_counter] > 0:
+                        col_counter += 1
+
+                    # Get cell contents  
+                    cell_data = col.get_text()
+
+                    # Insert data into cell
+                    df.iat[row_counter, col_counter] = cell_data
+
+                    # Record column skipping index
+                    if row_dim[row_dim_counter] > 1:
+                        this_skip_index[col_counter] = row_dim[row_dim_counter]
+
+            # Adjust row counter 
+            row_counter += 1
+
+            # Adjust column skipping index
+            skip_index = [i - 1 if i > 0 else i for i in this_skip_index]
+        columns_list.append(get_table_column(tables[n]))
+        # Append dataframe to list of tables
+        table_df_list.append(df)
+    table_list = []
+    for table, column in zip(table_df_list, columns_list):
+        if table.shape[0] == column[0]:
+            table.columns = column[0]
+        table_list.append(table.loc[column[1]:].fillna(method ='ffill'))
+    return table_list

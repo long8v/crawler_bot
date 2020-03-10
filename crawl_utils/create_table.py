@@ -1,4 +1,4 @@
-import pandas as pd
+
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
 from crawl_utils.html_request import *
