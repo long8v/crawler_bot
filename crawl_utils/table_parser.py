@@ -1,4 +1,5 @@
 from crawl_utils.html_request import * 
+from pydash import *
 import copy
 
 def strip_all(text):
@@ -8,7 +9,8 @@ def strip_all(text):
 
     strip all blank in the text
     '''
-    return text.strip().replace(" ", "").replace("\n", "").replace("\t", "").replace('\r',"")
+    return text.strip().replace("\n", "").replace("\t", "").replace('\r',"").replace('\xa0','')
+
 def get_table_element(dom):
     '''
     input : dom
@@ -16,6 +18,7 @@ def get_table_element(dom):
     get element whose tag name is 'td' or 'th' or 'dd'
     '''
     return dom.find_all(['td', 'th', 'dd'])
+
 def get_template(row):
     '''
     input : row(bs4.element.ResultSet)
@@ -68,20 +71,17 @@ def merge_template(template, row):
     given template(mostly row having rowspan element),
     merge it with row
     '''
+    row = without(row, *template)
+    row_ = row.copy()
     merged = []
     for temp in template:
         if temp is not None:
             merged += [temp]
         else:
-            merged += [row.pop(0)]
+            merged += [row_.pop(0)]
     return merged
 
 
-def merge(template, row):
-    for temp in template:
-        if temp is None:
-            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template)]
-    return template
 
 def get_row(row):
     '''
@@ -121,11 +121,6 @@ def get_table_column(table):
     else:
         return (get_row(get_table_element(trs[0])), 1)
     
-def merge(template, row):
-    for temp in template:
-        if temp is None:
-            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template)]
-    return template
 
 def put_in_list(text, idx, standard_len, len_list):
     template = [None for _ in range(standard_len)]
@@ -133,7 +128,7 @@ def put_in_list(text, idx, standard_len, len_list):
     return template
 
 def get_rowspan(element, standard_len):
-    return [(int(e["rowspan"]), put_in_list(e.text, idx, standard_len, len(get_row(element)))) 
+    return [(int(e["rowspan"]), put_in_list(strip_all(e.text), idx, standard_len, len(get_row(element)))) 
             for idx, e in enumerate(element) if e.has_attr('rowspan')]
 
 def tbody_parsing(rows):
@@ -155,12 +150,13 @@ def tbody_parsing(rows):
         if rowspan_list:
             template = merge_templates(list(zip(*rowspan_list))[1])
             rowspan_list = [(i-1, j) for i, j in rowspan_list if i > 1]
+        else:
+            template = [None for _ in range(standard_len)]
         if len(template) != standard_len:
             template = [None for _ in range(standard_len)]
         emnt = get_row(element)
-        element_list.append(merge(template, emnt))
+        element_list.append(merge_template(template, emnt))
     return element_list
-
 
 def table_parsing(url):
     '''
