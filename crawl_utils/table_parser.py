@@ -34,16 +34,18 @@ def get_template(row):
         else:
             template += [None]
     return template
+
 def put_in_list(text, idx, standard_len, len_list):
     template = [None for _ in range(standard_len)]
     template[standard_len - len_list + idx] = text
     return template
+
+
 def get_rowspan(element):
     return [(int(e["rowspan"]), put_in_list(e.text, idx, standard_len, len(get_row(element)))) 
             for idx, e in enumerate(element) if e.has_attr('rowspan')]
-def get_rowspan(element):
-    return [(int(e["rowspan"]), put_in_list(e.text, idx, standard_len, len(get_row(element)))) 
-            for idx, e in enumerate(element) if e.has_attr('rowspan')]
+
+
 def merge_templates(templates):
     result = []
     for _ in zip(*templates):
@@ -56,6 +58,8 @@ def merge_templates(templates):
             print(temp)
             print("음?")
     return result
+
+
 def merge_template(template, row):
     '''
     input : template(list), row(list)
@@ -68,15 +72,17 @@ def merge_template(template, row):
     for temp in template:
         if temp is not None:
             merged += [temp]
-
         else:
             merged += [row.pop(0)]
     return merged
+
+
 def merge(template, row):
     for temp in template:
         if temp is None:
-            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template) ]
+            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template)]
     return template
+
 def get_row(row):
     '''
     input : row(bs4.element.ResultSet)
@@ -118,7 +124,7 @@ def get_table_column(table):
 def merge(template, row):
     for temp in template:
         if temp is None:
-            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template) ]
+            template[template.index(temp)] = row[template.index(temp) + len(row) - len(template)]
     return template
 
 def put_in_list(text, idx, standard_len, len_list):
@@ -153,7 +159,6 @@ def tbody_parsing(rows):
             template = [None for _ in range(standard_len)]
         emnt = get_row(element)
         element_list.append(merge(template, emnt))
-        print('element_list, ', element_list)
     return element_list
 
 
