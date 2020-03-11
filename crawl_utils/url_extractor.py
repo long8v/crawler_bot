@@ -30,6 +30,7 @@ def query_re(query):
 
     delete things inside () including parenthsis
     '''
+    query = str(query)
     par_open = query.find('(')
     par_close = query.find(')')
     return query.replace(query[par_open:par_close + 1], "")
