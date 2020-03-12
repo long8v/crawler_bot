@@ -15,6 +15,7 @@ def get_table_element(dom):
     '''
     input : dom
     output : list
+
     get element whose tag name is 'td' or 'th' or 'dd'
     '''
     return dom.find_all(['td', 'th', 'dd'])
@@ -23,6 +24,7 @@ def get_template(row):
     '''
     input : row(bs4.element.ResultSet)
     output : template(list)
+
     get text whose tag has attribute rowspan, otherwise None
     '''
     template = []
@@ -39,17 +41,35 @@ def get_template(row):
     return template
 
 def put_in_list(text, idx, standard_len, len_list):
+    '''
+    input : text(str), idx(int), standard_len(int), len_list(int)
+    output : template(list)
+
+    make template having different length from standard length
+    '''
     template = [None for _ in range(standard_len)]
     template[standard_len - len_list + idx] = text
     return template
 
 
 def get_rowspan(element):
+    '''
+    input : element
+    output : list
+    
+    get list of tuple having (number of rowspan, template having standard length)
+    '''
     return [(int(e["rowspan"]), put_in_list(e.text, idx, standard_len, len(get_row(element)))) 
             for idx, e in enumerate(element) if e.has_attr('rowspan')]
 
 
-def merge_templates(templates):
+def merge_multiple_templates(templates):
+    '''
+    input : templates(list of multiple templates(list))(list)
+    output : result(list)
+    
+    when have multiple templates, merge them into one template
+    '''
     result = []
     for _ in zip(*templates):
         temp = [__ for __ in _ if __ is not None]
@@ -58,8 +78,8 @@ def merge_templates(templates):
         if len(temp) == 0:
             result += [None]
         if len(temp) == 2:
-            print(temp)
-            print("음?")
+            if temp[0] != temp[1]:
+                pass
     return result
 
 
@@ -78,7 +98,10 @@ def merge_template(template, row):
         if temp is not None:
             merged += [temp]
         else:
-            merged += [row_.pop(0)]
+            try:
+                merged += [row_.pop(0)]
+            except:
+                pass
     return merged
 
 
@@ -121,22 +144,12 @@ def get_table_column(table):
     else:
         return (get_row(get_table_element(trs[0])), 1)
     
-
-def put_in_list(text, idx, standard_len, len_list):
-    template = [None for _ in range(standard_len)]
-    template[standard_len - len_list + idx] = text
-    return template
-
-def get_rowspan(element, standard_len):
-    return [(int(e["rowspan"]), put_in_list(strip_all(e.text), idx, standard_len, len(get_row(element)))) 
-            for idx, e in enumerate(element) if e.has_attr('rowspan')]
-
 def tbody_parsing(rows):
     '''
     input : rows(list of bs4.element.ResultSet)
     output : element_list(list)
 
-    parse 
+    parse content of rows
     '''
     standard_len = max(len(get_table_element(r)) for r in rows)
     rowspan_list = []
@@ -148,7 +161,7 @@ def tbody_parsing(rows):
         if rspn:
             rowspan_list.extend(rspn)
         if rowspan_list:
-            template = merge_templates(list(zip(*rowspan_list))[1])
+            template = merge_multiple_templates(list(zip(*rowspan_list))[1])
             rowspan_list = [(i-1, j) for i, j in rowspan_list if i > 1]
         else:
             template = [None for _ in range(standard_len)]
@@ -162,6 +175,7 @@ def table_parsing(url):
     '''
     input : url(str)
     output : list of table(DataFrame)
+
     get list of table given url
     '''
     table_df_list = []
