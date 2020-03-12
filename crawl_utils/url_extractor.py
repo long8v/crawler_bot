@@ -126,7 +126,6 @@ def get_valid_html(HSPT_URL):
     return HSPT_URL_VALID
 
 
-
 def sub_pages(url, visited=set([]), show_javascript=False):
     '''
     input : url(str)
@@ -139,24 +138,33 @@ def sub_pages(url, visited=set([]), show_javascript=False):
     if url.startswith("http"):
         parsed = parsing(url)
         if parsed:
+            for _ in parsed.select('div'):
+                if _.has_attr('onclick'):
+                    try:
+                        sub_pages.append((_.text, urljoin(url, _["onclick"].split("href=")[1].replace("'","").replace(";", ""))))
+                    except:
+                        pass
             for _ in parsed.select('a'):
-                if _.has_attr("href") and _.text.strip() \
-                and "#" not in _["href"] and not is_portal(_["href"]):
+                if _.has_attr("href") and "#" not in _["href"] and not is_portal(_["href"]):
                     if 'javascript' in _['href'].lower():
                         java_pages.append((url, _["href"]))
                     if _["href"].startswith('http'):
-                        link = _["href"]
+                        link = _["href"]    
                     else: 
                         link = urljoin(url, _["href"])
                     if link not in visited:
-                        if link.startswith(html_re(url)):
+                        if not _.text.strip():
+                            sub_pages.append(("_".join([img["alt"] 
+                            if img.has_attr('alt')
+                            else ""
+                            for img in _.find_all('img')
+                            ]), link))
+                        else:
                             sub_pages.append((_.text, link))
                         visited.update([link])
     if java_pages and show_javascript:
         print(url, len(java_pages))
     return sub_pages, visited 
-
-
 
 def get_sub_pages(main_pages, visited=set([])):
     '''

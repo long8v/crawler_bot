@@ -52,7 +52,7 @@ def put_in_list(text, idx, standard_len, len_list):
     return template
 
 
-def get_rowspan(element):
+def get_rowspan(element, standard_len):
     '''
     input : element
     output : list
