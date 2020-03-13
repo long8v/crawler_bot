@@ -31,14 +31,13 @@ def download(url="https://www.google.com/search",params={},retries=3):
             print(retries)
             resp = download(url,params,retries-1)
         else: 
-            print(e.response.status_code)
-            print(e.response.reason)
-            print(e.response.headers)
-            print(url)
+            # print(e.response.status_code)
+            # print(e.response.reason)
+            # print(e.response.headers)
+            print('failed to download {}'.format(url))
     except:
         print('{} : Error'.format(url))
         if retries > 0:
-            print(retries)
             resp = download(url,params,retries-1)
         if retries == 0:
             print('failed to download {}'.format(url))

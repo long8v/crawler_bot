@@ -1,7 +1,10 @@
-
+import pandas as pd
+from collections import Counter
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
 from crawl_utils.html_request import *
+from crawl_utils.create_table import *
+from crawl_utils.html_parser import *
 
 def create_hspt_url_table():
     '''
@@ -80,6 +83,26 @@ def create_hspt_children_url_until(df, visited, until_depth = 2):
         children_list += [df]
     return concat_from_list(children_list)
 
+def create_hspt_children_query(df, visited, query, until_depth = 2):
+    '''
+    input : df(DataFrame), visited(set), until_depth(int)
+    output : DataFrame
+
+    given DataFrame with url, get childeren of children until until_depth
+    '''
+    children_list = [df]
+    current_depth = max(df.depth)
+    for depth in range(current_depth + 1, until_depth + 1):
+        print('doing depth {}...'.format(depth))
+        df = create_hspt_children_url(df, visited, depth)
+        if df is not None:
+            df_query = select_sub_page_by_query(df, query)
+            if df_query is None or not df_query.empty:
+                return df_query
+            if df.empty:
+                break
+
+
 def create_hspt_children_url_forever(df, visited):
     '''
     input : df(DataFrame), visited(set)
@@ -100,3 +123,4 @@ def create_hspt_children_url_forever(df, visited):
             break
         children_list += [df]
     return concat_from_list(children_list)
+

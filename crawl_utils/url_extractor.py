@@ -148,23 +148,25 @@ def sub_pages(url, visited=set([]), show_javascript=False):
                 if _.has_attr("href") and "#" not in _["href"] and not is_portal(_["href"]):
                     if 'javascript' in _['href'].lower():
                         java_pages.append((url, _["href"]))
-                    if _["href"].startswith('http'):
-                        link = _["href"]    
-                    else: 
-                        link = urljoin(url, _["href"])
-                    if link not in visited:
+                    if _["href"] not in visited:
+                        if _["href"].startswith('http'):
+                            link = _["href"]    
+                        else: 
+                            link = urljoin(url, _["href"])
                         if not _.text.strip():
-                            sub_pages.append(("_".join([img["alt"] 
-                            if img.has_attr('alt')
-                            else ""
-                            for img in _.find_all('img')
-                            ]), link))
+                            text = "_".join([img["alt"] for img in _.find_all('img') 
+                            if img.has_attr('alt') ])
                         else:
-                            sub_pages.append((_.text, link))
-                        visited.update([link])
+                            text = _.text
+                        if text and link:
+                            sub_pages.append((text, link))
+                            visited.update([link])
     if java_pages and show_javascript:
         print(url, len(java_pages))
     return sub_pages, visited 
+
+
+
 
 def get_sub_pages(main_pages, visited=set([])):
     '''
