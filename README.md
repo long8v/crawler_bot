@@ -14,6 +14,6 @@ html_request, main_site_extractor, url_extractor, create_table, html_parser, tab
 
 ## url_extractor 
 
-## talbe_parser
+## table_parser
 
 
