@@ -11,9 +11,15 @@ from crawl_utils.pickle_io import *
 
 
 def get_table_list(df):
+    '''
+    input : DataFrame with url
+    output : table_list, no_table, error
+
+    given DataFrame with url, get list of tables from url using table parser
+    '''
     table_list = {}
     no_table = set([])
-    error = set([])
+    error_list = set([])
     for idx, row in df.iterrows():
         try:
             table = table_parsing(row.url)
@@ -22,11 +28,17 @@ def get_table_list(df):
             else:
                 no_table.update([row.hspt_name])
         except Exception as e:
-            error.update((row.url, e))
-    return table_list, no_table, error
+            error_list.update((row.url, e))
+    return table_list, no_table, error_list
 
 
 def rename_column(table, change_column):
+    '''
+    input : table(DataFrame)
+    output : change_column(dict)
+
+    get dictionary 'change_column' which is used for regularize column name 
+    '''
     table.columns = list(map(query_re, table.columns))
     change_dict = \
     dict(filter(lambda f: f[0] in list(filter(lambda e: e in change_column, table.columns)), 
@@ -35,9 +47,22 @@ def rename_column(table, change_column):
     return table
 
 def filter_column(table, change_column):
+    '''
+    input : table(DataFrame)
+    output : change_column(dict)
+    
+    index columns which are in change_column
+    '''
     return table[set(filter(lambda e: e in change_column, table.columns))]
 
 def change_duplicate_column(cols):
+    '''
+    input : cols(list)
+    output : new_col(list)
+    
+    when there are multiple same columns,
+    change ones into 중복컬럼_1, 중복컬럼_2, and so on
+    '''
     new_col = []
     i = 0
     dups = list(filter(lambda e: e[1]>1, Counter(cols).items()))
@@ -54,8 +79,71 @@ def change_duplicate_column(cols):
             new_col += [_]
     return new_col
 
-def get_filtered_dataframe(list_of_df):
-    change_column = pickle_open('change_column')
+def make_change_column(table_list):
+    '''
+    input : table_list(list of DataFrames)
+    output : change_column(dict)
+
+    get change_column dictionary given table_list
+    '''
+    column = ['분류', '구분', '명칭', '코드', '비용', '특이사항', '최저비용', '약제비포함여부', '치료재료대포함여부', '최고비용',
+            '중분류', '소분류']
+    change_column = {c:c for c in column}
+
+    column = {'최대':'최고비용','최저': '최저비용', '최고':'최고비용', '최소':'최저비용', 
+            '비고':'특이사항',  '기타':'특이사항', '단위' : '특이사항',
+            '단가': '비용', '금액':'비용', '가격':'비용', '(원)':'비용',
+            '수가명칭':'명칭', '내용':'명칭', '비급여명':'명칭', '처방명':'명칭', 
+            '항목':'명칭', '품목':'명칭', '수가명':'명칭', '명':'명칭', '품명':'명칭', '기본항목':'명칭',
+            '수가':'비용', '일반수가':'비용',
+            '약제':'약제비포함여부', '약재':'약제비포함여부', 
+            '치료재료':'치료재료대포함여부', '치료대':'치료재료대포함여부', }
+            
+    change_column.update(column)
+
+    counter = Counter([c for table in table_list.values() for t in table for c in t.columns]).most_common()
+    for c, v in counter:
+        c = str(c)
+        for col in column:
+            if len(c) == 1 or len(col) == 1:
+                continue
+            if c in col:
+                if c =="":
+                    continue
+                change_column[c] = column[col]
+            if col in c:
+                change_column[c] = column[col]
+
+    change_column = dict(filter(lambda e: len(e[0]) < 10 and len(e[0]) > 1, change_column.items()))
+
+    change_column['제증명 내역'] = '명칭'
+    change_column['기본항목'] = '명칭'
+    change_column['분류/명칭'] = '명칭'
+    change_column['수가명'] = '명칭'
+    change_column['상세 분류'] = '명칭'
+    change_column['세부항목'] = '명칭'
+    change_column['수가코드'] = '특이사항'
+    change_column['수가명칭(한글)'] = '명칭'
+    change_column['최저부가비율'] = '특이사항'
+    change_column['최고가비율'] = '특이사항'
+    change_column['비급여가(원)'] = '비용'
+    change_column['단위'] = '특이사항'
+    gubun = ['제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분',
+    '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분']
+   
+    for gub in gubun:
+        change_column[gub] = '명칭'
+   
+    return change_column
+    
+
+def get_filtered_dataframe(list_of_df, change_column):
+    '''
+    input : list_of_df(list of DataFrames)
+    output : change_column(dict)
+    
+    
+    '''
     null_hspt_list = set([])
     filtered_df_list = []
     for hspt, tables in list_of_df.items():
@@ -73,11 +161,30 @@ def get_filtered_dataframe(list_of_df):
 
 
 def get_final_table(filtered_df_list): 
+    '''
+    input : filtered_df_list(list of DataFrames)
+    output : final_table(stacked DataFrame)
+
+    given list of DataFrame, stack it and sort it given sort_column
+    '''
     final_table = reduce(lambda a, b: pd.concat([a,b], ignore_index=True), filtered_df_list)
     sort_column = ['병원명', '명칭', '분류', '소분류', '중분류', '중복컬럼_1', '비용', '최저비용', '최고비용', 
                    '코드', '구분', '특이사항', '약제비포함여부',  '치료재료대포함여부']
     return final_table[sort_column]
 
+
+def url_df_to_non_payment_df(df, change_column):
+    '''
+    input : DataFrame(with url)
+    output : DataFrame(stacked regularized table)
+
+    given DataFrame with url, get regularized table
+    '''
+    TABLE_LIST, _, _ = get_table_list(df)
+    change_column = make_change_column(TABLE_LIST)
+    FILTERED_TABLE_LIST, _ = get_filtered_dataframe(TABLE_LIST, change_column)
+    FINAL_TABLE = get_final_table(FILTERED_TABLE_LIST)
+    return FINAL_TABLE
 
 '''   
 print((len(set(HSPT_URL.hspt_name)), 

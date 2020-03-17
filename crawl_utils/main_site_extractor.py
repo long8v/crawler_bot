@@ -54,7 +54,6 @@ def get_main_page(query):
 
 
 
-
 def get_main_page_dict(query_list):
     '''
     input : list of query(str)
@@ -66,7 +65,6 @@ def get_main_page_dict(query_list):
 
 
 
-
 def html_re(url): 
     '''
     input : full url(str)
@@ -74,9 +72,8 @@ def html_re(url):
     
     regularization for finding main page
     '''
-    main = "/".join(url.split('/')[:3])
+    main = "/".join(url.split('/')[:4])
     return main
-
 
 
 

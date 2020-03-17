@@ -12,7 +12,26 @@ from crawl_utils.main_site_extractor import *
 from selenium import webdriver
 
 
-def sub_pages(url, visited=set([]), show_javascript=False):
+def setOption(driver, option_value):
+    '''
+    input : driver(selenium.webdriver), option_value(str)
+    output : text of option(str), url(str)
+
+    using selenium, click option and get link of the result
+    '''
+    option = driver.find_element_by_xpath("//option[@value='" + str(option_value) + "']")
+    option.click()
+    try:
+        option_text = option.text
+    except:
+        option_text = ''
+    return (option_text, driver.current_url)
+
+def onclick_regular(url):
+    return url.split("href=")[1].replace("'","").replace(";", "")
+
+
+def sub_pages(url, visited=set([]), start_root=True, see_option=False):
     '''
     input : url(str)
     output : list of tuples(text, href)
@@ -27,14 +46,20 @@ def sub_pages(url, visited=set([]), show_javascript=False):
             for _ in parsed.select('div'):
                 if _.has_attr('onclick'):
                     try:
-                        sub_pages.append((_.text, urljoin(url, _["onclick"].split("href=")[1].replace("'","").replace(";", ""))))
+                        sub_pages.append((_.text, \
+                            urljoin(url, onclick_regular(_["onclick"]))))
                     except:
                         pass
+            if see_option:
+                for options in parsed.select('select'):
+                    driver = webdriver.Chrome()
+                    driver.get(url)
+                    for _ in options.select('option'):    
+                        sub_pages.append(setOption(driver, _['value']))
+
             for _ in parsed.select('a'):
-                if _.has_attr("href") and "#" not in _["href"] 
-                and not is_portal(_["href"]):
-                    if 'javascript' in _['href'].lower():
-                        java_pages.append((url, _["href"]))
+                if _.has_attr("href") and "#" not in _["href"] \
+                and not is_portal(_["href"]) and 'javascript' not in _["href"].lower():
                     if _["href"].startswith('http'):
                         link = _["href"]    
                     else: 
@@ -44,12 +69,15 @@ def sub_pages(url, visited=set([]), show_javascript=False):
                         if img.has_attr('alt') ])
                     else:
                         text = _.text
-                    if link not in visited:
-                        if text and link:
+                    if link not in visited and text and link :
+                        if start_root:
+                            if html_re(url) in link:
+                                sub_pages.append((text, link))
+                                visited.update([link])
+                        else:
                             sub_pages.append((text, link))
                             visited.update([link])
-    if java_pages and show_javascript:
-        print(url, len(java_pages))
+
     return sub_pages, visited 
 
 
