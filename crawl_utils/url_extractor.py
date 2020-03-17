@@ -31,19 +31,20 @@ def sub_pages(url, visited=set([]), show_javascript=False):
                     except:
                         pass
             for _ in parsed.select('a'):
-                if _.has_attr("href") and "#" not in _["href"] and not is_portal(_["href"]):
+                if _.has_attr("href") and "#" not in _["href"] 
+                and not is_portal(_["href"]):
                     if 'javascript' in _['href'].lower():
                         java_pages.append((url, _["href"]))
-                    if _["href"] not in visited:
-                        if _["href"].startswith('http'):
-                            link = _["href"]    
-                        else: 
-                            link = urljoin(url, _["href"])
-                        if not _.text.strip():
-                            text = '_'.join([img["alt"] for img in _.find_all('img') 
-                            if img.has_attr('alt') ])
-                        else:
-                            text = _.text
+                    if _["href"].startswith('http'):
+                        link = _["href"]    
+                    else: 
+                        link = urljoin(url, _["href"])
+                    if not _.text.strip():
+                        text = '_'.join([img["alt"] for img in _.find_all('img') 
+                        if img.has_attr('alt') ])
+                    else:
+                        text = _.text
+                    if link not in visited:
                         if text and link:
                             sub_pages.append((text, link))
                             visited.update([link])
