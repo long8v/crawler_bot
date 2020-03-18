@@ -40,7 +40,7 @@ def sub_pages(url, visited=set([]), start_root=True, see_option=False):
     '''
     sub_pages = []
     java_pages = []
-    if url.startswith("http"):
+    if str(url).startswith("http"):
         parsed = parsing(url)
         if parsed:
             for _ in parsed.select('div'):
@@ -92,7 +92,10 @@ def get_sub_pages(main_pages, visited=set([])):
     '''
     main_sub_pages = []
     for idx, page in main_pages.iterrows():
-        hspt = page["hspt_name"]
+        try:
+            hspt = page["hspt_name"]
+        except:
+            hspt = page["병원명"]
         try:
             url = page["root_url"]
         except:

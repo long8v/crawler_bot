@@ -60,7 +60,7 @@ def create_hspt_url_table():
     hspt_final_url = {}
     for key, value in hspt_sorted_url.items():
         if hspt_valid_url[key]:
-            hspt_final_url[key] = list(hspt_sorted_url[key])[0][0]
+            hspt_final_url[key] = redirect(list(hspt_sorted_url[key])[0][0])
         else:
             try: 
                 hspt_final_url[key] = hspt_url[key][0][0]

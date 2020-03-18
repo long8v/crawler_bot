@@ -18,3 +18,23 @@ def select_sub_page_by_query(df, query):
     given query, get DataFrame whose text has query 
     '''
     return df[df['text'].apply(lambda e: query in e)]
+
+
+def select_sub_page_by_query_list(df, query_list):
+    '''
+    input : df(DataFrame), query(str)
+    output : DataFrame
+
+    given query, get DataFrame whose text has query 
+    '''
+    return df[df['text'].apply(lambda e: any(q in e for q in query_list))]
+
+
+def select_sub_page_by_hspt_list(df, query_list):
+    '''
+    input : df(DataFrame), query(str)
+    output : DataFrame
+
+    given query, get DataFrame whose text has query 
+    '''
+    return df[df['hspt_name'].apply(lambda e: any(q in e for q in query_list))]

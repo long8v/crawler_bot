@@ -18,9 +18,17 @@ def redirect(url):
 
     get real main page using Selenium
     '''
-    driver = webdriver.Chrome()
-    driver.get(url)
-    return driver.current_url
+    try:
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        driver = webdriver.Chrome(chrome_options=chrome_options)
+        driver.get(url)
+        return driver.current_url
+    except:
+        driver.get_screenshot_as_file('{}.png'.format(url))
+        pass
 
 
 def query_re(query):
@@ -33,7 +41,9 @@ def query_re(query):
     query = str(query)
     par_open = query.find('(')
     par_close = query.find(')')
-    return query.replace(query[par_open:par_close + 1], "")
+    query = query.replace(query[par_open:par_close + 1], "")
+    query = query.replace("의료법인 ", "") 
+    return query
 
 
 
@@ -89,7 +99,9 @@ def is_portal(url):
                'health.chosun', 'kakao', 'recruit', 'youtube', 'localmap', 'mediup',
                'hira', 'gailbo', 'modoodoc', 'kookje', 'news', 'foursquare',  
                'catch', 'e-gen', 'press', 'koreaknee', 'namu.wiki', 'gangseo.soul',
-               'mgoon', 'fosquare', 'career', '/healthstory/', 'amc', 'youtu.be'
+               'mgoon', 'fosquare', 'career', '/healthstory/', 'amc', 'youtu.be',
+               'goodhosrank', 'easysearch', 'boas', 'kiu.ac.kr/~subhome/',
+               'gooddoc', 'https://www.daejeon.go.kr/',
                ]
     return any(p in url for p in portals)
 
@@ -116,7 +128,7 @@ def get_valid_html(HSPT_URL):
     '''
     HSPT_URL_VALID = {}
     for hspt, url_list in HSPT_URL.items():
-        HSPT_URL_VALID.update({hspt:set((redirect(html_re(link)), similar(name, hspt), name) 
+        HSPT_URL_VALID.update({hspt:set((html_re(link), similar(name, hspt), name) 
                                         for link, name in url_list 
                                         if similar(name, hspt) > 2
                                         and not is_portal(link))})
