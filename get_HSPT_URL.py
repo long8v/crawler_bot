@@ -1,10 +1,10 @@
 import pandas as pd
+from crawl_utils.bot_utils import *
+from crawl_utils.html_request import *
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
-from crawl_utils.html_request import *
+from crawl_utils.column_regularization import *
 from crawl_utils.create_table import *
-from crawl_utils.bot_utils import *
-
 
 hspt_table = pd.read_csv('HSPT_CODE.csv')
 hspt_url = get_main_page_dict(hspt_table['hspt_name'])

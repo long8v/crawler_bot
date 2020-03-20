@@ -1,5 +1,3 @@
-echo 'get HSPT_URL'
-python get_HSPT_URL.py
 echo 'get first child'
 python get_first_child.py
 echo 'find non payment to depth 2'

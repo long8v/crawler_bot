@@ -1,12 +1,12 @@
 import numpy as np
 import pandas as pd
 from collections import Counter
+from crawl_utils.bot_utils import *
+from crawl_utils.html_request import *
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
-from crawl_utils.html_request import *
-from crawl_utils.create_table import *
-from crawl_utils.html_parser import *
 from crawl_utils.column_regularization import *
+from crawl_utils.create_table import *
 
 NON_PAYMENT = pd.read_csv('MERGED_depth_2.csv')
 visited = set(NON_PAYMENT.url)
