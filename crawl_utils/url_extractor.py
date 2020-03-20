@@ -57,7 +57,7 @@ def sub_pages(url, visited=set([]), start_root=True, see_option=False):
                     for _ in options.select('option'):    
                         sub_pages.append(setOption(driver, _['value']))
 
-            for _ in parsed.select('a'):
+            for _ in parsed.find_all(['a', 'area', 'table']):
                 if _.has_attr("href") and "#" not in _["href"] \
                 and not is_portal(_["href"]) and 'javascript' not in _["href"].lower():
                     if _["href"].startswith('http'):

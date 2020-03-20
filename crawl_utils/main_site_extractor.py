@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import os
+import re
 import pandas as pd
 from urllib.parse import urljoin
 from functools import reduce
@@ -19,11 +20,7 @@ def redirect(url):
     get real main page using Selenium
     '''
     try:
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        driver = webdriver.Chrome(chrome_options=chrome_options)
+        driver = webdriver.Chrome()
         driver.get(url)
         return driver.current_url
     except:
@@ -42,7 +39,10 @@ def query_re(query):
     par_open = query.find('(')
     par_close = query.find(')')
     query = query.replace(query[par_open:par_close + 1], "")
-    query = query.replace("의료법인 ", "") 
+    jaedan = re.compile('[가-힣]+재단').search(query)
+    if jaedan:
+        query = query.replace(jaedan.group(), "")
+    query = query.replace("의료법인", "").replace(" ", "")
     return query
 
 
@@ -101,7 +101,7 @@ def is_portal(url):
                'catch', 'e-gen', 'press', 'koreaknee', 'namu.wiki', 'gangseo.soul',
                'mgoon', 'fosquare', 'career', '/healthstory/', 'amc', 'youtu.be',
                'goodhosrank', 'easysearch', 'boas', 'kiu.ac.kr/~subhome/',
-               'gooddoc', 'https://www.daejeon.go.kr/',
+               'goodoc', 'daejeon.go.kr', 'gimhae.go.kr', 'jeonju.go.kr' 
                ]
     return any(p in url for p in portals)
 

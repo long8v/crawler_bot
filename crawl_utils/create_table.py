@@ -68,7 +68,7 @@ def create_hspt_url_table():
                 print('{} is omitted'.format(key))
     HSPT_URL = pd.DataFrame()
     HSPT_URL["hspt_name"] = hspt_final_url.keys()
-    HSPT_URL["root_url"] = hspt_final_url.values()
+    HSPT_URL["url"] = hspt_final_url.values()
     HSPT_URL.to_csv('HSPT_URL.csv', index=False)
     print('"HSPT_URL.csv" is saved')
 
