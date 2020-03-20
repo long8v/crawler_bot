@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
+import time
 from collections import Counter
+from pydash import *
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
 from crawl_utils.html_request import *
@@ -26,6 +28,7 @@ def get_table_list(df):
             else:
                 no_table.update([row.hspt_name])
         except Exception as e:
+            print(e)
             error_list.update((row.url, e))
     return table_list, no_table, error_list
 
@@ -171,7 +174,7 @@ def get_final_table(filtered_df_list):
     return final_table[sort_column]
 
 
-def url_df_to_non_payment_df(df, change_column):
+def url_df_to_non_payment_df(df):
     '''
     input : DataFrame(with url)
     output : DataFrame(stacked regularized table)
