@@ -3,9 +3,7 @@ import pandas as pd
 import time
 from collections import Counter
 from pydash import *
-from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
-from crawl_utils.html_request import *
 from crawl_utils.create_table import *
 from crawl_utils.bot_utils import *
 

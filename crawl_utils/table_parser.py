@@ -2,9 +2,7 @@ import numpy as np
 import pandas as pd
 from pydash import *
 from collections import Counter
-from crawl_utils.url_extractor import *
 from crawl_utils.html_request import *
-from crawl_utils.create_table import *
 from crawl_utils.bot_utils import *
 
 def strip_all(text):

@@ -5,7 +5,6 @@ from crawl_utils.bot_utils import *
 from crawl_utils.html_request import *
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
-from crawl_utils.column_regularization import *
 from crawl_utils.create_table import *
 
 HSPT_URL = pd.read_csv('MERGED_HSPT_URL.csv')

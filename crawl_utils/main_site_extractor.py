@@ -1,12 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-import os
 import re
 import pandas as pd
 from urllib.parse import urljoin
 from functools import reduce
-from collections import defaultdict
 from datetime import datetime
 from crawl_utils.html_request import * 
 from selenium import webdriver

@@ -1,11 +1,8 @@
 import pandas as pd
 from collections import Counter
-from crawl_utils.url_extractor import *
-from crawl_utils.table_parser import *
-from crawl_utils.html_request import *
 from crawl_utils.create_table import *
-from crawl_utils.html_parser import *
-from crawl_utils.main_site_extractor import *
+from crawl_utils.column_regularization import *
+from crawl_utils.bot_utils import *
 
 HSPT_CHILDREN_URL = pd.read_csv('HSPT_CHILDREN_URL_depth_1.csv')
 

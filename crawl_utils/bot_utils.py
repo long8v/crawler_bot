@@ -3,13 +3,7 @@ import pandas as pd
 import time
 import pickle
 from collections import Counter
-from crawl_utils.url_extractor import *
-from crawl_utils.table_parser import *
-from crawl_utils.html_request import *
-from crawl_utils.create_table import *
-from crawl_utils.bot_utils import *
-from crawl_utils.column_regularization import *
-
+from functools import reduce
 
 def select_sub_page_by_hspt_name(df, query, query_in = False):
     '''
