@@ -1,12 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-import time
-import os
 import pandas as pd
-from urllib.parse import urljoin
-from functools import reduce
-from collections import defaultdict
-from difflib import SequenceMatcher
 
 def download(url="https://www.google.com/search",params={},retries=3):
     '''
@@ -28,7 +22,7 @@ def download(url="https://www.google.com/search",params={},retries=3):
         url = url.replace("http://", "https://")
         if e.response.status_code//100==5 and retries>0:
             print(retries)
-            resp = download(url,params,retries-1)
+            resp = download(url, params, retries-1)
         else: 
             # print(e.response.status_code)
             # print(e.response.reason)
@@ -42,17 +36,6 @@ def download(url="https://www.google.com/search",params={},retries=3):
             print('failed to download {}'.format(url))
     return resp
 
-"""
-def get_html_text(url):
-    '''
-    input : url(str)
-    output : html(str)
-    
-    download url and get html text
-    '''
-    url = download(url)
-    return url.text
-"""
 
 def parsing(url):
     '''
@@ -76,3 +59,4 @@ def html_parsing(df, query):
     df_query = df[df["text"].apply(lambda e: query in e)]
     print('{} have {} page'.format(df_query.shape[0], query))
     return df_query
+

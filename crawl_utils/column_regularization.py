@@ -1,13 +1,11 @@
 import numpy as np
 import pandas as pd
-import time
 from collections import Counter
 from crawl_utils.url_extractor import *
 from crawl_utils.table_parser import *
 from crawl_utils.html_request import *
 from crawl_utils.create_table import *
-from crawl_utils.html_parser import *
-from crawl_utils.pickle_io import *
+from crawl_utils.bot_utils import *
 
 
 def get_table_list(df):
@@ -186,14 +184,3 @@ def url_df_to_non_payment_df(df, change_column):
     FINAL_TABLE = get_final_table(FILTERED_TABLE_LIST)
     return FINAL_TABLE
 
-'''   
-print((len(set(HSPT_URL.hspt_name)), 
-        len(set(HSPT_CHILDREN_URL.hspt_name)),
-        len(set(NON_PAYMENT.hspt_name)),
-        len(set(_.split('/')[0] for _ in table_list.keys())),
-        len(set(final_table.병원명)),
-        len(set(yes_cost.병원명))))
-
-time_str = time.strftime('%y%m%d', time.localtime(time.time()))
-yes_cost.to_csv('yes_cost_{}.csv'.format(time_str), index=None)
-'''
