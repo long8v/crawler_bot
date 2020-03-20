@@ -130,7 +130,7 @@ def make_change_column(table_list):
     change_column['비급여가(원)'] = '비용'
     change_column['단위'] = '특이사항'
     gubun = ['제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분',
-    '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분']
+    '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분', '비급여 항목']
    
     for gub in gubun:
         change_column[gub] = '명칭'
