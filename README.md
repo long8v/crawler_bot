@@ -9,6 +9,8 @@ table_parser, create_table, bot_utils의 모듈이 있습니다
 - lxml 
 - selenium
 - pydash
+- Pillow
+- PyVirtualDisplay
 
 
 ## html_request
