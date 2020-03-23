@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
+import time
 from pydash import *
 from collections import Counter
 from crawl_utils.html_request import *
 from crawl_utils.bot_utils import *
+from selenium import webdriver
 
 def strip_all(text):
     '''
@@ -174,7 +176,7 @@ def tbody_parsing(rows):
         element_list.append(merge_template(template, emnt))
     return element_list
 
-def table_parsing(url):
+def table_parsing(url, save_image=False):
     '''
     input : url(str)
     output : list of table(DataFrame)
@@ -185,8 +187,17 @@ def table_parsing(url):
     columns = []
     columns_list = []
     soup = parsing(url)
+    driver = ""
     if soup:
         tables = soup.find_all('table')
+        if not tables:
+            driver = get_driver(url)
+            time.sleep(3)
+            soup = BeautifulSoup(driver.page_source, 'lxml')
+            tables = soup.find_all('table')
+            if save_image and not tables:
+                save_image(driver, 'image/{}_{}'.format(re_url(url), get_now()))
+                print('image from {} is saved..'.format(url))
         for table in tables:
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')
@@ -208,4 +219,6 @@ def table_parsing(url):
                     i += 1
             table_df_list.append(table_df)
     table_df_list = [table for table in table_df_list if any(table)]
+    if driver:
+        driver.quit()
     return table_df_list

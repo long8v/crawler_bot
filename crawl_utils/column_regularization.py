@@ -115,23 +115,20 @@ def make_change_column(table_list):
 
     change_column = dict(filter(lambda e: len(e[0]) < 10 and len(e[0]) > 1, change_column.items()))
 
-    change_column['제증명 내역'] = '명칭'
-    change_column['기본항목'] = '명칭'
-    change_column['분류/명칭'] = '명칭'
-    change_column['수가명'] = '명칭'
-    change_column['상세 분류'] = '명칭'
-    change_column['세부항목'] = '명칭'
+    change_column['소분류-상세명'] = '소분류'
     change_column['수가코드'] = '특이사항'
-    change_column['수가명칭(한글)'] = '명칭'
     change_column['최저부가비율'] = '특이사항'
     change_column['최고가비율'] = '특이사항'
-    change_column['비급여가(원)'] = '비용'
     change_column['단위'] = '특이사항'
-    gubun = ['제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분',
-    '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분', '비급여 항목']
-   
-    for gub in gubun:
-        change_column[gub] = '명칭'
+    change_column['비급여가(원)'] = '비용'
+
+
+    name = ['제증명 내역', '기본항목', '분류/명칭', '수가명','수가명칭', '상세 분류', '세부항목', '수가명칭(한글)', '병원사용명칭',
+    '제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분', 
+    '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분', '비급여 항목']   
+
+    for n in name:
+        change_column[n] = '명칭'
    
     return change_column
     
@@ -146,6 +143,7 @@ def get_filtered_dataframe(list_of_df, change_column):
     null_hspt_list = set([])
     filtered_df_list = []
     for hspt, tables in list_of_df.items():
+        change_column = make_change_column(tables)
         for table in tables:
             filtered_df = filter_column(rename_column(table, change_column), change_column)
             filtered_df.columns = change_duplicate_column(filtered_df.columns)

@@ -8,7 +8,7 @@ from crawl_utils.table_parser import *
 from crawl_utils.column_regularization import *
 from crawl_utils.create_table import *
 
-NON_PAYMENT = pd.read_csv('MERGED_depth_2.csv')
+NON_PAYMENT = pd.read_csv('file/MERGED_depth_2.csv')
 visited = set(NON_PAYMENT.url)
 change_column = pickle_open('change_column')
 
@@ -22,4 +22,4 @@ for _ in range(1, 100):
     print(NON_PAYMENT.shape)
     NON_PAYMENT_list.append(NON_PAYMENT)
 non_payment_df = concat_from_list(NON_PAYMENT_list)
-non_payment_df.to_csv('MERGED_depth_100.csv', index=False)
+non_payment_df.to_csv('file/MERGED_depth_100.csv', index=False)

@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+from selenium import webdriver
+from pyvirtualdisplay import Display
 
-def download(url="https://www.google.com/search",params={},retries=3):
+def download(url,params={},retries=0):
     '''
     input : url(str), parameter(dict)
     output : resp(object)
@@ -24,12 +26,8 @@ def download(url="https://www.google.com/search",params={},retries=3):
             print(retries)
             resp = download(url, params, retries-1)
         else: 
-            # print(e.response.status_code)
-            # print(e.response.reason)
-            # print(e.response.headers)
             print('failed to download {}'.format(url))
     except:
-        print('{} : Error'.format(url))
         if retries > 0:
             resp = download(url,params,retries-1)
         if retries == 0:
@@ -49,14 +47,13 @@ def parsing(url):
         dom = BeautifulSoup(html.text, 'lxml')
         return dom
 
-def html_parsing(df, query):
-    '''
-    input : DataFrame, query(str)
-    output : DataFrame
-    
-    find rows having query from given data frame 
-    '''
-    df_query = df[df["text"].apply(lambda e: query in e)]
-    print('{} have {} page'.format(df_query.shape[0], query))
-    return df_query
+def get_driver(url):
+    display = Display(visible=0, size=(800,800))
+    display.start()
+    driver = webdriver.Chrome()
+    driver.get(url)
+    return driver
 
+def parsing_dynamic(url):
+    dom = BeautifulSoup(get_driver(url).page_source, 'lxml')
+    return dom

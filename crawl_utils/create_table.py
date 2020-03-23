@@ -6,7 +6,6 @@ from crawl_utils.table_parser import *
 from crawl_utils.column_regularization import *
 
 
-
 def get_html_table(main_sub_pages, depth=1):
     '''
     input : list having tuples (text, lisf of urls)

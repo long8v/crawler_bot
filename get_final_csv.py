@@ -9,8 +9,11 @@ from crawl_utils.table_parser import *
 from crawl_utils.column_regularization import *
 from crawl_utils.create_table import *
 
-
-NON_PAYMENT = pd.read_csv('merged_depth_100.csv')
+NON_PAYMENT = pd.read_csv('file/merged_depth_100.csv')
+CODE = pd.read_csv('file/HSPT_CODE.csv')
+CODE.columns = ['병원코드', '병원명']
+CODE = CODE.applymap(str)
 df = url_df_to_non_payment_df(NON_PAYMENT)
 df = df.dropna(how='all', subset=['최고비용', '최저비용', '비용'])
-df.to_csv('final_{}.csv'.format(datetime.today().strftime('%y%m%d')), index=False)
+df = CODE.merge(df, on='병원명')
+df.to_csv('file/final_{}.csv'.format(datetime.today().strftime('%y%m%d')), index=False)
