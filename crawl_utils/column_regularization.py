@@ -3,6 +3,7 @@ import pandas as pd
 import time
 from collections import Counter
 from pydash import *
+from tqdm import tqdm
 from crawl_utils.table_parser import *
 from crawl_utils.create_table import *
 from crawl_utils.bot_utils import *
@@ -18,7 +19,7 @@ def get_table_list(df):
     table_list = {}
     no_table = set([])
     error_list = set([])
-    for idx, row in df.iterrows():
+    for idx, row in tqdm(df.iterrows(), total=df.shape[0]):
         try:
             table = table_parsing(row.url)
             if table:
@@ -26,7 +27,7 @@ def get_table_list(df):
             else:
                 no_table.update([row.hspt_name])
         except Exception as e:
-            print(e)
+            print(row.url, e)
             error_list.update((row.url, e))
     return table_list, no_table, error_list
 
@@ -143,7 +144,6 @@ def get_filtered_dataframe(list_of_df, change_column):
     null_hspt_list = set([])
     filtered_df_list = []
     for hspt, tables in list_of_df.items():
-        change_column = make_change_column(tables)
         for table in tables:
             filtered_df = filter_column(rename_column(table, change_column), change_column)
             filtered_df.columns = change_duplicate_column(filtered_df.columns)

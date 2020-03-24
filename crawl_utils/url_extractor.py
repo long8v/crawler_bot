@@ -47,8 +47,7 @@ def sub(parsed, url, visited=set([]), start_root=True, get_option=False):
                 pass
     if get_option:
         for options in parsed.select('select'):
-            driver = webdriver.Chrome()
-            driver.get(url)
+            driver = get_driver(url)
             for _ in options.select('option'):    
                 sub_pages.append(setOption(driver, _['value']))
 

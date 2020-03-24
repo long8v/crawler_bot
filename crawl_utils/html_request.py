@@ -26,12 +26,14 @@ def download(url,params={},retries=0):
             print(retries)
             resp = download(url, params, retries-1)
         else: 
-            print('failed to download {}'.format(url))
+            pass
+            # print('failed to download {}'.format(url))
     except:
         if retries > 0:
             resp = download(url,params,retries-1)
         if retries == 0:
-            print('failed to download {}'.format(url))
+            pass
+            # print('failed to download {}'.format(url))
     return resp
 
 

@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 from collections import Counter
 from crawl_utils.bot_utils import *
 from crawl_utils.html_request import *
@@ -10,12 +11,11 @@ from crawl_utils.create_table import *
 
 NON_PAYMENT = pd.read_csv('file/MERGED_depth_2.csv')
 visited = set(NON_PAYMENT.url)
-change_column = pickle_open('change_column')
+change_column = pickle_open('file/change_column')
 
 df_list = []
 NON_PAYMENT_list = [NON_PAYMENT]
-for _ in range(1, 100):
-    print('doing depth {} ...'.format(_))
+for _ in tqdm(range(1, 100)):
     NON_PAYMENT = get_html_table(get_sub_pages(NON_PAYMENT, visited))
     visited.update(set(NON_PAYMENT.url))
     NON_PAYMENT = select_sub_page_by_query_list(NON_PAYMENT, ['>', '다음', '오른'])
