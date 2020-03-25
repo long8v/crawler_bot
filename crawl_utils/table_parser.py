@@ -190,14 +190,14 @@ def table_parsing(url, save_image=False):
     driver = ""
     if soup:
         tables = soup.find_all('table')
-        if not tables:
-            driver = get_driver(url)
-            time.sleep(3)
-            soup = BeautifulSoup(driver.page_source, 'lxml')
-            tables = soup.find_all('table')
-            if save_image and not tables:
-                save_image(driver, 'image/{}_{}'.format(re_url(url), get_now()))
-                print('image from {} is saved..'.format(url))
+        # if not tables:
+        #     driver = get_driver(url)
+        #     time.sleep(3)
+        #     soup = BeautifulSoup(driver.page_source, 'lxml')
+        #     tables = soup.find_all('table')
+        #     if save_image and not tables:
+        #         save_image(driver, 'image/{}_{}'.format(re_url(url), get_now()))
+        #         print('image from {} is saved..'.format(url))
         for table in tables:
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')

@@ -17,4 +17,5 @@ CODE.columns = ['병원코드', '병원명']
 CODE = CODE.applymap(str)
 df = df.dropna(how='all', subset=['최고비용', '최저비용', '비용'])
 df = CODE.merge(df, on='병원명')
+df = df.drop_duplicates()
 df.to_csv('file/final_{}.csv'.format(get_today_date()), index=False)

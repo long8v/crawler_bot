@@ -27,7 +27,7 @@ def get_table_list(df):
             else:
                 no_table.update([row.hspt_name])
         except Exception as e:
-            print(row.url, e)
+            # print(row.url, e)
             error_list.update((row.url, e))
     return table_list, no_table, error_list
 

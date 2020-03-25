@@ -6,9 +6,9 @@ from crawl_utils.table_parser import *
 from crawl_utils.column_regularization import *
 from crawl_utils.create_table import *
 
-
-NON_PAYMENT = pd.read_csv('MERGED_NON_PAYMENT.csv')
-change_column = pickle_open('change_column')
+display_start()
+NON_PAYMENT = pd.read_csv('file/MERGED_NON_PAYMENT.csv')
+change_column = pickle_open('file/change_column')
 
 df_list = [NON_PAYMENT]
 for _ in range(2, 3):

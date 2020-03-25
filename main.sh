@@ -1,7 +1,7 @@
-echo 'get first child'
-python get_first_child.py
-echo 'find non payment to depth 2'
-python get_SUB_NON_PAYMENT.py
+# echo 'get first child'
+# python get_first_child.py
+# echo 'find non payment to depth 2'
+# python get_SUB_NON_PAYMENT.py
 echo 'merge non payment from main, hidden(sub), and hand'
 python get_MERGED_NON_PAYMENT.py
 echo 'will find option and page'

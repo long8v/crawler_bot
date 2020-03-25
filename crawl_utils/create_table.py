@@ -22,7 +22,7 @@ def get_html_table(main_sub_pages, depth=1):
             HSPT_CHILDREN_URL["url"] = list(zipped[1])
             HSPT_CHILDREN_URL["depth"] = [depth for _ in range(len(contents))]
             HSPT_CHILDREN_URL["hspt_name"] = [hspt for _ in range(len(contents))]
-            HSPT_CHILDREN_URL["date"] = [datetime.today().strftime('%y%m%d') 
+            HSPT_CHILDREN_URL["date"] = [get_today_date() 
             for _ in range(len(contents))]
             HSPT_CHILDREN_URL_list.append(HSPT_CHILDREN_URL)
     return concat_from_list(HSPT_CHILDREN_URL_list)

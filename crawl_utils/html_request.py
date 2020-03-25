@@ -48,10 +48,12 @@ def parsing(url):
     if html:
         dom = BeautifulSoup(html.text, 'lxml')
         return dom
-
-def get_driver(url):
+        
+def display_start():
     display = Display(visible=0, size=(800,800))
     display.start()
+
+def get_driver(url):
     driver = webdriver.Chrome()
     driver.get(url)
     return driver

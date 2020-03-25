@@ -38,6 +38,14 @@ def select_sub_page_by_query_list(df, query_list):
     '''
     return df[df['text'].apply(lambda e: any(q in e for q in query_list))]
 
+def select_sub_page_by_re(df, reg_exp):
+    '''
+    input : df(DataFrame), reg_exp(re.Pattern)
+    output : DataFrame
+
+    given query, get DataFrame which is searched by regular expression
+    '''
+    return df[df['text'].apply(lambda e: bool(reg_exp.search(e)))]   
 
 def select_sub_page_by_hspt_list(df, query_list):
     '''
