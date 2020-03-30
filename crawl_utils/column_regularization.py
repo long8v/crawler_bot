@@ -9,7 +9,7 @@ from crawl_utils.create_table import *
 from crawl_utils.bot_utils import *
 
 
-def get_table_list(df):
+def get_table_list(df, use_selenium=False):
     '''
     input : DataFrame with url
     output : table_list, no_table, error
@@ -21,7 +21,7 @@ def get_table_list(df):
     error_list = set([])
     for idx, row in tqdm(df.iterrows(), total=df.shape[0]):
         try:
-            table = table_parsing(row.url)
+            table = table_parsing(row.url, use_selenium=use_selenium)
             if table:
                 table_list["{}/{}".format(row.hspt_name, row.text)] = table
             else:
@@ -179,14 +179,14 @@ def get_final_table(filtered_df_list):
                 sort_column.remove(n)
             return final_table[sort_column]
 
-def url_df_to_non_payment_df(df):
+def url_df_to_non_payment_df(df, use_selenium=False):
     '''
     input : DataFrame(with url)
     output : DataFrame(stacked regularized table)
 
     given DataFrame with url, get regularized table
     '''
-    TABLE_LIST, _, _ = get_table_list(df)
+    TABLE_LIST, _, _ = get_table_list(df, use_selenium=use_selenium)
     change_column = make_change_column(TABLE_LIST)
     FILTERED_TABLE_LIST, _ = get_filtered_dataframe(TABLE_LIST, change_column)
     FINAL_TABLE = get_final_table(FILTERED_TABLE_LIST)

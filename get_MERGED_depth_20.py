@@ -12,7 +12,8 @@ from crawl_utils.create_table import *
 
 display_start()
 
-NON_PAYMENT = pd.read_csv('file/{}.csv'.format(file_name))
+file_name = input('file name : ')
+NON_PAYMENT = pd.read_csv('file/{}_option.csv'.format(file_name))
 regular = set(['비급여', 
                '>', '»', '다음', '오른',
                '약제비', '제증명수수료', '치료재료대', '행위료', '기타', '치료재료', '약제', '행위', '제증명'])

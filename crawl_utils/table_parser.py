@@ -176,7 +176,7 @@ def tbody_parsing(rows):
         element_list.append(merge_template(template, emnt))
     return element_list
 
-def table_parsing(url, save_image=False):
+def table_parsing(url, use_selenium=False, save_image=False):
     '''
     input : url(str)
     output : list of table(DataFrame)
@@ -186,18 +186,16 @@ def table_parsing(url, save_image=False):
     table_df_list = []
     columns = []
     columns_list = []
-    soup = parsing(url)
     driver = ""
+    if use_selenium:
+        driver = get_driver(url)
+        time.sleep(3)
+        soup = BeautifulSoup(driver.page_source, 'lxml')
+        tables = soup.find_all('table')
+    else:
+        soup = parsing(url)
     if soup:
         tables = soup.find_all('table')
-        # if not tables:
-        #     driver = get_driver(url)
-        #     time.sleep(3)
-        #     soup = BeautifulSoup(driver.page_source, 'lxml')
-        #     tables = soup.find_all('table')
-        #     if save_image and not tables:
-        #         save_image(driver, 'image/{}_{}'.format(re_url(url), get_now()))
-        #         print('image from {} is saved..'.format(url))
         for table in tables:
             columns_body, n = get_table_column(table)
             rows = table.find_all('tr')
