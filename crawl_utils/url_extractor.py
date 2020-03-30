@@ -31,7 +31,7 @@ def setOption(driver, option_value):
 def onclick_regular(url):
     return url.split("href=")[1].replace("'","").replace(";", "")
 
-def sub(url, visited=set([]), start_root=True, get_option=False):
+def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
     '''
     input : parsed(dom)
     output : sub_pages(list), visited(set)
@@ -39,7 +39,10 @@ def sub(url, visited=set([]), start_root=True, get_option=False):
     get sub pages and visited set given dom 
     '''
     sub_pages = []
-    parsed = parsing(url)
+    if if_dom:    
+        parsed = url
+    else:
+        parsed = parsing(url)
 
     for _ in parsed.find_all(['div', 'span', 'a']):
         if get_option and _.has_attr('onclick'):
@@ -50,7 +53,6 @@ def sub(url, visited=set([]), start_root=True, get_option=False):
                 else:
                     driver = get_driver(url)
                     script = _['onclick'].split(';')[0]
-                    print(script)
                     driver.execute_script(script)
                     sub_pages.append((script, driver.current_url))                
             except Exception as e:
@@ -59,7 +61,11 @@ def sub(url, visited=set([]), start_root=True, get_option=False):
         for options in parsed.select('select'):
             driver = get_driver(url)
             for _ in options.select('option'):    
-                sub_pages.append(setOption(driver, _['value']))
+                try: 
+                    sub_pages.append(setOption(driver, _['value']))
+                except KeyError:
+                    sub_pages.append(setOption(driver, _))
+                    print(_)
 
     for _ in parsed.find_all(['a', 'area', 'table']):
         if _.has_attr("href") and "#" not in _["href"] \
@@ -87,7 +93,6 @@ def sub(url, visited=set([]), start_root=True, get_option=False):
                 script = _["href"].split(':')[-1]
                 try:
                     if script not in [';', 'void(0)']:
-                        print(script)
                         driver = get_driver(url)
                         driver.execute_script(script)
                         sub_pages.append((script, driver.current_url))
@@ -96,12 +101,11 @@ def sub(url, visited=set([]), start_root=True, get_option=False):
     try:
         driver.quit()
     except Exception as e:
-        print(e)
         pass
     return sub_pages, visited
 
 
-def sub_pages(url, visited=set([]), start_root=True, get_option=False):
+def sub_pages(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
     '''
     input : url(str)
     output : sub_pages(list), visited(set)
@@ -113,7 +117,7 @@ def sub_pages(url, visited=set([]), start_root=True, get_option=False):
     if str(url).startswith("http"):
         parsed = parsing(url)
         if parsed:
-            sub_pages, visited = sub(url, start_root=start_root, get_option=get_option)
+            sub_pages, visited = sub(url, if_dom=if_dom, start_root=start_root, get_option=get_option)
             if not sub_pages:
                 parsed = parsing_dynamic(url)
                 sub_pages, visited = sub(url)
@@ -121,7 +125,7 @@ def sub_pages(url, visited=set([]), start_root=True, get_option=False):
 
 
 
-def get_sub_pages(main_pages, visited=set([]), start_root=True, get_option=False):
+def get_sub_pages(main_pages, visited=set([]), if_dom=False,  start_root=True, get_option=False):
     '''
     input : {hspt: url}(DataFrane)
     output : list of tuples (text, lisf of urls)
@@ -138,7 +142,10 @@ def get_sub_pages(main_pages, visited=set([]), start_root=True, get_option=False
             url = page["root_url"]
         except:
             url = page["url"]
-        sub, visited = sub_pages(url, visited, start_root=start_root, get_option=get_option)
-        main_sub_pages.append((hspt, sub))
+        try:
+            sub, visited = sub_pages(url, visited, if_dom=if_dom, start_root=start_root, get_option=get_option)
+            main_sub_pages.append((hspt, sub))
+        except:
+            pass
     return main_sub_pages
 

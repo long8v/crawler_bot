@@ -139,8 +139,9 @@ def get_filtered_dataframe(list_of_df, change_column):
     input : list_of_df(list of DataFrames)
     output : change_column(dict)
     
-    
     '''
+    if not change_column:
+        change_column = pickle_open('file/change_column')
     null_hspt_list = set([])
     filtered_df_list = []
     for hspt, tables in list_of_df.items():
@@ -161,14 +162,22 @@ def get_final_table(filtered_df_list):
     '''
     input : filtered_df_list(list of DataFrames)
     output : final_table(stacked DataFrame)
+18                   강남병원  ...  200327
 
     given list of DataFrame, stack it and sort it given sort_column
     '''
-    final_table = reduce(lambda a, b: pd.concat([a,b], ignore_index=True), filtered_df_list)
-    sort_column = ['병원명', '명칭', '분류', '소분류', '중분류', '중복컬럼_1', '비용', '최저비용', '최고비용', 
-                   '코드', '구분', '특이사항', '약제비포함여부',  '치료재료대포함여부']
-    return final_table[sort_column]
-
+    if filtered_df_list:
+        final_table = reduce(lambda a, b: pd.concat([a,b], ignore_index=True), filtered_df_list)
+        sort_column = ['병원명', '명칭', '분류', '소분류', '중분류', '중복컬럼_1', '비용', '최저비용', '최고비용', 
+                    '코드', '구분', '특이사항', '약제비포함여부',  '치료재료대포함여부']
+        try:
+            return final_table[sort_column]
+        except Exception as e:
+            no_column = str(e).split('[')[1].split(']')[0].replace("'", "").replace(' ', '').split(',')
+            for n in no_column:
+                print(n)
+                sort_column.remove(n)
+            return final_table[sort_column]
 
 def url_df_to_non_payment_df(df):
     '''
@@ -178,6 +187,18 @@ def url_df_to_non_payment_df(df):
     given DataFrame with url, get regularized table
     '''
     TABLE_LIST, _, _ = get_table_list(df)
+    change_column = make_change_column(TABLE_LIST)
+    FILTERED_TABLE_LIST, _ = get_filtered_dataframe(TABLE_LIST, change_column)
+    FINAL_TABLE = get_final_table(FILTERED_TABLE_LIST)
+    return FINAL_TABLE
+
+def table_to_non_payment_df(TABLE_LIST):
+    '''
+    input : DataFrame(with url)
+    output : DataFrame(stacked regularized table)
+
+    given DataFrame with url, get regularized table
+    '''
     change_column = make_change_column(TABLE_LIST)
     FILTERED_TABLE_LIST, _ = get_filtered_dataframe(TABLE_LIST, change_column)
     FINAL_TABLE = get_final_table(FILTERED_TABLE_LIST)

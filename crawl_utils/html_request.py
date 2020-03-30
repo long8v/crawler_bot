@@ -50,7 +50,7 @@ def parsing(url):
         return dom
         
 def display_start():
-    display = Display(visible=0, size=(800,800))
+    display = Display(visible=0, size=(1800,3000))
     display.start()
 
 def get_driver(url):

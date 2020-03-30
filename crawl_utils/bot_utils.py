@@ -45,7 +45,7 @@ def select_sub_page_by_re(df, reg_exp):
 
     given query, get DataFrame which is searched by regular expression
     '''
-    return df[df['text'].apply(lambda e: bool(reg_exp.search(e)))]   
+    return df[df['text'].apply(lambda e: bool(reg_exp.search(str(e).split("/")[-1])))]   
 
 def select_sub_page_by_hspt_list(df, query_list):
     '''
