@@ -125,7 +125,7 @@ def make_change_column(table_list):
 
 
     name = ['제증명 내역', '기본항목', '분류/명칭', '수가명','수가명칭', '상세 분류', '세부항목', '수가명칭(한글)', '병원사용명칭',
-    '제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분', 
+    '제증명료 구분','상급병실료 구분','식대료 구분','이송료 구분', '품명'
     '주사료 구분','처치수술료 구분', '처치수술료 구분', '약제료 구분', '비급여 항목']   
 
     for n in name:
@@ -162,7 +162,6 @@ def get_final_table(filtered_df_list):
     '''
     input : filtered_df_list(list of DataFrames)
     output : final_table(stacked DataFrame)
-18                   강남병원  ...  200327
 
     given list of DataFrame, stack it and sort it given sort_column
     '''
@@ -194,7 +193,7 @@ def url_df_to_non_payment_df(df, use_selenium=False):
 
 def table_to_non_payment_df(TABLE_LIST):
     '''
-    input : DataFrame(with url)
+    input :
     output : DataFrame(stacked regularized table)
 
     given DataFrame with url, get regularized table

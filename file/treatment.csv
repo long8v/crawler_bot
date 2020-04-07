@@ -1,0 +1,1546 @@
+,hspt_name,url,depth,text,date
+0,나누리수원병원,http://sw.nanoori.co.kr/nonsurgical/nerve,1,비수술,200406
+1,나누리수원병원,http://sw.nanoori.co.kr/nonsurgical/physical,1,특수물리치료,200406
+2,나누리수원병원,http://sw.nanoori.co.kr/nonsurgical/exercise,1,운동치료,200406
+3,나누리수원병원,http://sw.nanoori.co.kr/nonsurgical/electromyogram,1,근전도 검사,200406
+0,뿌리병원,http://www.ppuricj.co.kr/nonsurgery/nonsurgery01_02.html,1,비수술치료클리닉,200406
+1,뿌리병원,http://www.ppuricj.co.kr/nonsurgery/new_nonsurgery01_02.html,1,경막외 신경성형술,200406
+2,뿌리병원,http://www.ppuricj.co.kr/nonsurgery/new_nonsurgery01_04.html,1,내시경 고주파 수핵 성형술,200406
+3,뿌리병원,http://www.ppuricj.co.kr/nonsurgery/new_nonsurgery01_07.html,1,통증유발점주사,200406
+5,뿌리병원,http://www.ppuricj.co.kr/nonsurgery/new_nonsurgery01_09.html,1,바이오 콜라겐 주사,200406
+2,바로병원,http://www.baro119.co.kr/sub/page/company/1/3,1,의료진소개,200406
+6,바로병원,http://www.baro119.co.kr/sub/page/medical/2/1,1,진료안내,200406
+7,바로병원,http://www.baro119.co.kr/sub/page/medical/2/4,1,인터넷서류발급,200406
+8,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1,1,관절치료센터,200406
+9,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2,1,관절비수술치료,200406
+10,바로병원,http://www.baro119.co.kr/sub/page/joint/3/3,1,관절강화운동,200406
+11,바로병원,http://www.baro119.co.kr/sub/page/joint/3/5,1,관절질환,200406
+12,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1,1,척추,200406
+13,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2,1,척추비수술치료,200406
+14,바로병원,http://www.baro119.co.kr/sub/page/spine/4/3,1,척추강화운동,200406
+16,바로병원,http://www.baro119.co.kr/sub/page/special/5/2,1,척추측만증클리닉,200406
+17,바로병원,http://www.baro119.co.kr/sub/page/special/5/3,1,하지정맥클리닉,200406
+18,바로병원,http://www.baro119.co.kr/sub/page/special/5/4,1,무수혈 수술,200406
+20,바로병원,http://www.baro119.co.kr/sub/page/screening/6/2,1,종합검진센터,200406
+21,바로병원,http://www.baro119.co.kr/sub/page/screening/6/3,1,체외진단다지표검사,200406
+23,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1/1,1,무릎인공관절,200406
+24,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1/2,1,어깨인공관절,200406
+25,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1/3,1,발목인공관절,200406
+26,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1/4,1,관절내시경,200406
+27,바로병원,http://www.baro119.co.kr/sub/page/joint/3/1/5,1,자기연골보존,200406
+29,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/1,1,무릎,200406
+30,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/2,1,어깨,200406
+31,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/3,1,팔꿈치,200406
+32,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/4,1,손목,200406
+33,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/5,1,고관절,200406
+34,바로병원,http://www.baro119.co.kr/sub/page/joint/3/2/6,1,발목,200406
+35,바로병원,http://www.baro119.co.kr/sub/page/joint/3/5/2,1,어깨,200406
+37,바로병원,http://www.baro119.co.kr/sub/page/joint/3/5/4,1,족부,200406
+0,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1/1,1,현미경레이져디스크수술,200406
+1,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1/2,1,척추고정술,200406
+2,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1/3,1,인공디스크수술,200406
+3,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1/5,1,척추변형고정술,200406
+4,바로병원,http://www.baro119.co.kr/sub/page/spine/4/1/4,1,고관절인공관절,200406
+5,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/7,1,신경근성형술 #END,200406
+6,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/1,1,FIMS,200406
+7,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/2,1,고주파수액감압술,200406
+8,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/3,1,4無 신경성형술,200406
+9,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/4,1,신경차단술,200406
+10,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/5,1,심부근육강화운동,200406
+11,바로병원,http://www.baro119.co.kr/sub/page/spine/4/2/6,1,3D 도수치료요법,200406
+2,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=yeshospital_01,1,에이스병원 안내,200406
+3,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=yeshospital_02,1,의료진 소개,200406
+8,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_01_5,1,진료센터,200406
+9,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02_7,1,척추센터,200406
+10,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_03,1,족부센터,200406
+12,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_05_2,1,비수술치료,200406
+13,에이스병원,http://www.acehospital.co.kr/bbs/board.php?bo_table=review,1,치료후기,200406
+14,에이스병원,http://www.acehospital.co.kr/bbs/board.php?bo_table=notice,1,에이스병원 이야기,200406
+15,에이스병원,http://www.acehospital.co.kr/bbs/board.php?bo_table=movie,1,바르고 건강하게,200406
+16,에이스병원,http://www.acehospital.co.kr/bbs/board.php?bo_table=article,1,언론 속 에이스병원,200406
+18,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_01,1,무릎 줄기세포 치료,200406
+19,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_01_2,1,인공관절 치환술,200406
+21,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_01_4,1,관절내시경 수술,200406
+22,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02,1,인공디스크 치환술,200406
+23,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02_3,1,미세 현미경 디스크 제거술,200406
+24,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02_4,1,미세 현미경 경추 유합술,200406
+25,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02_5,1,인공인대(연성) 고정술,200406
+26,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_02_6,1,최소침습 척추 고정술,200406
+27,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_03_2,1,발목연골손상,200406
+29,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_04_2,1,심장 초음파 검사,200406
+30,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_04_3,1,대장내시경 검사,200406
+31,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_04_4,1,소화기 내과,200406
+32,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_04_5,1,성인 예방접종,200406
+35,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_05_3,1,체계적인 건강치료,200406
+37,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_05_5,1,체외충격파치료,200406
+38,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=center_05_6,1,초음파유도중재시술,200406
+39,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=provision,1,이용약관,200406
+40,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=privacy,1,개인정보처리(취급)방침,200406
+41,에이스병원,http://www.acehospital.co.kr/bbs/content.php?co_id=guideline,1,영상정보처리기기운영 관리지침,200406
+0,세계로병원,https://www.segyero365.com/cms/board.php?bo_table=page0&sca=척추센터&page=1,1,척추 센터소개,200406
+1,세계로병원,https://www.segyero365.com/cms/board.php?bo_table=page0&sca=척추센터&page=2,1,의료진 ,200406
+2,세계로병원,https://www.segyero365.com/cms/board.php?bo_table=page0&sca=척추센터&page=3,1,전문적 치료질환,200406
+4,세계로병원,https://www.segyero365.com/cms/board.php?bo_table=page0&sca=척추센터&page=6,1,비수술적치료,200406
+5,세계로병원,https://www.segyero365.com/cms/board.php?bo_table=page0&sca=척추센터&page=5,1,첨단의료장비,200406
+0,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=sitemap&filename=sitemap,1,사이트맵,200406
+2,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_01_01,1,척추센터,200406
+3,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_01_01,1,관절센터,200406
+6,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic06&fileName=clinic06_05_01,1,종합검진센터,200406
+7,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic08&fileName=clinic08_03_01,1,비뇨기과,200406
+8,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=intro&filename=intro_02_01,1,의료진소개,200406
+10,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=intro&filename=intro_05_001,1,주요의료장비,200406
+11,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=intro&filename=intro_06_01,1,진료안내,200406
+13,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_02_01,1,척추관협착증,200406
+14,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_03_01,1,척추전방전위증,200406
+16,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_04_01,1,척추압박골절,200406
+17,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_05_06,1,비수술치료,200406
+18,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_06_05,1,수술치료,200406
+20,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_02_01,1,상지관절,200406
+21,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_03_01,1,슬관절,200406
+22,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_04_01,1,고관절,200406
+23,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_05_03,1,발관절,200406
+24,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic02&fileName=clinic02_06_01,1,관절치료방법,200406
+26,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic04&fileName=clinic04_11_02,1,전립선암 하이푸,200406
+27,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic04&fileName=clinic04_08_01,1,고주파 온열 암치료,200406
+28,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic05&fileName=clinic05_09_01,1,면역암치료,200406
+30,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic05&fileName=clinic05_11,1,레이노증후군,200406
+31,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic05&fileName=clinic05_13,1,안면홍조,200406
+32,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic05&fileName=clinic05_12,1,유전자검사,200406
+33,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic06&fileName=clinic06_01_005,1,맞춤형종합검진센터,200406
+34,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic06&fileName=clinic06_02_001,1,국민건강보험공단,200406
+35,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic06&fileName=clinic06_06_01,1,일반채용,200406
+39,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic08&fileName=clinic08_07_01,1,비뇨기질환,200406
+40,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic08&fileName=clinic08_05_01,1,남성수술,200406
+41,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=community&fileName=community_08,1,비급여 내역,200406
+42,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=community&fileName=community_05,1,진단서발급,200406
+43,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_05_05,1,물리치료,200406
+44,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_05_02,1,디스크중화치료,200406
+46,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_05_03,1,경막외신경성형술(RACZ),200406
+47,강남베드로병원,http://www.goodspine.org/content/content.asp?FolderName=clinic01&fileName=clinic01_05_07,1,EECP혈액순환장애 치료요법,200406
+0,예손병원,https://www.yesonhospital.com/page.php?pageIndex=110101102101,1,비수술척추,200406
+1,강북연세병원,http://www.ysloves.com/template/etc/sitemap.php,1,사이트맵,200406
+5,강북연세병원,http://www.ysloves.com/template/info/organization.php,1,조직도,200406
+7,강북연세병원,http://www.ysloves.com/template/info/schedule.php,1,진료시간표,200406
+8,강북연세병원,http://www.ysloves.com/template/info/info.php,1,의료진 소개,200406
+10,강북연세병원,http://www.ysloves.com/template/info/equipment.php,1,의료장비 소개,200406
+11,강북연세병원,http://www.ysloves.com/template/info/medical_guide.php,1,진료입퇴원 절차,200406
+13,강북연세병원,http://www.ysloves.com/template/joint/artificial_intro.php,1,관절척추 클리닉,200406
+14,강북연세병원,http://www.ysloves.com/template/joint/joint_blood.php,1,무수혈 인공관절 수술,200406
+15,강북연세병원,http://www.ysloves.com/template/joint/joint_endoscope.php,1,관절내시경 클리닉,200406
+16,강북연세병원,http://www.ysloves.com/template/joint/cartilage.php,1,연골재생 클리닉,200406
+17,강북연세병원,http://www.ysloves.com/template/joint/sports.php,1,스포츠손상 클리닉,200406
+18,강북연세병원,http://www.ysloves.com/template/joint/shock.php,1,체외충격파 클리닉,200406
+19,강북연세병원,http://www.ysloves.com/template/joint/reoperation.php,1,재수술 클리닉,200406
+20,강북연세병원,http://www.ysloves.com/template/joint/correction_intro.php,1,휜다리 교정 클리닉,200406
+21,강북연세병원,http://www.ysloves.com/template/joint/spine_nonoperative.php,1,척추 비수술 클리닉,200406
+22,강북연세병원,http://www.ysloves.com/template/joint/spine_operative.php,1,척추 수술 클리닉,200406
+24,강북연세병원,http://www.ysloves.com/template/joint/internal_medicine.php,1,내과진료센터,200406
+25,강북연세병원,http://www.ysloves.com/template/joint/internal_ivnt.php,1,정맥주사영양요법 클리닉,200406
+26,강북연세병원,http://www.ysloves.com/template/disease/hand_check.php,1,관절척추 질환정보,200406
+27,강북연세병원,http://www.ysloves.com/template/disease/joint_check.php,1,관절질환검사,200406
+28,강북연세병원,http://www.ysloves.com/template/disease/knee_intro.php,1,무릎관절,200406
+29,강북연세병원,http://www.ysloves.com/template/disease/shoulder_intro.php,1,어깨,200406
+30,강북연세병원,http://www.ysloves.com/template/disease/foot_intro.php,1,족부관절질환,200406
+31,강북연세병원,http://www.ysloves.com/template/disease/spine_intro.php,1,척추질환,200406
+32,강북연세병원,http://www.ysloves.com/template/disease/hip_joint.php,1,고관절질환,200406
+33,강북연세병원,http://www.ysloves.com/template/disease/knee_rheumatic.php,1,류마티스관절염,200406
+34,강북연세병원,http://www.ysloves.com/template/checkup/checkup01.php,1,종합건강검진 센터,200406
+35,강북연세병원,http://www.ysloves.com/template/checkup/checkup02.php,1,정밀건강검진,200406
+36,강북연세병원,http://www.ysloves.com/template/checkup/checkup03.php,1,보험공단검진,200406
+37,강북연세병원,http://www.ysloves.com/template/checkup/checkup04.php,1,문진표 및 기타서류발급,200406
+38,강북연세병원,http://www.ysloves.com/template/checkup/checkup05.php,1,검사 전 유의사항,200406
+40,강북연세병원,http://www.ysloves.com/template/service/counsel_intro.php,1,관절척추 간편상담,200406
+41,강북연세병원,http://www.ysloves.com/template/service/diagnosis_joint.php,1,자가진단,200406
+44,강북연세병원,http://www.ysloves.com/template/stretching/stretching_intro.php,1,관절사랑 스트레칭,200406
+45,강북연세병원,http://www.ysloves.com/template/rehabilitation/rehabilitation_lifetip_embed_intro.php,1,생활속 Tip,200406
+46,강북연세병원,http://www.ysloves.com/template/service/diagnosis_intro.php,1,자가진단,200406
+47,강북연세병원,http://www.ysloves.com/template/etc/agreement.php,1,이용약관,200406
+48,강북연세병원,http://www.ysloves.com/template/etc/policy.php,1,개인정보취급방침,200406
+50,강북연세병원,http://www.ysloves.com/template/etc/non_pay_guide.php,1,비급여진료비이용안내,200406
+51,강북연세병원,http://www.ysloves.com/template/etc/patient_rights.php,1,환자권리장전,200406
+57,강북연세병원,http://www.ysloves.com/template/service/diagnosis_spine.php,1,연세사랑병원척추자가진단바로가기,200406
+0,고도일병원,https://www.godoil.com/cure/cure01_spine01_01.php,1,치료내용,200406
+1,고도일병원,https://www.godoil.com/cure/cure02_spine01.php,1,척추수술요법,200406
+2,고도일병원,https://www.godoil.com/cure/cure03_joint01_01.php,1,관절비수술요법,200406
+3,고도일병원,https://www.godoil.com/cure/cure04_joint01.php,1,관절수술요법,200406
+6,고도일병원,https://www.godoil.com/cure/cure07_pain01.php,1,만성 및 난치성통증클리닉,200406
+7,고도일병원,https://www.godoil.com/cure/cure03_joint02.php,1,체외충격파,200406
+8,고도일병원,https://www.godoil.com/cure/cure03_joint03.php,1,족부클리닉,200406
+2,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%9d%98%eb%a3%8c%ec%a7%84%ec%86%8c%ea%b0%9c/,1,의료진소개,200406
+5,의료법인바른병원,http://www.barun.or.kr/seoul/%EC%A7%84%EB%A3%8C%EC%8B%9C%EA%B0%84%EC%95%88%EB%82%B4/,1,진료안내,200406
+6,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%a7%84%eb%a3%8c%ec%8b%9c%ea%b0%84%ec%95%88%eb%82%b4/,1,진료시간안내,200406
+7,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%9e%85%ec%9b%90-%ed%87%b4%ec%9b%90-%ec%95%88%eb%82%b4/,1,입원 ,200406
+8,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%a6%9d%eb%aa%85%ec%84%9c%eb%b0%9c%ea%b8%89%ec%95%88%eb%82%b4/,1,증명서발급안내,200406
+11,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/,1,척추센터,200406
+12,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ec%b2%99%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경척추수술,200406
+13,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%eb%a0%88%ec%9d%b4%ec%a0%80%eb%94%94%ec%8a%a4%ed%81%ac%ec%b9%98%eb%a3%8c%ec%88%a0/,1,내시경레이저디스크치료술,200406
+14,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ea%b2%bd%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경경추수술,200406
+15,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ed%9d%89%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경흉추수술,200406
+16,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%aa%a9%eb%94%94%ec%8a%a4%ed%81%ac/,1,목디스크,200406
+17,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ea%b2%bd%ec%b6%94%ea%b4%80%ed%98%91%ec%b0%a9%ec%a6%9d/,1,경추관협착증,200406
+19,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ed%97%88%eb%a6%ac%ed%81%b4%eb%a6%ac%eb%8b%89-%ed%97%88%eb%a6%ac%eb%94%94%ec%8a%a4%ed%81%ac/,1,허리디스크,200406
+20,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ea%b4%80%ed%98%91%ec%b0%a9%ec%a6%9d/,1,척추관협착증,200406
+21,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ec%95%95%eb%b0%95%ea%b3%a8%ec%a0%88/,1,척추압박골절,200406
+22,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ec%a0%84%eb%b0%a9%ec%a0%84%ec%9c%84%ec%a6%9d/,1,척추전방전위증,200406
+23,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ea%b4%80%ec%a0%88%ec%97%bc/,1,척추관절염,200406
+24,의료법인바른병원,http://www.barun.or.kr/seoul/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ed%9d%89%ec%b6%94%ed%99%a9%ec%83%89%ec%9d%b8%eb%8c%80%ea%b3%a8%ed%99%94%ec%a6%9d/,1,흉추황색인대골화증,200406
+25,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/,1,관절센터,200406
+29,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ea%b2%ac%ea%b4%80%ec%a0%88%eb%b6%88%ec%95%88%ec%a0%95%ec%84%b1%ec%9e%ac%eb%b0%9c%ec%84%b1%ed%83%88%ea%b5%ac/,1,견관절재발성탈구,200406
+30,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ec%96%b4%ea%b9%a8%ec%b6%a9%eb%8f%8c%ec%a6%9d%ed%9b%84%ea%b5%b0/,1,어깨충돌증후군,200406
+31,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ec%86%90%eb%aa%a9%ed%84%b0%eb%84%90%ec%a6%9d%ed%9b%84%ea%b5%b0/,1,손목터널증후군,200406
+33,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%b0%a9%ec%95%84%ec%87%a0%ec%86%90%ea%b0%80%eb%9d%bd/,1,방아쇠손가락,200406
+34,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ed%87%b4%ed%96%89%ec%84%b1%ea%b4%80%ec%a0%88%ec%97%bc/,1,퇴행성관절염,200406
+35,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%b0%98%ec%9b%94%ec%83%81%ec%97%b0%ea%b3%a8%ed%8c%8c%ec%97%b4/,1,반월상연골파열,200406
+37,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%a5%98%eb%a7%88%ed%8b%b0%ec%8a%a4%ea%b4%80%ec%a0%88%ec%97%bc/,1,류마티스관절염,200406
+38,의료법인바른병원,http://www.barun.or.kr/seoul/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%ac%b4%ec%a7%80%ec%99%b8%eb%b0%98%ec%a6%9d/,1,무지외반증,200406
+41,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/,1,비수술재활센터,200406
+42,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%ec%8b%a0%ea%b2%bd%ec%b0%a8%eb%8b%a8%ec%88%a0/,1,신경가지치료술,200406
+43,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%ec%b2%b4%ec%99%b8%ec%b6%a9%ea%b2%a9%ed%8c%8c%ec%b9%98%eb%a3%8c/,1,체외충격파치료,200406
+44,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%eb%8f%84%ec%88%98%ec%b9%98%eb%a3%8c/,1,도수치료,200406
+46,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%82%b4%ea%b3%bc/%ec%8b%ac%ed%98%88%ea%b4%80%ea%b3%84%ec%a7%88%ed%99%98/,1,고혈압,200406
+48,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%82%b4%ea%b3%bc/%eb%b6%80%ec%a0%95%eb%a7%a5/,1,부정맥,200406
+51,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%82%b4%ea%b3%bc/%ea%b0%91%ec%83%81%ec%84%a0%ea%b8%b0%eb%8a%a5%ec%9d%b4%ec%83%81/,1,갑상선기능이상,200406
+56,의료법인바른병원,http://www.barun.or.kr/seoul/%eb%82%b4%ea%b3%bc/%ec%a7%80%eb%b0%a9%ea%b0%84/,1,지방간,200406
+65,의료법인바른병원,http://www.barun.or.kr/seoul/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EC%8B%A0%EA%B2%BD%EC%B0%A8%EB%8B%A8%EC%88%A0/,1,신경가지치료술,200406
+66,의료법인바른병원,http://www.barun.or.kr/seoul/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EC%B2%B4%EC%99%B8%EC%B6%A9%EA%B2%A9%ED%8C%8C%EC%B9%98%EB%A3%8C/,1,체외충격파치료,200406
+67,의료법인바른병원,http://www.barun.or.kr/seoul/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EB%8F%84%EC%88%98%EC%B9%98%EB%A3%8C/,1,도수치료,200406
+68,의료법인바른병원,http://www.barun.or.kr/seoul/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B7%A8%EA%B8%89-%EB%B0%A9%EC%B9%A8/,1,개인정보취급방침,200406
+69,의료법인바른병원,http://www.barun.or.kr/seoul/%EB%B0%94%EB%A5%B8%EB%B3%91%EC%9B%90-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80/,1,이용약관,200406
+70,의료법인바른병원,http://www.barun.or.kr/seoul/%ED%99%98%EC%9E%90%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EC%9D%98%EB%AC%B4/,1,환자의권리와책임,200406
+71,의료법인바른병원,http://www.barun.or.kr/seoul/비급여안내/,1,비급여안내,200406
+2,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%9d%98%eb%a3%8c%ec%a7%84%ec%86%8c%ea%b0%9c/,1,의료진소개,200406
+5,의료법인바른병원,http://www.barun.or.kr/jinju/%EC%A7%84%EB%A3%8C%EC%8B%9C%EA%B0%84%EC%95%88%EB%82%B4/,1,진료안내,200406
+6,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%a7%84%eb%a3%8c%ec%8b%9c%ea%b0%84%ec%95%88%eb%82%b4/,1,진료시간안내,200406
+7,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%9e%85%ec%9b%90-%ed%87%b4%ec%9b%90-%ec%95%88%eb%82%b4/,1,입원 ,200406
+8,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%a6%9d%eb%aa%85%ec%84%9c%eb%b0%9c%ea%b8%89%ec%95%88%eb%82%b4/,1,증명서발급안내,200406
+11,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/,1,척추센터,200406
+12,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ec%b2%99%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경척추수술,200406
+13,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%eb%a0%88%ec%9d%b4%ec%a0%80%eb%94%94%ec%8a%a4%ed%81%ac%ec%b9%98%eb%a3%8c%ec%88%a0/,1,내시경레이저디스크치료술,200406
+14,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ea%b2%bd%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경경추수술,200406
+15,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%82%b4%ec%8b%9c%ea%b2%bd%ed%9d%89%ec%b6%94%ec%88%98%ec%88%a0/,1,내시경흉추수술,200406
+16,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%eb%aa%a9%ea%b2%bd%ec%b6%94-%ed%81%b4%eb%a6%ac%eb%8b%89-%eb%94%94%ec%8a%a4%ed%81%ac/,1,목디스크,200406
+17,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ea%b2%bd%ec%b6%94%ea%b4%80%ed%98%91%ec%b0%a9%ec%a6%9d/,1,경추관협착증,200406
+19,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ed%97%88%eb%a6%ac%ed%81%b4%eb%a6%ac%eb%8b%89-%ed%97%88%eb%a6%ac%eb%94%94%ec%8a%a4%ed%81%ac/,1,허리디스크,200406
+20,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ea%b4%80%ed%98%91%ec%b0%a9%ec%a6%9d/,1,척추관협착증,200406
+21,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ec%95%95%eb%b0%95%ea%b3%a8%ec%a0%88/,1,척추압박골절,200406
+22,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ec%a0%84%eb%b0%a9%ec%a0%84%ec%9c%84%ec%a6%9d/,1,척추전방전위증,200406
+23,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ec%b2%99%ec%b6%94%ea%b4%80%ec%a0%88%ec%97%bc/,1,척추관절염,200406
+24,의료법인바른병원,http://www.barun.or.kr/jinju/%ec%b2%99%ec%b6%94%ec%84%bc%ed%84%b0/%ed%9d%89%ec%b6%94%ed%99%a9%ec%83%89%ec%9d%b8%eb%8c%80%ea%b3%a8%ed%99%94%ec%a6%9d/,1,흉추황색인대골화증,200406
+25,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/,1,관절센터,200406
+29,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ea%b2%ac%ea%b4%80%ec%a0%88%eb%b6%88%ec%95%88%ec%a0%95%ec%84%b1%ec%9e%ac%eb%b0%9c%ec%84%b1%ed%83%88%ea%b5%ac/,1,"견관절불안정성,재발성탈구",200406
+30,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ec%96%b4%ea%b9%a8%ec%b6%a9%eb%8f%8c%ec%a6%9d%ed%9b%84%ea%b5%b0/,1,어깨충돌증후군,200406
+31,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ec%86%90%eb%aa%a9%ed%84%b0%eb%84%90%ec%a6%9d%ed%9b%84%ea%b5%b0/,1,손목터널증후군,200406
+33,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%b0%a9%ec%95%84%ec%87%a0%ec%86%90%ea%b0%80%eb%9d%bd/,1,방아쇠손가락,200406
+34,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%ed%87%b4%ed%96%89%ec%84%b1%ea%b4%80%ec%a0%88%ec%97%bc/,1,퇴행성관절염,200406
+35,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%b0%98%ec%9b%94%ec%83%81%ec%97%b0%ea%b3%a8%ed%8c%8c%ec%97%b4/,1,반월상연골파열,200406
+37,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%a5%98%eb%a7%88%ed%8b%b0%ec%8a%a4%ea%b4%80%ec%a0%88%ec%97%bc/,1,류마티스관절염,200406
+38,의료법인바른병원,http://www.barun.or.kr/jinju/%ea%b4%80%ec%a0%88%ec%84%bc%ed%84%b0/%eb%ac%b4%ec%a7%80%ec%99%b8%eb%b0%98%ec%a6%9d/,1,무지외반증,200406
+41,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/,1,비수술재활센터,200406
+42,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%ec%8b%a0%ea%b2%bd%ec%b0%a8%eb%8b%a8%ec%88%a0/,1,신경가지치료술,200406
+43,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%ec%b2%b4%ec%99%b8%ec%b6%a9%ea%b2%a9%ed%8c%8c%ec%b9%98%eb%a3%8c/,1,체외충격파치료,200406
+44,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%b9%84%ec%88%98%ec%88%a0%ec%9e%ac%ed%99%9c%ec%84%bc%ed%84%b0/%eb%8f%84%ec%88%98%ec%b9%98%eb%a3%8c/,1,도수치료,200406
+46,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%82%b4%ea%b3%bc/%ea%b3%a0%ed%98%88%ec%95%95/,1,고혈압,200406
+48,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%82%b4%ea%b3%bc/%eb%b6%80%ec%a0%95%eb%a7%a5/,1,부정맥,200406
+51,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%82%b4%ea%b3%bc/%ea%b0%91%ec%83%81%ec%84%a0%ea%b8%b0%eb%8a%a5%ec%9d%b4%ec%83%81/,1,갑상선기능이상,200406
+56,의료법인바른병원,http://www.barun.or.kr/jinju/%eb%82%b4%ea%b3%bc/%ec%a7%80%eb%b0%a9%ea%b0%84/,1,지방간,200406
+66,의료법인바른병원,http://www.barun.or.kr/jinju/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EC%8B%A0%EA%B2%BD%EC%B0%A8%EB%8B%A8%EC%88%A0/,1,신경가지치료술,200406
+67,의료법인바른병원,http://www.barun.or.kr/jinju/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EC%B2%B4%EC%99%B8%EC%B6%A9%EA%B2%A9%ED%8C%8C%EC%B9%98%EB%A3%8C/,1,체외충격파치료,200406
+68,의료법인바른병원,http://www.barun.or.kr/jinju/%EB%B9%84%EC%88%98%EC%88%A0%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0/%EB%8F%84%EC%88%98%EC%B9%98%EB%A3%8C/,1,도수치료,200406
+69,의료법인바른병원,http://www.barun.or.kr/jinju/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B7%A8%EA%B8%89-%EB%B0%A9%EC%B9%A8/,1,개인정보취급방침,200406
+70,의료법인바른병원,http://www.barun.or.kr/jinju/%EB%B0%94%EB%A5%B8%EB%B3%91%EC%9B%90-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80/,1,이용약관,200406
+71,의료법인바른병원,http://www.barun.or.kr/jinju/%ED%99%98%EC%9E%90%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EC%9D%98%EB%AC%B4/,1,환자의권리와책임,200406
+72,의료법인바른병원,http://www.barun.or.kr/jinju/%EB%B9%84%EA%B8%89%EC%97%AC%EC%95%88%EB%82%B4/,1,비급여안내,200406
+5,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=wardlife,1,외래진료안내,200406
+6,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=inout,1,입원,200406
+9,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=certificate,1,증명서발급안내,200406
+10,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mediteam,1,진료과,200406
+14,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mdpt04,1,마취통증학과,200406
+15,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=medifac,1,의료장비,200406
+16,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic101,1,휴 관절 중점치료,200406
+17,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic102,1,관절내시경 수술 클리닉,200406
+18,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic103,1,인공관절 수술 클리닉,200406
+19,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic104,1,비수술관절치료 클리닉,200406
+20,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic105,1,관절 질환정보,200406
+21,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic201,1,휴 내과 중점치료,200406
+23,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic203,1,만성질환 클리닉,200406
+25,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic205,1,내과 질환정보,200406
+26,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic301,1,휴 물리치료센터,200406
+27,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic302,1,체외충격파 치료,200406
+28,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic303,1,도수,200406
+29,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mclinic305,1,물리치료 시설,200406
+30,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mexam01,1,종합건강검진,200406
+31,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mexam02,1,이용안내,200406
+32,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mexam03,1,종합검진,200406
+33,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=mexam04,1,일반검진,200406
+39,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=nopayitem,1,비급여안내,200406
+41,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=counsel,1,진료상담,200406
+44,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=epilogue,1,치료후기,200406
+48,휴병원,http://www.hu-hospital.co.kr/kr/index.php?pCode=search,1,기타,200406
+49,휴병원,http://www.hu-hospital.co.kr/kr/?pCode=privacy,1,개인정보처리방침,200406
+52,휴병원,http://www.hu-hospital.co.kr/kr/?pCode=mediteam,1,의료진소개,200406
+53,휴병원,http://www.hu-hospital.co.kr/kr/?pCode=right,1,환자권리,200406
+54,휴병원,http://www.hu-hospital.co.kr/kr/?pCode=nopayitem,1,비급여안내,200406
+0,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_01,1,관절클리닉,200406
+1,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_01,1,척추클리닉,200406
+3,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub04&filename=sub04_01,1,족부클리닉,200406
+4,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub07&filename=sub07_01,1,신경과,200406
+5,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub08&filename=sub08_01,1,정신건강의학과,200406
+7,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub09&filename=sub09_01,1,내시경클리닉,200406
+8,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_0301,1,척추질환 (목,200406
+9,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_02,1,척추수술클리닉,200406
+11,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_05,1,도수치료,200406
+13,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub01&filename=sub01_03,1,진료시간 & 증명서발급,200406
+14,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub01&filename=sub01_04,1,의료진소개,200406
+16,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub01&filename=sub01_06,1,의료장비,200406
+17,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_02,1,손목건초염(드퀘르벵),200406
+18,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_03,1,손목 & 손가락 손상,200406
+19,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_04,1,삼각섬유연골파열,200406
+23,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_08,1,"결절종, 거대세포종",200406
+24,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_09,1,전골간신경증후군,200406
+26,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub03&filename=sub03_11,1,손가락관절염,200406
+31,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub07&filename=sub07_06,1,안면마비,200406
+37,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub08&filename=sub08_07,1,정신건강의학과 검사항목,200406
+38,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub08&filename=sub08_0801,1,정신의학과 질환 자가진단,200406
+39,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub09&filename=sub09_02,1,대장내시경,200406
+40,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_11,1,관절내시경클리닉,200406
+41,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_02,1,연골재생치료클리닉,200406
+42,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_05,1,프롤로테라피 치료,200406
+43,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_10,1,도수치료,200406
+45,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0301,1,"상지(어깨, 팔꿈치) 질환",200406
+46,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0401,1,"하지(무릎, 고관절) 질환",200406
+49,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub04&filename=sub04_05,1,발목염좌 ,200406
+52,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub04&filename=sub04_12,1,발목불안정증,200406
+53,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub04&filename=sub04_13,1,통풍성관절염,200406
+54,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub04&filename=sub04_06,1,발목터널증후군,200406
+58,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub06&filename=sub06_07,1,대장 질환,200406
+59,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub06&filename=sub06_08,1,간 질환,200406
+62,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub06&filename=sub06_10,1,내과 연령대별 검사항목,200406
+65,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0304,1,습관성어깨탈구,200406
+66,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0305,1,관절와순파열,200406
+67,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0306,1,견봉쇄골관절염,200406
+69,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0308,1,팔꿈치관절염,200406
+70,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0309,1,팔꿈치터널증후군,200406
+71,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0402,1,대퇴골두무혈성괴사,200406
+72,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0403,1,무릎퇴행성관절염,200406
+73,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0404,1,반월상연골판 파열,200406
+75,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0406,1,연골연화증,200406
+77,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub02&filename=sub02_0411,1,무릎관절내유리체,200406
+78,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_0302,1,척추관협착증,200406
+81,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_0306,1,척추분리증,200406
+82,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_0308,1,척추압박골절,200406
+83,새움병원,http://saeumhospital.mdrline.net/content/content.asp?FolderName=sub05&filename=sub05_0309,1,척추측만증,200406
+0,평택21세기병원,http://www.pyeongtaek21.com/page/1_1.php,1,진료안내,200406
+2,평택21세기병원,http://www.pyeongtaek21.com/page/1_3.php,1,의료진소개,200406
+4,평택21세기병원,http://www.pyeongtaek21.com/page/1_5.php,1,증명서발급안내,200406
+5,평택21세기병원,http://www.pyeongtaek21.com/page/1_7.php,1,비급여공지,200406
+6,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_2.php,1,21세기 치료노하우,200406
+7,평택21세기병원,http://www.pyeongtaek21.com/page/3_2_1.php,1,관절치료,200406
+8,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_1.php,1,비수술치료,200406
+9,평택21세기병원,http://www.pyeongtaek21.com/page/3_4_1.php,1,내과치료,200406
+15,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_1.php,1,내시경레이저수술,200406
+16,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_3.php,1,미세현미경수술,200406
+17,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_5.php,1,척추유합술,200406
+18,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_6.php,1,무수혈척추융합수술,200406
+19,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_7.php,1,척추연성고정술,200406
+20,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_8.php,1,척추압박골절치료,200406
+21,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_9.php,1,고주파열치료술(IDET),200406
+22,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_10.php,1,플라즈마(고주파)감압술,200406
+23,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_9.php,1,운동치료,200406
+24,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_6.php,1,체외 충격파 치료,200406
+25,평택21세기병원,http://www.pyeongtaek21.com/page/3_1_4.php,1,목디스크와 치료,200406
+26,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_5.php,1,체외 충격파 치료,200406
+27,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_3.php,1,목 신경치료,200406
+28,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_7.php,1,운동치료,200406
+29,평택21세기병원,http://www.pyeongtaek21.com/page/3_2_4.php,1,무릎관절내시경,200406
+30,평택21세기병원,http://www.pyeongtaek21.com/page/3_2_2.php,1,자기관절 보존 수술법,200406
+31,평택21세기병원,http://www.pyeongtaek21.com/page/3_2_5.php,1,줄기세포연골재생치료,200406
+32,평택21세기병원,http://www.pyeongtaek21.com/page/3_2_3.php,1,어깨관절내시경,200406
+33,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_8.php,1,통증치료,200406
+34,평택21세기병원,http://www.pyeongtaek21.com/page/3_3_4.php,1,- 무중력감압치료(MID),200406
+35,평택21세기병원,http://www.pyeongtaek21.com/page/3_4_2.php,1,- 순환기내과,200406
+37,평택21세기병원,http://www.pyeongtaek21.com/page/3_4_4.php,1,- 갑상선,200406
+39,평택21세기병원,http://www.pyeongtaek21.com/page/policy.php,1,개인정보취급방침,200406
+40,평택21세기병원,http://www.pyeongtaek21.com/page/provision.php,1,이용약관,200406
+2,한미병원,http://www.hanmihospital.com/index.php?mid=page_rrOH26,1,비수술센터,200406
+2,한미병원,http://www.hanmihospital.com/index.php?mid=decom,1,척추 비수술치료,200406
+2,한미병원,http://www.hanmihospital.com/index.php?mid=pims,1,어깨 비수술치료,200406
+2,한미병원,http://www.hanmihospital.com/index.php?mid=projoint,1,발목 비수술치료,200406
+4,서울제이에스병원,http://www.seouljs.co.kr/default/intro/intro_2.php,1,의료진소개,200406
+11,서울제이에스병원,http://www.seouljs.co.kr/default/info/sub_1.php,1,진료안내,200406
+12,서울제이에스병원,http://www.seouljs.co.kr/default/info/sub_5.php,1,진료시간표,200406
+13,서울제이에스병원,http://www.seouljs.co.kr/default/info/sub_2.php,1,진료예약,200406
+15,서울제이에스병원,http://www.seouljs.co.kr/default/info/sub_4.php,1,비급여안내,200406
+16,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_1.php,1,관절센터,200406
+17,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_2.php,1,관절경수술,200406
+18,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_3.php,1,줄기세포이식술,200406
+19,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_4.php,1,휜다리교정술,200406
+20,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_5.php,1,"수부,족부질환",200406
+21,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_6.php,1,"골절,외상",200406
+22,서울제이에스병원,http://www.seouljs.co.kr/default/jointandspine/sub_7.php,1,관절 비수술 센터,200406
+23,서울제이에스병원,http://www.seouljs.co.kr/default/spine/sub_1.php,1,척추센터,200406
+24,서울제이에스병원,http://www.seouljs.co.kr/default/spine/sub_2.php,1,허리디스크,200406
+25,서울제이에스병원,http://www.seouljs.co.kr/default/spine/sub_3.php,1,척추관협착증,200406
+26,서울제이에스병원,http://www.seouljs.co.kr/default/spine/sub_4.php,1,"척추골절,척추측만증",200406
+27,서울제이에스병원,http://www.seouljs.co.kr/default/spine/sub_5.php,1,비수술 척추치료 센터,200406
+28,서울제이에스병원,http://www.seouljs.co.kr/default/rehabilitation/sub_1.php,1,통증. 신경. 재활 센터,200406
+32,서울제이에스병원,http://www.seouljs.co.kr/default/soaclinic/sub_2.php,1,성장검진,200406
+33,서울제이에스병원,http://www.seouljs.co.kr/default/soaclinic/sub_3.php,1,성장치료,200406
+34,서울제이에스병원,http://www.seouljs.co.kr/default/soaclinic/sub_4.php,1,운동치료,200406
+35,서울제이에스병원,http://www.seouljs.co.kr/default/internal/sub_1.php,1,내과 검진센터,200406
+36,서울제이에스병원,http://www.seouljs.co.kr/default/internal/sub_2.php,1,내시경클리닉,200406
+37,서울제이에스병원,http://www.seouljs.co.kr/default/internal/sub_3.php,1,건강검진,200406
+38,서울제이에스병원,http://www.seouljs.co.kr/default/internal/sub_6.php,1,종합검진,200406
+42,서울제이에스병원,http://www.seouljs.co.kr/default/customer/sub_2.php,1,치료후기,200406
+46,서울제이에스병원,http://www.seouljs.co.kr/default/customer/sub_6.php,1,실시간상담,200406
+49,서울제이에스병원,http://www.seouljs.co.kr/default/member/register.php,1,이용약관,200406
+50,서울제이에스병원,http://www.seouljs.co.kr/default/member/policy.php,1,개인정보처리방침,200406
+1,광명 새움병원,http://www.gmsaeum.com/s04/sub01.php,1,척추클리닉,200406
+2,광명 새움병원,http://www.gmsaeum.com/s04/sub02.php,1,수술척추클리닉,200406
+0,연세나무병원,http://www.yonseinamu.net/non/non_01.php,1,도수치료,200406
+1,연세나무병원,http://www.yonseinamu.net/non/non_02.php,1,물리치료,200406
+1,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub01&FileName=sub0102,1,조직도,200406
+4,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub02&FileName=sub0201,1,이용안내,200406
+7,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub02&FileName=sub0204,1,증명서발급안내,200406
+9,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub02&FileName=sub0206,1,병실생황안내,200406
+10,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub03&FileName=sub0301,1,진료안내,200406
+11,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub03&FileName=sub0303,1,진료과목,200406
+12,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub03&FileName=sub0304,1,진료시간표안내,200406
+14,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040201,1,관절센터,200406
+15,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040303,1,비수술치료센터,200406
+17,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040501,1,디지털통증치료센터,200406
+18,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=Intro&FileName=SiteMap,1,사이트맵,200406
+19,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040304,1,꼬리뼈 내시경 레이저 수핵 절제술,200406
+20,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040301,1,경피적 내시경 레이저 수핵 절제술,200406
+21,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040302,1,관절경수술,200406
+22,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040305,1,척추협착 풍선 확장술,200406
+23,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040306,1,플라즈마 수핵 성형술,200406
+24,척시원병원,http://www.conehs.co.kr/Contents/Contents.asp?DirName=sub04&FileName=sub040601,1,종합건강증진센터-척시원 종합건강증진센터의 자세한 정보를 알 수 있습니다.,200406
+1,우리병원,https://www.swoori.com/default/swoori/sub1.php?top=7&sub=1,1,병원이용안내,200406
+2,우리병원,https://www.swoori.com/default/spine/sub1.php,1,척추클리닉,200406
+3,우리병원,https://www.swoori.com/default/joint/sub1.php,1,관절클리닉Ⅰ,200406
+4,우리병원,https://www.swoori.com/default/joint2/sub1.php,1,관절클리닉Ⅱ,200406
+5,우리병원,https://www.swoori.com/default/body/sub1.php,1,발질환,200406
+9,우리병원,https://www.swoori.com/default/about/sub3.php?top=1&sub=3,1,의료진소개,200406
+16,우리병원,https://www.swoori.com/default/swoori/sub4.php?top=2&sub=4,1,진료시간안내,200406
+18,우리병원,https://www.swoori.com/default/swoori/sub6.php?top=2&sub=6,1,증명서발급,200406
+19,우리병원,https://www.swoori.com/default/spine/sub2.php,1,진단과치료,200406
+20,우리병원,https://www.swoori.com/default/spine/sub3.php,1,비수술적치료,200406
+21,우리병원,https://www.swoori.com/default/spine/sub4.php,1,수술적치료,200406
+22,우리병원,https://www.swoori.com/default/spine/sub5.php,1,인공디스크,200406
+23,우리병원,https://www.swoori.com/default/spine/sub6.php,1,수술후관리,200406
+24,우리병원,https://www.swoori.com/default/spine/sub7.php,1,운동치료,200406
+25,우리병원,https://www.swoori.com/default/joint/sub2.php,1,인공관절궁금증,200406
+26,우리병원,https://www.swoori.com/default/joint/sub3.php,1,고관절발목관절,200406
+27,우리병원,https://www.swoori.com/default/joint/sub4.php,1,무릎관절,200406
+28,우리병원,https://www.swoori.com/default/joint/sub5.php,1,반월상연골파열,200406
+29,우리병원,https://www.swoori.com/default/joint/sub6.php,1,십자인대손상,200406
+31,우리병원,https://www.swoori.com/default/joint2/sub2.php,1,류마티스 관절염,200406
+33,우리병원,https://www.swoori.com/default/joint2/sub4.php,1,어깨관절수술,200406
+35,우리병원,https://www.swoori.com/default/joint2/sub6.php,1,어깨탈구,200406
+36,우리병원,https://www.swoori.com/default/body/sub2.php,1,발목손상,200406
+39,우리병원,https://www.swoori.com/default/body/sub5.php,1,발톱질환,200406
+40,우리병원,https://www.swoori.com/default/body/sub6.php,1,지간신경종,200406
+42,우리병원,https://www.swoori.com/default/customer/sub3.php,1,수술후기,200406
+43,우리병원,https://www.swoori.com/default/customer/sub4.php,1,시술후기,200406
+46,우리병원,https://www.swoori.com/default/customer/sub8.php,1,비급여파일,200406
+49,우리병원,https://www.swoori.com/default/customer/sub7.php,1,개인정보처리방침,200406
+0,바른마디병원,http://www.barunjoint.com/spine/waist/index.php,1,척추센터,200406
+1,바른마디병원,http://www.barunjoint.com/spine/neck/index.php,1,목질환,200406
+2,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/endoscope.php,1,척추수술클리닉,200406
+3,바른마디병원,http://www.barunjoint.com/spine/spine_nonsurgical/index.php,1,척추비수술클리닉,200406
+5,바른마디병원,http://www.barunjoint.com/spine/waist/disc.php,1,- 허리디스크,200406
+6,바른마디병원,http://www.barunjoint.com/spine/waist/stenosis.php,1,- 척추관협착증,200406
+7,바른마디병원,http://www.barunjoint.com/spine/waist/scoliosis.php,1,- 척추측만증,200406
+8,바른마디병원,http://www.barunjoint.com/spine/waist/posterior.php,1,- 후관절증후군,200406
+11,바른마디병원,http://www.barunjoint.com/spine/neck/cervical.php,1,- 경추관협착증,200406
+12,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/index.php,1,- 미세현미경수술,200406
+13,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/artificial.php,1,- 인공디스크치환술,200406
+14,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/ductility.php,1,- 연성고정술,200406
+15,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/union.php,1,- 척추유합 및 고정술,200406
+16,바른마디병원,http://www.barunjoint.com/spine/spine_surgical/least.php,1,- 척추성형술,200406
+17,바른마디병원,http://www.barunjoint.com/spine/spine_nonsurgical/navi.php,1,- Navi 신경감압술,200406
+18,바른마디병원,http://www.barunjoint.com/spine/spine_nonsurgical/racz.php,1,- Racz 디스크감압술,200406
+0,더드림병원,http://www.the-dreamhospital.com/sub04_07_01.php,1,비수술센터,200406
+0,더드림병원,http://www.the-dreamhospital.com/sub05_04_01.php,1,비수술센터,200406
+0,더드림병원,http://www.the-dreamhospital.com/sub04_07_04.php,1,비수술센터,200406
+0,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=11,1,진료시간안내,200406
+1,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/reservation/reservation_form.php,1,진료예약,200406
+6,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/board/list.php?code=doctor,1,의료진소개,200406
+7,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=12,1,진료예약 및 조회,200406
+8,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=13,1,검사안내,200406
+11,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=21,1,척추·관절센터,200406
+12,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=212,1,요추질환,200406
+13,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=213,1,경추질환,200406
+14,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=214,1,척추손상,200406
+15,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=215,1,기타척추질환,200406
+16,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=22,1,관절센터,200406
+17,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=222,1,관절경수술,200406
+18,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=223,1,인공관절수술,200406
+19,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=224,1,어깨질환,200406
+21,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=42,1,신경근골격계 질환,200406
+22,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=43,1,비수술적 치료,200406
+23,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=44,1,전기진단 검사,200406
+24,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=45,1,운동치료,200406
+25,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=46,1,물리치료,200406
+27,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/templetes/templetes_view.php?sub_page_num=31,1,내과·검진센터,200406
+41,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/board/form.php?code=counsel&exec=w,1,온라인 진료상담,200406
+42,(의)서봉의료재단 보강병원,http://www.bogang.co.kr/front/board/list.php?code=column,1,건강칼럼,200406
+3,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub01&filename=sub01_02,1,의료진 소개,200406
+5,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub01&filename=sub01_04,1,첨단 의료장비,200406
+6,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub01&filename=sub01_0501,1,진료안내,200406
+8,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub02&filename=sub02_0101,1,질환안내,200406
+9,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub02&filename=sub02_0201,1,고관절,200406
+10,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub02&filename=sub02_0301,1,어깨,200406
+11,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub02&filename=sub02_0401,1,척추,200406
+13,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub02&filename=sub02_0601,1,족부,200406
+14,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0101,1,관절내시경센터,200406
+15,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0201,1,인공관절센터,200406
+18,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub04&filename=sub04_0201,1,자가진단 및 재활운동,200406
+20,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub07&filename=sub07_05,1,증명서 발급안내,200406
+21,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_04,1,연골재생센터,200406
+22,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0501,1,척추비수술센터,200406
+23,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0601,1,척추치료센터,200406
+24,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0502,1,경막외 유착박리술,200406
+25,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0506,1,풍선확장술,200406
+26,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0503,1,고주파 수핵감압술,200406
+27,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0504,1,내시경 레이저 디스크 시술술,200406
+28,바른본병원,http://www.barunbone.co.kr/content/content.asp?FolderName=sub03&filename=sub03_0505,1,척추체 성형술,200406
+7,보광병원,http://www.bkhosp.co.kr/bbs/intro_5.php,1,의료진 소개,200406
+8,보광병원,http://www.bkhosp.co.kr/bbs/intro_6.php,1,의료장비 소개,200406
+11,보광병원,http://www.bkhosp.co.kr/bbs/medi_1.php,1,진료과,200406
+12,보광병원,http://www.bkhosp.co.kr/bbs/medi_3.php,1,관절센터(정형외과),200406
+13,보광병원,http://www.bkhosp.co.kr/bbs/medi_2.php,1,비수술센터(통증의학과),200406
+16,보광병원,http://www.bkhosp.co.kr/bbs/medi_4.php,1,운동치료센터,200406
+17,보광병원,http://www.bkhosp.co.kr/bbs/guide_1.php,1,이용안내,200406
+18,보광병원,http://www.bkhosp.co.kr/bbs/guide_2.php,1,진료 예약,200406
+20,보광병원,http://www.bkhosp.co.kr/bbs/guide_4.php,1,제증명,200406
+22,보광병원,http://www.bkhosp.co.kr/bbs/guide_7.php,1,진료 시간표,200406
+23,보광병원,http://www.bkhosp.co.kr/bbs/center.php,1,건강검진센터,200406
+24,보광병원,http://www.bkhosp.co.kr/bbs/center.php?tab=1,1,종합건강검진,200406
+25,보광병원,http://www.bkhosp.co.kr/bbs/center.php?tab=2,1,공단건강검진,200406
+26,보광병원,http://www.bkhosp.co.kr/bbs/center.php?tab=3,1,5대암검진,200406
+27,보광병원,http://www.bkhosp.co.kr/bbs/treat_1.php,1,진료협력센터,200406
+31,보광병원,http://www.bkhosp.co.kr/bbs/board.php?bo_table=cus03,1,의료 상담,200406
+32,보광병원,http://www.bkhosp.co.kr/bbs/board.php?bo_table=cus04,1,건강 정보,200406
+33,보광병원,http://www.bkhosp.co.kr/bbs/board.php?bo_table=cus05,1,치료 후기,200406
+36,보광병원,http://www.bkhosp.co.kr/bbs/content.php?co_id=provision,1,이용약관,200406
+37,보광병원,http://www.bkhosp.co.kr/bbs/content.php?co_id=privacy,1,개인정보취급방침,200406
+0,하이병원,http://www.hihospital.kr/content/?module=menu3.sub1,1,#어깨관절,200406
+1,하이병원,http://www.hihospital.kr/content/?module=menu3.sub2,1,#무릎관절,200406
+2,하이병원,http://www.hihospital.kr/content/?module=menu4.sub1,1,#척추,200406
+3,하이병원,http://www.hihospital.kr/content/?module=menu1.sub1,1,#일산하이병원,200406
+4,하이병원,http://www.hihospital.kr/content/?module=menu2.sub1,1,병원이용안내,200406
+5,하이병원,http://www.hihospital.kr/content/?module=menu5.sub1,1,비수술센터,200406
+7,하이병원,http://www.hihospital.kr/content/?module=menu1.sub2,1,의료진소개,200406
+13,하이병원,http://www.hihospital.kr/content/?module=menu2.sub4,1,서류발급 안내,200406
+14,하이병원,http://www.hihospital.kr/content/?module=menu3.sub3,1,수족부클리닉,200406
+15,하이병원,http://www.hihospital.kr/content/?module=menu3.sub4,1,고관절클리닉,200406
+16,하이병원,http://www.hihospital.kr/content/?module=menu3.sub5,1,줄기세포클리닉,200406
+17,하이병원,http://www.hihospital.kr/content/?module=menu3.sub6,1,통증클리닉,200406
+19,하이병원,http://www.hihospital.kr/content/?module=menu5.sub2,1,척추비수술치료,200406
+20,하이병원,http://www.hihospital.kr/content/?module=menu6.sub2,1,순환기클리닉,200406
+22,하이병원,http://www.hihospital.kr/content/?module=menu2.sub5,1,비급여 안내,200406
+23,하이병원,http://www.hihospital.kr/content/?module=menu3.sub2&tab=4,1,인공관절수술,200406
+24,하이병원,http://www.hihospital.kr/content/?module=menu3.sub2&tab=5,1,관절내시경,200406
+1,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1,1,관절 클리닉,200406
+2,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6358718,1,관절 클리닉,200406
+3,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6358718/c5d1478da587ef,1,관절클리닉 소개,200406
+4,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6358718/c5d1478da587f1,1,치료 사례,200406
+5,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6358718/c5d1478da587f3,1,관절 자가진단,200406
+6,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a,1,무릎 관절 질환,200406
+8,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a/c5d1478f1587fa,1,내·외측 측부인대 파열,200406
+9,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a/c5d1478f1587fc,1,반월상연골판 파열,200406
+10,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a/c5d1478f1587fe,1,관절연골 손상,200406
+11,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a/c5d1478f258800,1,전방 구조물 이상,200406
+12,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e635871a/c5d1478f258802,1,퇴행성 관절염,200406
+14,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871c,1,어깨 관절 질환,200406
+18,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871c/c5d14791e5880f,1,어깨 충돌증후군,200406
+19,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871c/c5d14791e58811,1,관절와순(SLAP병변,200406
+20,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871c/c5d14791f58813,1,"견봉, 쇄골 관절 탈구",200406
+21,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871e,1,고관절 질환,200406
+22,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871e/c5d14794258818,1,대퇴골두 무혈성 괴사,200406
+23,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871e/c5d1479435881a,1,고관절 충돌 증후군,200406
+24,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e645871e/c5d1479435881c,1,좌골 신경통,200406
+25,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720,1,무릎 치료법,200406
+26,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795558821,1,관절 내시경 ,200406
+27,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795658823,1,인공관절 전 치환술 ,200406
+28,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795658825,1,인대 재건술,200406
+29,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795658827,1,연골판 이식술,200406
+30,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795658829,1,연골판 봉합술,200406
+31,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d1479575882b,1,연골판 부분 절제술,200406
+33,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d1479575882f,1,자가연골 배양이식술,200406
+34,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6458720/c5d14795758831,1,줄기세포 연골 재생술,200406
+35,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722,1,어깨 치료법,200406
+37,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d14798458838,1,관절경하 회전근개봉합술,200406
+38,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d1479845883a,1,관절경하 석회제거술,200406
+39,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d1479845883c,1,관절경하 관절막이완술 및 변연절제술,200406
+40,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d1479845883e,1,관절경하 견봉성형술 및 회전근개변연절제술,200406
+41,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d14798458840,1,관절경하 상부 관절와순봉합술,200406
+42,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d14798558842,1,관절경하 관절와순봉합술,200406
+43,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d14798558844,1,견봉-쇄골 관절 고정술,200406
+44,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558722/c5d14798558846,1,역 견관절 치환술,200406
+45,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558724,1,비수술 치료,200406
+46,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558724/c5d1479c05884b,1,프롤로 치료,200406
+47,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f1/c5d143e6558724/c5d1479c15884d,1,카티스템,200406
+1,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3,1,척추 클리닉,200406
+2,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8858729,1,척추 클리닉,200406
+3,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8858729/c5d1479e258852,1,척추클리닉 소개,200406
+4,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8858729/c5d1479e258854,1,치료 사례,200406
+5,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8858729/c5d1479e258856,1,척추 자가진단,200406
+6,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b,1,허리 질환,200406
+7,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b/c5d1479fe5885b,1,척추관 협착증,200406
+8,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b/c5d1479fe5885d,1,허리 디스크 ,200406
+9,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b/c5d1479fe5885f,1,척추 전방 전위증,200406
+10,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b/c5d1479ff58861,1,척추 압박골절,200406
+11,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872b/c5d1479ff58863,1,척추 측만증,200406
+13,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872d,1,목 질환,200406
+14,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872d/c5d147a245886a,1,목 디스크 ,200406
+15,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872d/c5d147a245886c,1,경추 척추증,200406
+17,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f,1,척추 치료법,200406
+18,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3a58873,1,최소침습 미세현미경 감압술,200406
+19,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3b58875,1,최소침습 미세현미경 디스크 제거술,200406
+20,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3b58877,1,최소침습 척추유합술,200406
+21,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3e58879,1,2포트 척추 내시경,200406
+22,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3e5887b,1,경추 인공디스크,200406
+23,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3e5887d,1,경추 후궁 성형술,200406
+24,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3f5887f,1,경추 척추유합술,200406
+25,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3f58881,1,경추 전방 추간공확장술,200406
+26,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e895872f/c5d147a3f58883,1,경추 후방 추간공확장술,200406
+27,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731,1,비수술 치료,200406
+28,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a7358888,1,신경 차단술,200406
+29,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a745888a,1,신경 성형술,200406
+30,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a745888c,1,저온고주파 수액 성형술,200406
+31,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a745888e,1,척추 후만 성형술,200406
+32,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a7558890,1,프롤로 치료,200406
+33,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a7558892,1,FIMS 주사 치료,200406
+34,서울바른세상병원,http://seoul.barunsesang.co.kr/index.php?idx=c5d12fb483a5f3/c5d143e8a58731/c5d147a7658894,1,풍선 확장술,200406
+2,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub01&filename=sub01_03,1,의료진소개,200406
+3,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub01&filename=sub01_04,1,의료장비,200406
+6,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub02&filename=sub02_01,1,진료시간안내,200406
+8,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub02&filename=sub02_03,1,증명서발급,200406
+9,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub02&filename=sub02_04,1,비급여진료안내,200406
+10,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub03&filename=sub03_01,1,무릎통증,200406
+11,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub03&filename=sub03_02,1,어깨통증,200406
+13,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub03&filename=sub03_04,1,고관절통증,200406
+14,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub03&filename=sub03_05,1,팔꿈치 및 손목통증,200406
+15,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub03&filename=sub03_06,1,허리통증,200406
+16,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_01,1,척추클리닉,200406
+17,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_02,1,인공관절치환술,200406
+18,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_03,1,관절내시경,200406
+19,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_04,1,연골재생,200406
+20,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_05,1,체외충격파 및 비수술,200406
+21,고든병원,http://m.godeun.co.kr/content/content.asp?FolderName=sub04&filename=sub04_06,1,족부,200406
+0,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center02.html,1,진료센터,200406
+1,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center10.html,1,인공관절,200406
+2,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01.html,1,척추센터,200406
+3,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center08.html,1,족부센터,200406
+4,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center09.html,1,어깨센터,200406
+5,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center03.html,1,비수술적치료센터,200406
+7,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center05.html,1,소화기·위·대장 내시경센터,200406
+8,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center06.html,1,신경과,200406
+9,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center07.html,1,건강증진센터,200406
+10,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_1.html,1,ㄴ 요추추간판탈출증,200406
+11,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_2.html,1,ㄴ 목추간판탈출증,200406
+12,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_3.html,1,ㄴ 척추관협착증,200406
+13,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_4.html,1,ㄴ 척추분리증,200406
+14,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_5.html,1,ㄴ 척추측만증,200406
+15,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_6.html,1,ㄴ 허리인공디스크치환술,200406
+16,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_7.html,1,ㄴ 목인공디스크치환술,200406
+17,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center01_8.html,1,ㄴ 압박골절,200406
+18,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center02_1.html,1,ㄴ 어깨관절질환,200406
+19,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center02_2.html,1,ㄴ 손·발관절질환,200406
+20,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center03_1.html,1,ㄴ 신경성형술,200406
+21,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center03_2.html,1,ㄴ 신경차단술,200406
+22,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center03_3.html,1,ㄴ L'DISQ치료술,200406
+23,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center03_4.html,1,ㄴ 약물주사치료,200406
+24,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center05_4.html,1,ㄴ FULL HD 내시경,200406
+25,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center05_1.html,1,ㄴ 위내시경,200406
+26,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center05_2.html,1,ㄴ 대장내시경,200406
+27,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center05_3.html,1,ㄴ 수면내시경,200406
+28,의료법인 백천의료재단 바로본병원,http://barobone.kr/02_center/center07_1.html,1,ㄴ 보험공단검진,200406
+0,허리편한 병원,http://www.good-spine.co.kr/?page_id=12725,1,관절 비수술,200406
+0,허리편한 병원,http://www.good-spine.co.kr/?page_id=12646,1,척추 비수술,200406
+0,천안우리병원,http://www.spinewoori.com/nonsur/nonsur0101.php,1,비수술센터,200406
+1,천안우리병원,http://www.spinewoori.com/nonsur/nonsur0102.php,1,인대증식치료,200406
+2,천안우리병원,http://www.spinewoori.com/nonsur/nonsur0103.php,1,경막외강신경유착박리술,200406
+3,천안우리병원,http://www.spinewoori.com/nonsur/nonsur0104.php,1,고주파열치료술,200406
+4,천안우리병원,http://www.spinewoori.com/nonsur/nonsur0105.php,1,체외충격파치료,200406
+0,강남초이스정형외과병원,https://www.choicehospital.co.kr/manipulation/manipulation00.php,1,비수술 3차원 생역학 치료 소개,200406
+1,강남초이스정형외과병원,https://www.choicehospital.co.kr/manipulation/manipulation01.php,1,도수치료,200406
+2,강남초이스정형외과병원,https://www.choicehospital.co.kr/manipulation/manipulation02.php,1,무중력 감압치료,200406
+3,강남초이스정형외과병원,https://www.choicehospital.co.kr/manipulation/manipulation03.php,1,재활운동치료,200406
+4,강남초이스정형외과병원,https://www.choicehospital.co.kr/manipulation/manipulation04.php,1,특수통증물리치료,200406
+1,강남초이스정형외과병원,https://www.choicehospital.co.kr/about/doctor.php,1,의료진소개,200406
+4,강남초이스정형외과병원,https://www.choicehospital.co.kr/about/example_list.php,1,시술사례,200406
+1,프라임병원,https://disc21.co.kr/doc/02inform/inform1.php,1,진료예약 ,200406
+4,프라임병원,https://disc21.co.kr/doc/01intro/intro3.php,1,의료진안내,200406
+7,프라임병원,https://disc21.co.kr/doc/02inform/inform0.php,1,진료안내,200406
+9,프라임병원,https://disc21.co.kr/doc/02inform/inform4.php,1,서류발급안내,200406
+10,프라임병원,https://disc21.co.kr/doc/02inform/inform6.php,1,비급여안내,200406
+11,프라임병원,https://disc21.co.kr/doc/03spine/spine1-0.php,1,뇌 · 척추센터,200406
+13,프라임병원,https://disc21.co.kr/doc/03spine/spine1-1.php,1,허리디스크,200406
+14,프라임병원,https://disc21.co.kr/doc/03spine/spine1-2.php,1,척추관협착증,200406
+15,프라임병원,https://disc21.co.kr/doc/03spine/spine1-4.php,1,척추전방전위증,200406
+16,프라임병원,https://disc21.co.kr/doc/03spine/spine1-5.php,1,척추분리증,200406
+17,프라임병원,https://disc21.co.kr/doc/03spine/spine1-6.php,1,퇴행성디스크,200406
+18,프라임병원,https://disc21.co.kr/doc/03spine/spine1-7.php,1,디스크내장증,200406
+19,프라임병원,https://disc21.co.kr/doc/03spine/spine1-8.php,1,신경공협착증,200406
+21,프라임병원,https://disc21.co.kr/doc/03spine/spine2-1.php,1,목디스크,200406
+22,프라임병원,https://disc21.co.kr/doc/03spine/spine2-2.php,1,경추척추관협착증,200406
+23,프라임병원,https://disc21.co.kr/doc/03spine/spine2-3.php,1,경추신경공협착증,200406
+26,프라임병원,https://disc21.co.kr/doc/03spine/spine3-1.php,1,흉추디스크,200406
+27,프라임병원,https://disc21.co.kr/doc/03spine/spine3-2.php,1,흉추협착증,200406
+29,프라임병원,https://disc21.co.kr/doc/03spine/spine3-4.php,1,흉추압박골절,200406
+30,프라임병원,https://disc21.co.kr/doc/03spine/spine1-0.php?menu_id=spine4,1,척추질환 그외,200406
+33,프라임병원,https://disc21.co.kr/doc/03spine/spine4-3.php,1,좌골신경통,200406
+34,프라임병원,https://disc21.co.kr/doc/03spine/spine4-4.php,1,요추압박골절,200406
+36,프라임병원,https://disc21.co.kr/doc/03spine/spine4-6.php,1,경추신경병증,200406
+37,프라임병원,https://disc21.co.kr/doc/03spine/spine4-7.php,1,후관절증,200406
+38,프라임병원,https://disc21.co.kr/doc/03spine/spine4-8.php,1,이상근증후군,200406
+39,프라임병원,https://disc21.co.kr/doc/03spine/spine1-0.php?menu_id=brain5,1,뇌신경,200406
+40,프라임병원,https://disc21.co.kr/doc/04joint/joint1-0.php,1,관절센터,200406
+41,프라임병원,https://disc21.co.kr/doc/04joint/joint1-0.php?menu_id=joint1,1,무릎,200406
+42,프라임병원,https://disc21.co.kr/doc/04joint/joint1-1.php,1,퇴행성관절염,200406
+43,프라임병원,https://disc21.co.kr/doc/04joint/joint1-2.php,1,무릎연골손상,200406
+44,프라임병원,https://disc21.co.kr/doc/04joint/joint1-3.php,1,반월상연골판파열,200406
+45,프라임병원,https://disc21.co.kr/doc/04joint/joint1-4.php,1,슬개골연골연화증,200406
+46,프라임병원,https://disc21.co.kr/doc/04joint/joint1-5.php,1,무릎측부인대손상,200406
+50,프라임병원,https://disc21.co.kr/doc/04joint/joint1-9.php,1,반월상연골파열,200406
+51,프라임병원,https://disc21.co.kr/doc/04joint/joint1-10.php,1,연골연화증,200406
+52,프라임병원,https://disc21.co.kr/doc/04joint/joint1-11.php,1,무릎건초염,200406
+53,프라임병원,https://disc21.co.kr/doc/04joint/joint1-0.php?menu_id=joint2,1,어깨,200406
+56,프라임병원,https://disc21.co.kr/doc/04joint/joint2-3.php,1,어깨충돌증후군,200406
+57,프라임병원,https://disc21.co.kr/doc/04joint/joint2-4.php,1,견관절불안정성 재발성탈구,200406
+61,프라임병원,https://disc21.co.kr/doc/04joint/joint3-1.php,1,무지외반증,200406
+62,프라임병원,https://disc21.co.kr/doc/04joint/joint3-2.php,1,발목관절염,200406
+65,프라임병원,https://disc21.co.kr/doc/04joint/joint3-5.php,1,발목인대손상,200406
+67,프라임병원,https://disc21.co.kr/doc/04joint/joint4-1.php,1,손가락관절염,200406
+68,프라임병원,https://disc21.co.kr/doc/04joint/joint4-2.php,1,발아쇠손가락증,200406
+69,프라임병원,https://disc21.co.kr/doc/04joint/joint4-3.php,1,손목건초염,200406
+70,프라임병원,https://disc21.co.kr/doc/04joint/joint1-0.php?menu_id=joint5,1,팔꿈치,200406
+73,프라임병원,https://disc21.co.kr/doc/04joint/joint1-0.php?menu_id=joint6,1,관절,200406
+74,프라임병원,https://disc21.co.kr/doc/04joint/joint6-1.php,1,고관절염,200406
+75,프라임병원,https://disc21.co.kr/doc/04joint/joint6-3.php,1,대퇴골두무혈성괴사증,200406
+77,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php,1,치료센터,200406
+78,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php?menu_id=clinic1,1,신경외과 수술적치료,200406
+79,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-1.php,1,디스크성형술,200406
+80,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-2.php,1,양방향척추내시경(UBE),200406
+81,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-3.php,1,미세현미경 레이저 디스크 제거술,200406
+82,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-4.php,1,레이저 디스크수술-U쿠션,200406
+83,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-5.php,1,척추 성형술,200406
+84,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-6.php,1,내시경 레이저 디스크 제거술,200406
+85,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-7.php,1,인공디스크 치환술,200406
+86,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php?menu_id=clinic2,1,신경외과 비수술적치료,200406
+87,프라임병원,https://disc21.co.kr/doc/05clinic/clinic2-1.php,1,경막외신경감압술,200406
+88,프라임병원,https://disc21.co.kr/doc/05clinic/clinic2-2.php,1,꼬리뼈내시경술,200406
+89,프라임병원,https://disc21.co.kr/doc/05clinic/clinic2-3.php,1,풍선확장술,200406
+90,프라임병원,https://disc21.co.kr/doc/05clinic/clinic2-4.php,1,고주파수핵감압술,200406
+92,프라임병원,https://disc21.co.kr/doc/05clinic/clinic3-1.php,1,정형외과 수술적치료,200406
+93,프라임병원,https://disc21.co.kr/doc/05clinic/clinic3-2.php,1,관절내시경수술,200406
+95,프라임병원,https://disc21.co.kr/doc/05clinic/clinic3-4.php,1,"자가연골이식술,미세천공술",200406
+96,프라임병원,https://disc21.co.kr/doc/05clinic/clinic3-5.php,1,연부조직균형술,200406
+97,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php?menu_id=clinic4,1,정형외과 비수술적치료,200406
+99,프라임병원,https://disc21.co.kr/doc/05clinic/clinic4-2.php,1,관절강 내 주사,200406
+100,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php?menu_id=clinic5,1,척추재활운동센터,200406
+102,프라임병원,https://disc21.co.kr/doc/06medicine/medicine1-2.php,1,식도질환,200406
+103,프라임병원,https://disc21.co.kr/doc/06medicine/medicine2.php,1,대장질환,200406
+104,프라임병원,https://disc21.co.kr/doc/06medicine/medicine3.php,1,간질환,200406
+105,프라임병원,https://disc21.co.kr/doc/06medicine/medicine4.php,1,당뇨질환,200406
+106,프라임병원,https://disc21.co.kr/doc/08medicaltesting/medicaltesting1-1.php,1,종합검진센터,200406
+107,프라임병원,https://disc21.co.kr/doc/08medicaltesting/medicaltesting1-2.php,1,국민건강보험공단 검진,200406
+108,프라임병원,https://disc21.co.kr/doc/08medicaltesting/medicaltesting2.php,1,종합검진,200406
+109,프라임병원,https://disc21.co.kr/doc/08medicaltesting/medicaltesting3.php,1,기업검진,200406
+111,프라임병원,https://disc21.co.kr/doc/08customer/customer4.php,1,건강의료정보,200406
+116,프라임병원,https://disc21.co.kr/doc/09_etc/etc3.php,1,병원관리규정,200406
+120,프라임병원,https://disc21.co.kr/doc/05clinic/clinic1-0.php?menu_id=clinic3,1,정형외과 수술적치료 ,200406
+122,프라임병원,https://disc21.co.kr/doc/06medicine/medicine3-1.php,1,담도 및 췌장 질환 ,200406
+123,프라임병원,https://disc21.co.kr/doc/06medicine/medicine4-1.php,1,고혈압질환 ,200406
+125,프라임병원,https://disc21.co.kr/doc/08medicaltesting/medicaltesting0.php,1,종합검진센터,200406
+127,프라임병원,https://disc21.co.kr/doc/02inform/inform1_list.php,1,- 예약확인,200406
+129,프라임병원,https://disc21.co.kr/doc/02inform/inform3-3.php,1,- 입원생활안내,200406
+130,프라임병원,https://disc21.co.kr/doc/03spine/spine5-1.php,1,- 뇌신경 질환,200406
+131,프라임병원,https://disc21.co.kr/doc/04joint/joint7-1.php,1,- 류마티스관절염,200406
+132,프라임병원,https://disc21.co.kr/doc/05clinic/clinic5-1.php,1,- 재활운동치료,200406
+1,스마일본병원,http://www.smilebone.com/page/sub3_11,1,의료진 소개,200406
+4,스마일본병원,http://www.smilebone.com/page/sub2a,1,척추센터,200406
+5,스마일본병원,http://www.smilebone.com/page/sub2_1,1,허리 질환,200406
+6,스마일본병원,http://www.smilebone.com/page/sub2_7,1,목 질환,200406
+7,스마일본병원,http://www.smilebone.com/page/sub2b,1,관절센터,200406
+8,스마일본병원,http://www.smilebone.com/page/sub3_1,1,어깨 질환,200406
+9,스마일본병원,http://www.smilebone.com/page/sub3_5,1,무릎 질환,200406
+10,스마일본병원,http://www.smilebone.com/page/sub3_12,1,족관절 질환,200406
+11,스마일본병원,http://www.smilebone.com/page/sub3_16,1,주관절 질환,200406
+12,스마일본병원,http://www.smilebone.com/page/sub2c,1,비수술센터,200406
+13,스마일본병원,http://www.smilebone.com/page/sub4_5,1,도수,200406
+14,스마일본병원,http://www.smilebone.com/page/sub2d,1,미세수술센터,200406
+15,스마일본병원,http://www.smilebone.com/page/sub5_7,1,관절치료,200406
+16,스마일본병원,http://www.smilebone.com/page/sub6_1,1,진료안내,200406
+17,스마일본병원,http://www.smilebone.com/page/fee,1,비급여안내,200406
+18,스마일본병원,http://www.smilebone.com/page/sub4_1,1,신경성형술(PEN) ,200406
+19,스마일본병원,http://www.smilebone.com/page/sub4_2,1,영상장치하근육내자극요법 ,200406
+20,스마일본병원,http://www.smilebone.com/page/sub4_3,1,인대강화요법 ,200406
+21,스마일본병원,http://www.smilebone.com/page/sub4_7,1,고주파열치료술,200406
+22,스마일본병원,http://www.smilebone.com/page/sub4_6,1,체외충격파치료,200406
+23,스마일본병원,http://www.smilebone.com/page/sub1_3,1,환자의 권리와 의무,200406
+7,남기세병원,http://www.namkise.co.kr/Front/Info/Info_03.asp?gMnu1=201&gMnu2=20103,1,· 의료진소개,200406
+13,남기세병원,http://www.namkise.co.kr/Front/Disease/Knee_01.asp,1,무릎,200406
+14,남기세병원,http://www.namkise.co.kr/Front/Disease/Shoulder_01.asp,1,어깨,200406
+15,남기세병원,http://www.namkise.co.kr/Front/Disease/HipJoint_01.asp,1,고관절,200406
+16,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_01.asp,1,족부,200406
+17,남기세병원,http://www.namkise.co.kr/Front/Disease/Elbow_01.asp,1,수부·팔꿈치,200406
+22,남기세병원,http://www.namkise.co.kr/Front/Bbs/Bbs_L.asp?sBbCode=8&gMnu1=209&gMnu2=20905,1,· 치료후기,200406
+28,남기세병원,http://www.namkise.co.kr/Front/Info/Info_03.asp,1,의료진소개,200406
+32,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_02.asp,1,척추관 협착증,200406
+33,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_03.asp,1,추간판 내장증,200406
+34,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_04.asp,1,척추 전방 전위증,200406
+35,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_05.asp,1,척추 압박골절,200406
+36,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_06.asp,1,척추 측만증,200406
+37,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_07.asp,1,경추 추간판 탈출증,200406
+39,남기세병원,http://www.namkise.co.kr/Front/Disease/Waist_09.asp,1,경추 척추관 협착증,200406
+40,남기세병원,http://www.namkise.co.kr/Front/Disease/Knee_02.asp,1,반월상 연골판 손상,200406
+43,남기세병원,http://www.namkise.co.kr/Front/Disease/Knee_05.asp,1,측부인대손상,200406
+50,남기세병원,http://www.namkise.co.kr/Front/Disease/HipJoint_04.asp,1,대퇴비구 충돌 증후군,200406
+51,남기세병원,http://www.namkise.co.kr/Front/Disease/HipJoint_05.asp,1,소음성 고관절 증후군,200406
+54,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_03.asp,1,무지외반증,200406
+55,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_04.asp,1,지간신경종,200406
+56,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_05.asp,1,족관절 불안정성,200406
+59,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_08.asp,1,당뇨병 족부질환,200406
+60,남기세병원,http://www.namkise.co.kr/Front/Disease/Foot_09.asp,1,발목 퇴행성 관절염,200406
+65,남기세병원,http://www.namkise.co.kr/Front/Guide/Guide_01.asp,1,진료시간표,200406
+66,남기세병원,http://www.namkise.co.kr/Front/Guide/Guide_02.asp,1,서류발급안내,200406
+67,남기세병원,http://www.namkise.co.kr/Front/Guide/Guide_03.asp,1,외래진료안내,200406
+68,남기세병원,http://www.namkise.co.kr/Front/Guide/Guide_04.asp,1,입원퇴원안내,200406
+69,남기세병원,http://www.namkise.co.kr/Front/Guide/Guide_05.asp,1,병실이용안내,200406
+70,남기세병원,http://www.namkise.co.kr/Front/Guide/NonHealth_L.asp,1,비급여안내,200406
+71,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_01.asp,1,비수술적치료법,200406
+72,남기세병원,http://www.namkise.co.kr/Front/Surgery/Arthroscope_01.asp,1,수술적치료법,200406
+73,남기세병원,http://www.namkise.co.kr/Front/Member/FindAcc.asp,1,아이디,200406
+74,남기세병원,http://www.namkise.co.kr/Front/Page/TermsUse_S.asp,1,이용약관,200406
+75,남기세병원,http://www.namkise.co.kr/Front/Page/PrivacyNotice_S.asp,1,개인정보 취급방침,200406
+76,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_01.asp?gMnu1=208&gMnu2=20801,1,비수술적 치료법,200406
+77,남기세병원,http://www.namkise.co.kr/Front/Surgery/Arthroscope_01.asp?gMnu1=208&gMnu2=20802,1,수술적 치료법,200406
+78,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_02.asp,1,자기 줄기세포 치료,200406
+79,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_03.asp,1,연골주사치료,200406
+80,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_04.asp,1,중재적 근육 신경자극술,200406
+81,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_05.asp,1,프롤로테라피(증식치료),200406
+82,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_06.asp,1,DNA 주사요법,200406
+83,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_07.asp,1,유전자 치료 주사,200406
+84,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Joint_08.asp,1,관절 수동술 (오십견풀림술),200406
+85,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_01.asp,1,신경차단술,200406
+86,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_02.asp,1,경막외신경성형술,200406
+87,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_03.asp,1,고주파수핵감압술,200406
+88,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_04.asp,1,미세내시경 레이저감압술,200406
+89,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_05.asp,1,척추체성형술,200406
+90,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Spine_06.asp,1,풍선확장술,200406
+91,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_01.asp,1,체외충격파치료,200406
+92,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_02.asp,1,냉각치료,200406
+93,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_03.asp,1,고강도레이저치료(HILT),200406
+94,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_04.asp,1,페인스크램블러(통증완화치료),200406
+95,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_05.asp,1,도수치료,200406
+96,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_06.asp,1,물리치료,200406
+97,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_07.asp,1,재활운동치료,200406
+98,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_08.asp,1,척추재활운동,200406
+99,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_09.asp,1,관절재활운동,200406
+100,남기세병원,http://www.namkise.co.kr/Front/NonSurgery/Remedial_10.asp,1,스포츠재활 및 목적,200406
+101,남기세병원,http://www.namkise.co.kr/Front/Guide/NonHealth_L.asp?gMnu1=212&gMnu2=21206,1,비급여안내,200406
+102,남기세병원,http://www.namkise.co.kr/Front/Reserve/Reserve_W.asp?gMnu1=211&gMnu2=21101,1,진료예약,200406
+4,동탄시티병원,http://www.dtcityhospital.com/default/m1/sub03.php?sub=03,1,진료안내,200406
+9,동탄시티병원,http://www.dtcityhospital.com/default/m1/sub08.php?sub=08,1,증명서발급안내,200406
+11,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub01.php?sub=01,1,척추센터,200406
+12,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub02.php?sub=02,1,목질환,200406
+13,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub03.php?sub=03,1,기타질환,200406
+14,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub04.php?sub=04,1,비수술치료,200406
+15,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub05.php?sub=05,1,수술치료,200406
+16,동탄시티병원,http://www.dtcityhospital.com/default/m3/sub06.php?sub=06,1,운동·물리치료,200406
+17,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub01.php?sub=01,1,관절센터,200406
+18,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub02.php?sub=02,1,무릎,200406
+21,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub05.php?sub=05,1,팔꿈치,200406
+22,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub06.php?sub=06,1,비수술치료,200406
+23,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub07.php?sub=07,1,수술치료,200406
+24,동탄시티병원,http://www.dtcityhospital.com/default/m2/sub08.php?sub=08,1,운동·물리치료,200406
+26,동탄시티병원,http://www.dtcityhospital.com/default/m4/sub02.php?sub=02,1,소화기클리닉,200406
+27,동탄시티병원,http://www.dtcityhospital.com/default/m4/sub03.php?sub=03,1,위·대장내시경,200406
+28,동탄시티병원,http://www.dtcityhospital.com/default/m4/sub04.php?sub=04,1,심장초음파,200406
+29,동탄시티병원,http://www.dtcityhospital.com/default/m4/sub05.php?sub=05,1,복부초음파,200406
+30,동탄시티병원,http://www.dtcityhospital.com/default/m4/sub06.php?sub=06,1,성인병,200406
+31,동탄시티병원,http://www.dtcityhospital.com/default/m5/sub01.php?sub=01,1,영상진단센터,200406
+32,동탄시티병원,http://www.dtcityhospital.com/default/m5/sub02.php?sub=02,1,MRI ,200406
+35,동탄시티병원,http://www.dtcityhospital.com/default/m5/sub05.php?sub=05,1,초음파,200406
+36,동탄시티병원,http://www.dtcityhospital.com/default/m5/sub06.php?sub=06,1,유방촬영,200406
+37,동탄시티병원,http://www.dtcityhospital.com/default/m5/sub07.php?sub=07,1,골밀도 검사,200406
+38,동탄시티병원,http://www.dtcityhospital.com/default/m6/sub01.php?sub=01,1,종합검진센터,200406
+39,동탄시티병원,http://www.dtcityhospital.com/default/m6/sub02.php?sub=02,1,시티종합검진,200406
+40,동탄시티병원,http://www.dtcityhospital.com/default/m6/sub03.php?sub=03,1,공단검진,200406
+41,동탄시티병원,http://www.dtcityhospital.com/default/m6/sub04.php?sub=04,1,각종건강검진,200406
+47,동탄시티병원,http://www.dtcityhospital.com/default/m7/sub06.php?sub=06,1,진료후기,200406
+52,동탄시티병원,http://www.dtcityhospital.com/default/member/agreement.php,1,서비스 이용약관 ,200406
+53,동탄시티병원,http://www.dtcityhospital.com/default/member/privacy.php,1,개인정보보호정책,200406
+3,연세무척나은병원,http://ysks.co.kr/home/m_board.php?ps_db=story&ps_boid=8&ps_category=0&ps_mode=,1,"
+
+						영상으로 보는무척나은치료
+					",200406
+8,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_01_03.html,1,조직도,200406
+9,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_01_04.html,1,의료진 소개,200406
+10,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_01_04_02.html,1,척추센터,200406
+13,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_01_04_05.html,1,마취통증의학과,200406
+15,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_01_06.html,1,진료시간 안내,200406
+17,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01.html,1,무척나은치료,200406
+18,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_02.html,1,연골재생술,200406
+19,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_03.html,1,줄기세포연골재생술(제대혈),200406
+20,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_04.html,1,휜다리교정술,200406
+21,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_05.html,1,인공관절치환술,200406
+22,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_06.html,1,척추체성형술,200406
+23,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_07.html,1,UBF감압술,200406
+24,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_08.html,1,미세현미경 신경감압술,200406
+25,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_09.html,1,최소침습유합술,200406
+26,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_01_10.html,1,인공디스크치환술,200406
+27,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_02.html,1,비수술치료,200406
+28,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_07.html,1,신경차단주사치료,200406
+29,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_09.html,1,동통유발점주사 자극치료,200406
+30,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02.html,1,체외충격파,200406
+31,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_03.html,1,척추내시경시술,200406
+32,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_04.html,1,풍선확장술,200406
+33,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_05.html,1,고주파수핵감압술,200406
+34,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_06.html,1,"
+									신경성형술",200406
+35,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_02_08.html,1,감압교정치료,200406
+36,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_03.html,1,재활치료,200406
+37,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01.html,1,무릎관절센터,200406
+38,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01_02.html,1,류마티스 관절염,200406
+39,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01_03.html,1,반월상 연골판 파열,200406
+41,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01_05.html,1,슬개골연골연화증,200406
+43,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01_07.html,1,무릎 점액낭염,200406
+44,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_01_08.html,1,통풍성 관절염,200406
+45,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_02.html,1,고관절질환,200406
+46,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_03_02_02.html,1,대퇴골두 무혈성 괴사,200406
+47,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_01.html,1,척추센터,200406
+48,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_01_02.html,1,퇴행성디스크,200406
+49,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_01_03.html,1,척추관협착증,200406
+50,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_01_04.html,1,척추전방전위증,200406
+51,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_02.html,1,목 질환,200406
+53,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_02_03.html,1,근막통증증후군,200406
+54,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_03.html,1,척추재활,200406
+55,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_03_02.html,1,척추측만증,200406
+56,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_04_03_03.html,1,만성통증,200406
+57,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_01.html,1,어깨,200406
+62,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_01_06.html,1,어깨점액낭염,200406
+63,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_01_07.html,1,상부관절와순파열,200406
+64,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_01_08.html,1,어깨 퇴행성 관절염,200406
+65,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_01_09.html,1,어깨 탈구,200406
+66,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02.html,1,상지질환,200406
+67,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_02.html,1,손목 건초염,200406
+68,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_03.html,1,손목 결절종,200406
+70,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_05.html,1,삼각섬유연골 복합체손상,200406
+71,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_06.html,1,손가락 퇴행성 관절염,200406
+73,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_08.html,1,팔꿈치 강직,200406
+74,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_05_02_09.html,1,척골신경포착 증후군,200406
+75,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_01.html,1,족부센터,200406
+78,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_01_04.html,1,지간신경종,200406
+80,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_01_06.html,1,엄지관절염(무지강직증),200406
+81,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_02.html,1,발목질환,200406
+82,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_02_02.html,1,발목 염좌 및 인대 손상,200406
+83,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_06_02_03.html,1,발목 관절염,200406
+86,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_01_02.html,1,심혈관질환,200406
+87,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_01_03.html,1,호흡기질환,200406
+89,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_01_05.html,1,갑상선 클리닉,200406
+95,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_05_02.html,1,어깨,200406
+96,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_05_03.html,1,척추,200406
+97,연세무척나은병원,http://ysks.co.kr/home/m_board.php?ps_db=review,1,치료후기,200406
+99,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_09.html,1,이용안내,200406
+101,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_09_03.html,1,증명서 발급안내,200406
+102,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_09_04.html,1,환자의 권리와 의무,200406
+103,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_08_10.html,1,비급여 안내,200406
+104,연세무척나은병원,http://ysks.co.kr/home/m_board.php?ps_db=story,1,영상으로 보는 무척나은치료,200406
+105,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_02.html,1,심혈관질환,200406
+106,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_03.html,1,호흡기질환,200406
+108,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_07_05.html,1,갑상선 클리닉,200406
+111,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=,1,"
+				무척나은치료",200406
+112,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=sub_02_03_03.html,1,도수치료,200406
+113,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=terms.html,1,이용약관,200406
+114,연세무척나은병원,http://ysks.co.kr/home/homepage.php?homefile=private.html,1,개인정보처리방침,200406
+0,서울스타병원,http://www.seoulstar.net/clinic/increase,1,비수술클리닉,200406
+1,서울스타병원,http://www.seoulstar.net/clinic/injection,1,관절주사,200406
+2,서울스타병원,http://www.seoulstar.net/clinic/nerve,1,경막외신경성형술,200406
+3,서울스타병원,http://www.seoulstar.net/clinic/stemcell,1,줄기세포치료,200406
+4,서울스타병원,http://www.seoulstar.net/clinic/frequency,1,고주파수핵감압술,200406
+0,세바른병원,http://bs.sebarun.com/main/main.php,1,"비수술 척추,관절,통증 세바른병원",200406
+4,웰튼병원,https://wellton.co.kr/public/guide/time.php,1,이용안내,200406
+5,웰튼병원,https://wellton.co.kr/public/knee/center.php,1,무릎관절센터,200406
+6,웰튼병원,https://wellton.co.kr/public/shoulder/info.php,1,어깨관절센터,200406
+7,웰튼병원,https://wellton.co.kr/public/hip/introduce.php,1,고관절센터,200406
+8,웰튼병원,https://wellton.co.kr/public/spine/introduce.php,1,척추센터,200406
+11,웰튼병원,https://wellton.co.kr/public/about/doctor.php,1,의료진소개,200406
+16,웰튼병원,https://wellton.co.kr/public/guide/guide.php,1,진료안내,200406
+20,웰튼병원,https://wellton.co.kr/public/guide/certificate.php,1,증명서발급안내,200406
+21,웰튼병원,https://wellton.co.kr/public/knee/feature.php,1,무릎인공관절특징,200406
+22,웰튼병원,https://wellton.co.kr/public/knee/degenerative.php,1,퇴행성관절염,200406
+23,웰튼병원,https://wellton.co.kr/public/knee/rheumatism.php,1,류마티스관절염,200406
+24,웰튼병원,https://wellton.co.kr/public/knee/replacement.php,1,부분치환술,200406
+25,웰튼병원,https://wellton.co.kr/public/knee/tibial.php,1,근위경골절골술,200406
+26,웰튼병원,https://wellton.co.kr/public/knee/endoscope/detail1.php,1,관절내시경수술,200406
+27,웰튼병원,https://wellton.co.kr/public/knee/endoscope/detail2.php,1,반월상연골판파열,200406
+29,웰튼병원,https://wellton.co.kr/public/knee/endoscope/detail4.php,1,박리성골연골염,200406
+31,웰튼병원,https://wellton.co.kr/public/knee/endoscope/detail6.php,1,관절연골손상,200406
+35,웰튼병원,https://wellton.co.kr/public/shoulder/dislocation.php,1,어깨탈구,200406
+36,웰튼병원,https://wellton.co.kr/public/shoulder/syndrome.php,1,어깨충돌증후군,200406
+37,웰튼병원,https://wellton.co.kr/public/shoulder/arthritis.php,1,어깨관절염,200406
+38,웰튼병원,https://wellton.co.kr/public/shoulder/sports.php,1,어깨손상 재활,200406
+39,웰튼병원,https://wellton.co.kr/public/hip/artificial.php,1,고관절인공관절,200406
+40,웰튼병원,https://wellton.co.kr/public/hip/femur.php,1,대퇴골두무혈성괴사,200406
+41,웰튼병원,https://wellton.co.kr/public/hip/arthritis.php,1,퇴행성고관절염,200406
+42,웰튼병원,https://wellton.co.kr/public/hip/fracture.php,1,대퇴골경부골절,200406
+43,웰튼병원,https://wellton.co.kr/public/hip/dislocatio.php,1,선천성 고관절 탈구,200406
+44,웰튼병원,https://wellton.co.kr/public/spine/neck.php,1,목디스크,200406
+46,웰튼병원,https://wellton.co.kr/public/spine/waist.php,1,허리디스크,200406
+47,웰튼병원,https://wellton.co.kr/public/spine/spinal1.php,1,척추관협착증,200406
+48,웰튼병원,https://wellton.co.kr/public/spine/spinal2.php,1,척추전방전위증,200406
+49,웰튼병원,https://wellton.co.kr/public/spine/spinal3.php,1,척추분리증,200406
+50,웰튼병원,https://wellton.co.kr/public/spine/nooperation.php,1,비수술치료,200406
+51,웰튼병원,https://wellton.co.kr/public/spine/operation.php,1,수술치료,200406
+54,웰튼병원,https://wellton.co.kr/public/customer/reservation.php,1,진료예약,200406
+55,웰튼병원,https://wellton.co.kr/public/customer/review_text.php,1,친필환자후기,200406
+58,웰튼병원,https://wellton.co.kr/public/member/privacy.php,1,개인정보취급방침,200406
+59,웰튼병원,https://wellton.co.kr/public/member/policy.php,1,이용약관,200406
+60,웰튼병원,https://wellton.co.kr/public/member/uninsured.php,1,비급여항목,200406
+0,참바른병원,http://chambarun.kr/39,1,"
+척추 비수술
+
+",200406
+0,참바른병원,http://chambarun.kr/120,1,"
+관절 비수술
+
+",200406
+0,의료법인 성지의료재단 성지병원,https://sjmedi.co.kr/page.php?Main=3&sub=4,1,비수술적 치료,200406
+0,수병원,http://www.soo365.co.kr/nonsurgicalcat1/,1,비수술센터,200406
+0,마디척정형외과의원,https://madichuk.modoo.at/?link=1u139a7m,1,"
+
+비수술
+
+5
+",200406
+0,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=sitemap&filename=sitemap,1,사이트맵,200406
+2,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_01_01,1,척추디스크,200406
+3,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_01_01,1,관절,200406
+4,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic04&fileName=clinic04_01_01,1,하이푸,200406
+6,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic12&fileName=clinic12_01_01,1,비뇨기과,200406
+7,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_01,1,종합건강검진,200406
+9,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=intro&filename=intro_02_01,1,의료진소개,200406
+11,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=intro&filename=intro_05_001,1,주요의료장비,200406
+12,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=intro&filename=intro_06_01,1,진료안내,200406
+14,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_02_01,1,척추관협착증,200406
+15,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_03_01,1,척추전방전위증,200406
+16,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_04_01,1,척추압박골절,200406
+17,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_02,1,비수술치료,200406
+18,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_06_01,1,수술치료,200406
+19,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_02_01,1,상지관절,200406
+20,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_03_01,1,슬관절,200406
+21,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_04_01,1,고관절,200406
+22,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_05_01,1,발관절,200406
+23,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_06_01,1,관절치료방법,200406
+24,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic02&fileName=clinic02_07_01,1,손관절크리닉,200406
+25,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic04&fileName=clinic04_02_01,1,진료안내,200406
+26,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic04&fileName=clinic04_03_01,1,자궁근종,200406
+27,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic04&fileName=clinic04_11_01,1,부인과질환,200406
+29,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic05&fileName=clinic05_04,1,위내시경,200406
+30,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic05&fileName=clinic05_05,1,대장내시경,200406
+31,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic05&fileName=clinic05_06,1,초음파,200406
+35,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic12&fileName=clinic12_05_01,1,비뇨기질환,200406
+36,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic12&fileName=clinic12_06_01,1,남성수술,200406
+37,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_07,1,국민건강보험공단지정 건강검진 암검진,200406
+38,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_16,1,특수건강검진,200406
+39,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_17,1,유전자검사,200406
+40,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_10,1,학생건강검진,200406
+41,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_12,1,채용검진(공무원 일반),200406
+42,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_13,1,운전면허 적성검진,200406
+43,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_14,1,국제결혼 예비자검진,200406
+44,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_15,1,건강진단서,200406
+45,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic06&fileName=clinic06_02_00_18,1,M2-PK검사,200406
+46,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic07&fileName=clinic07_02_003,1,무중력 감압치료,200406
+47,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic07&fileName=clinic07_02_001,1,RF고주파치료,200406
+50,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=community&fileName=community_08,1,비급여 내역,200406
+51,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=community&fileName=community_05,1,진단서발급,200406
+52,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_08,1,디스크중화치료,200406
+53,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_03,1,경막외신경성형술,200406
+54,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_05,1,무중력 감압치료(DRX),200406
+55,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_06,1,RF고주파치료,200406
+57,의료법인성베드로병원,http://www.stpeters.co.kr/content/content.asp?FolderName=clinic01&fileName=clinic01_05_09,1,도수치료,200406
+0,의료법인성베드로병원,http://www.stpeters.co.kr/Board/BoardView.asp?Srno=278&Page=1&Gubun=2&Key=&KeyWord=,1,척추관협착증에 대하여 알려주세요,200406
+1,의료법인성베드로병원,http://www.stpeters.co.kr/Board/BoardView.asp?Srno=280&Page=1&Gubun=2&Key=&KeyWord=,1,척추압박골절에 대하여 문의 드립니다.,200406
+1,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub01&filename=sub01_02,1,의료진소개,200406
+2,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub01&filename=sub01_03,1,의료장비소개,200406
+5,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub02&filename=sub02_01,1,진료안내,200406
+6,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub02&filename=sub02_02,1,진료예약 및 접수,200406
+7,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub02&filename=sub02_03,1,진료순서안내,200406
+9,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub02&filename=sub02_05,1,서류발급안내,200406
+10,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub02&filename=sub02_06,1,비급여안내,200406
+11,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_1001,1,관절센터,200406
+12,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_01,1,관절센터소개,200406
+13,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0201,1,연골재생 클리닉,200406
+14,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0202,1,자가골수 줄기세포 치료술,200406
+15,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0203,1,자가연골 세포이식술,200406
+16,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0204,1,미세 천공술,200406
+17,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0301,1,인공관절 클리닉,200406
+18,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0302,1,엉덩 인공관절 치환술,200406
+19,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0303,1,어깨 인공관절 치환술,200406
+20,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0304,1,발목 인공관절 치환술,200406
+21,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0501,1,휜다리교정 클리닉,200406
+22,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0601,1,스포츠손상 클리닉,200406
+23,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0602,1,무릎인대 손상,200406
+24,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0605,1,연골판 절제술 및 봉합술,200406
+25,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0606,1,십자인대 재건술,200406
+26,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_0603,1,발목인대 손상,200406
+27,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_1002,1,어깨인대 손상,200406
+29,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_1004,1,견봉 성형술,200406
+30,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_09,1,비수술 클리닉,200406
+31,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub03&filename=sub03_08,1,수술 후 관리법,200406
+32,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_01,1,척추센터,200406
+33,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0201,1,비수술 클리닉,200406
+34,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0202,1,신경 차단술,200406
+35,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0203,1,내시경허리디스크치료술,200406
+36,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0204,1,내시경적 레이져 신경감압술,200406
+37,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0205,1,고주파 수핵 감압술,200406
+38,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0206,1,척추 성형술,200406
+39,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0207,1,인대강화 증식치료,200406
+40,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0301,1,수술 클리닉,200406
+41,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0302,1,침습 요추 유합술,200406
+42,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_0303,1,전방 경추체 유합술 및 인공디스크 치환술,200406
+43,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub04&filename=sub04_05,1,수술 후 관리법,200406
+45,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0201,1,외상 및 골절 클리닉,200406
+46,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0202,1,중수골 골절,200406
+47,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0203,1,손가락 골절,200406
+48,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0204,1,발목 골절,200406
+50,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0302,1,손목 물혹,200406
+53,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0305,1,손목건초염(드퀘르벵),200406
+54,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0306,1,삼각섬유연골파열,200406
+55,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub05&filename=sub05_0307,1,선천성 이상,200406
+56,케이에스병원,http://www.kshospital.net/content/content.asp?FolderName=sub07&filename=sub07_01,1,내과수액센터,200406
+0,새길병원,http://www.sae-gil.com/page.php?hid=신경주사치료&pageIndex=180101,1,척추비수술,200406
+0,써지탑병원,http://www.surgetop.co.kr/myboard/myboard1,1,척추센터,200406
+1,써지탑병원,http://www.surgetop.co.kr/myboard/myboard2,1,수술적치료,200406
+2,써지탑병원,http://www.surgetop.co.kr/myboard/myboard3,1,비수술적치료,200406
+3,써지탑병원,http://www.surgetop.co.kr/myboard/myboard5,1,관절센터,200406
+4,써지탑병원,http://www.surgetop.co.kr/myboard/myboard6,1,작은관절,200406
+4,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0102.html,1,관절척추지킴이,200406
+6,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0104.html,1,의료장비소개,200406
+7,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0105.html,1,의료진소개,200406
+9,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0201.html,1,OK관절센터,200406
+10,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0202.html,1,OK 어깨치료,200406
+11,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0203.html,1,어깨 클리닉,200406
+12,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0204.html,1,무릎질환의 종류,200406
+13,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0205.html,1,OK 무릎치료,200406
+14,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0206.html,1,인공관절치환술,200406
+15,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0207.html,1,관절 내시경,200406
+16,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0208.html,1,족부 클리닉,200406
+17,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0301.html,1,OK척추센터,200406
+18,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0302.html,1,허리질환의 종류,200406
+19,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0303.html,1,OK 목·허리치료,200406
+20,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0304.html,1,목 디스크 수술,200406
+21,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0305.html,1,허리 디스크 수술,200406
+22,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0306.html,1,경막외 신경 성형술,200406
+23,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0401.html,1,OK비수술센터,200406
+24,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0402.html,1,OK 비수술치료,200406
+25,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0501.html,1,OK재수술,200406
+26,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0502.html,1,OK 재수술,200406
+27,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0601.html,1,진료,200406
+28,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0602.html,1,외래진료시간안내,200406
+30,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0604.html,1,제증명 발급안내,200406
+31,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0605.html,1,비급여항목,200406
+34,오케이병원,http://www.okayhospital.co.kr/home/m_board.php?ps_db=reservation,1,진료예약,200406
+36,오케이병원,http://www.okayhospital.co.kr/home/m_board.php?ps_db=sound,1,OK건강정보마당,200406
+37,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0805.html,1,개인정보취급방침,200406
+38,오케이병원,http://www.okayhospital.co.kr/home/homepage.php?homefile=s0804.html,1,이용약관,200406
+6,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=knee&depth=2&sub_depth=5,1,무릎통증 게시판,200406
+7,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=shoulder&depth=3&sub_depth=8,1,어깨통증 게시판,200406
+8,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=vertebra&depth=4&sub_depth=7,1,"허리통증, 목통증 게시판",200406
+9,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=elbow&depth=15&sub_depth=7,1,"팔꿈치,손목통증 게시판",200406
+10,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=ankle&depth=6&sub_depth=8,1,발목통증 게시판,200406
+12,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=epilogue&depth=9&sub_depth=3,1,치료후기,200406
+13,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=info&depth=9&sub_depth=5,1,스포츠손상정보,200406
+19,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=83&depth=5&sub_depth=6,1,"
+                    프롤로주사 참기 힘든 만큼 느껴지는 통증에 한번 맞아보면 어떨까?                                    ",200406
+20,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=82&depth=5&sub_depth=6,1,"
+                    냉각치료, 염증성 질환과 스포츠 부상에 효과적이죠.                                    ",200406
+21,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=81&depth=5&sub_depth=6,1,"
+                    체외충격파치료 근골격계 질환의 대표적인 비수술치료                                    ",200406
+22,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=80&depth=5&sub_depth=6,1,"
+                    PDRN주사, 무릎 퇴행성관절염 통증조절에 효과적이야                                    ",200406
+23,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=79&depth=5&sub_depth=6,1,"
+                    어깨통증 있을 때도 PDRN주사로 개선시켜 줄 수 있어요                                    ",200406
+24,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=78&depth=5&sub_depth=6,1,"
+                    운동치료, 척추의 퇴행성 변화와 불균형에 대응하고자                                    ",200406
+25,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=77&depth=5&sub_depth=6,1,"
+                    무릎 재활치료로 가장 중요한 것은 바로 허벅지 근력 강화                                    ",200406
+26,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=76&depth=5&sub_depth=6,1,"
+                    도수치료, 의료진의 임상경험이 중요한 이유가 여기 있어                                    ",200406
+27,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=75&depth=5&sub_depth=6,1,"
+                    관절 통증 치료에 탁월한 PDRN주사, 어깨통증도 이걸로 잡자                                    ",200406
+28,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=74&depth=5&sub_depth=6,1,"
+                    체외충격파, 만성이 되어버린 발바닥통증에 희망을                                    ",200406
+29,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=73&depth=5&sub_depth=6,1,"
+                    냉각치료요법, 환부의 열을 낮추고 통증을 줄이기 위한                                    ",200406
+30,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=72&depth=5&sub_depth=6,1,"
+                    프롤로주사, 스테로이드와는 다른 효과                                    ",200406
+31,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=71&depth=5&sub_depth=6,1,"
+                    재활운동치료 관절의 움직임이 안정적으로 돌아오기 위해                                    ",200406
+32,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=70&depth=5&sub_depth=6,1,"
+                    도수치료, 계속 반복되어 나타나는 증상의 원인을 제대로 짚어보자                                    ",200406
+33,선수촌병원,http://www.sunsoochon.com/bbs/board.php?bo_table=pain&wr_id=69&depth=5&sub_depth=6,1,"
+                    PDRN주사 허리통증 완화에 도움을 주는 보존적 처치 방법                                    ",200406
+0,솔병원,http://www.sol-hospital.co.kr/sub_03_02.html,1,비수술 관절치료,200406
+0,성모척관병원,http://www.spinejoint.co.kr/page_fwgj20,1,척관비수술치료,200406
+0,성모척관병원,http://www.spinejoint.co.kr/page_PuqL91,1,비수술치료 종류,200406
+2,조인트힐병원,http://www.jointh.com/page/page51,1,의료진소개,200406
+5,조인트힐병원,http://www.jointh.com/page/page83,1,관절클리닉,200406
+6,조인트힐병원,http://www.jointh.com/page/page85,1,척추클리닉,200406
+7,조인트힐병원,http://www.jointh.com/page/page5,1,허리디스크,200406
+8,조인트힐병원,http://www.jointh.com/page/page6,1,목디스크,200406
+9,조인트힐병원,http://www.jointh.com/page/page7,1,척추협착증,200406
+10,조인트힐병원,http://www.jointh.com/page/page19,1,척추측만증,200406
+11,조인트힐병원,http://www.jointh.com/page/page20,1,척추 전방전위증,200406
+12,조인트힐병원,http://www.jointh.com/page/page56,1,척추 압박골절,200406
+14,조인트힐병원,http://www.jointh.com/page/page59,1,비수술치료,200406
+15,조인트힐병원,http://www.jointh.com/page/page58,1,추간공확장술,200406
+16,조인트힐병원,http://www.jointh.com/page/page41,1,꼬리뼈 내시경술,200406
+17,조인트힐병원,http://www.jointh.com/page/page21,1,플라즈마 수핵 성형술,200406
+18,조인트힐병원,http://www.jointh.com/page/page37,1,풍선확장술,200406
+19,조인트힐병원,http://www.jointh.com/page/page8,1,신경차단술,200406
+22,조인트힐병원,http://www.jointh.com/page/page25,1,수술치료,200406
+23,조인트힐병원,http://www.jointh.com/page/page97,1,인공 관절,200406
+24,조인트힐병원,http://www.jointh.com/page/page42,1,관절 내시경,200406
+25,조인트힐병원,http://www.jointh.com/page/page26,1,연골 재생술,200406
+26,조인트힐병원,http://www.jointh.com/page/page96,1,줄기세포치료,200406
+27,조인트힐병원,http://www.jointh.com/page/page43,1,디스크 제거술,200406
+28,조인트힐병원,http://www.jointh.com/page/page44,1,척추 유합술,200406
+30,조인트힐병원,http://www.jointh.com/page/page94,1,풍선척추성형술,200406
+31,조인트힐병원,http://www.jointh.com/page/page46,1,건강검진,200406
+32,조인트힐병원,http://www.jointh.com/page/page48,1,5대암검진,200406
+33,조인트힐병원,http://www.jointh.com/page/page47,1,건강검진(장비),200406
+35,조인트힐병원,http://www.jointh.com/page/page30,1,운동재활치료,200406
+36,조인트힐병원,http://www.jointh.com/page/page31,1,체외충격파,200406
+37,조인트힐병원,http://www.jointh.com/page/page29,1,무중력감압치료,200406
+38,조인트힐병원,http://www.jointh.com/page/page32,1,운동치료,200406
+39,조인트힐병원,http://www.jointh.com/page/page86,1,비급여목록표,200406
+2,우리척병원,http://www.woorichuck.net/_kor/designer/skin/02/01.asp,1,병원이용안내,200406
+5,우리척병원,http://www.woorichuck.net/_kor/designer/skin/02/04.asp,1,증명서발급,200406
+6,우리척병원,http://www.woorichuck.net/_kor/designer/skin/02/05.asp,1,비급여안내,200406
+9,우리척병원,http://www.woorichuck.net/_kor/designer/skin/03/03.asp,1,의료진소개,200406
+13,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/01.asp,1,척추센터,200406
+14,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/02.asp,1,경추비수술센터,200406
+15,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/03.asp,1,수술치료,200406
+16,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/04.asp,1,물리치료,200406
+17,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/05.asp,1,운동치료,200406
+18,우리척병원,http://www.woorichuck.net/_kor/designer/skin/04/06.asp,1,척추예방치료,200406
+19,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/01.asp,1,관절센터,200406
+20,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/02.asp,1,관절내시경수술,200406
+21,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/03.asp,1,인공관절치환술,200406
+22,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/04.asp,1,반월상연골이식술,200406
+23,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/05.asp,1,자가골이식술,200406
+24,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/06.asp,1,골절,200406
+26,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/08.asp,1,관절염,200406
+28,우리척병원,http://www.woorichuck.net/_kor/designer/skin/05/10.asp,1,스포츠손상,200406
+34,우리척병원,http://www.woorichuck.net/_kor/developer/m_board/m_board.asp?tb_nm=tbl_notice&m_mode=view&pds_no=20200331132951342095750,1,"
+4월 1일부로 정형외과 조항환원장님 진료를 시작합니다.2020-03-31
+",200406
+35,우리척병원,http://www.woorichuck.net/_kor/developer/m_board/m_board.asp?tb_nm=tbl_notice&m_mode=view&pds_no=20200114162439676675030,1,"
+카카오채널, 인스타그램에서 '우리척병원' 을 ..2020-01-14
+",200406
+36,우리척병원,http://www.woorichuck.net/_kor/developer/m_board/m_board.asp?tb_nm=tbl_notice&m_mode=view&pds_no=20190614182931455971132,1,"
+대전 mbc 건강플러스 '요통의 진단과 치..2019-06-14
+",200406
+1,연세프라임병원,http://primehospital.co.kr/98,1,"
+비수술적 치료방법
+
+",200406
+0,방병원,http://www.ysbang.net/kr/,1,"노원정형외과 척추,관절 방병원",200406
+1,방병원,http://www.ysbang.net/kr/company/location.php,1,"
+오시는길오시는 길을확인하실 수 있습니다
+
+",200406
+2,방병원,http://www.ysbang.net/kr/informationUse/hours.php,1,"
+진료시간진료시간을 한눈에 파악할 수 있습니다
+
+",200406
+3,방병원,http://www.ysbang.net/kr/company/parking.php,1,"
+주차안내주차안내를확인하실 수 있습니다
+
+",200406
+6,방병원,http://www.ysbang.net/kr/company/doctor.php,1,의료진소개,200406
+7,방병원,http://www.ysbang.net/kr/company/global_health_center.php,1,국제진료센터,200406
+8,방병원,http://www.ysbang.net/kr/company/equipment.php,1,의료장비,200406
+9,방병원,http://www.ysbang.net/kr/shoulderCenter/shoulder_01.php,1,어깨관절센터,200406
+12,방병원,http://www.ysbang.net/kr/shoulderCenter/shoulder_04.php,1,어깨충돌증후군,200406
+13,방병원,http://www.ysbang.net/kr/shoulderCenter/shoulder_05.php,1,어깨관절탈구,200406
+15,방병원,http://www.ysbang.net/kr/shoulderCenter/shoulder_07.php,1,손목삼각섬유연골파열(TFCC),200406
+16,방병원,http://www.ysbang.net/kr/shoulderCenter/shoulder_08.php,1,손목터널증후군,200406
+17,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_01.php,1,척추특화센터,200406
+18,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_02.php,1,허리디스크,200406
+19,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_03.php,1,척추관협착증,200406
+20,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_04.php,1,척추전방전위증,200406
+21,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_05.php,1,척추측만증,200406
+22,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_06.php,1,척추압박골절,200406
+23,방병원,http://www.ysbang.net/kr/backboneCenter/backbone_07.php,1,근막동통증증후군,200406
+24,방병원,http://www.ysbang.net/kr/jointCenter/joint_01.php,1,관절특화센터,200406
+25,방병원,http://www.ysbang.net/kr/jointCenter/joint_02.php,1,반월상연골파열,200406
+27,방병원,http://www.ysbang.net/kr/jointCenter/joint_04.php,1,슬개골연골연화증,200406
+28,방병원,http://www.ysbang.net/kr/jointCenter/joint_05.php,1,대퇴골두무혈성괴사,200406
+29,방병원,http://www.ysbang.net/kr/jointCenter/joint_06.php,1,고관절충돌증후군,200406
+30,방병원,http://www.ysbang.net/kr/jointCenter/joint_07.php,1,골관절염,200406
+31,방병원,http://www.ysbang.net/kr/jointCenter/joint_08.php,1,대퇴부골절,200406
+32,방병원,http://www.ysbang.net/kr/footCenter/foot_01.php,1,족부특화센터,200406
+33,방병원,http://www.ysbang.net/kr/footCenter/foot_02.php,1,족관절불안정성,200406
+35,방병원,http://www.ysbang.net/kr/footCenter/foot_04.php,1,무지외반증,200406
+37,방병원,http://www.ysbang.net/kr/footCenter/foot_06.php,1,족부변형발가락기형,200406
+38,방병원,http://www.ysbang.net/kr/treatmentCenter/brain.php,1,치료특화센터,200406
+39,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_07.php,1,골절 트라우마 센터,200406
+40,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01.php,1,척추 비수술 센터,200406
+41,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_02.php,1,척추 수술 센터,200406
+42,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_03.php,1,관절 비수술 센터,200406
+43,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_04.php,1,관절 수술 센터,200406
+44,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_05_03.php,1,특수치료특화센터,200406
+45,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_06.php,1,재활 및 물리치료,200406
+46,방병원,http://www.ysbang.net/kr/healthCenter/health_01.php,1,내과검진센터,200406
+47,방병원,http://www.ysbang.net/kr/healthCenter/health_02.php,1,건강검진,200406
+48,방병원,http://www.ysbang.net/kr/healthCenter/health_03.php,1,검진프로그램,200406
+49,방병원,http://www.ysbang.net/kr/healthCenter/health_04.php,1,검진주의사항,200406
+50,방병원,http://www.ysbang.net/kr/healthCenter/health_05.php,1,위내시경,200406
+51,방병원,http://www.ysbang.net/kr/healthCenter/health_06.php,1,대장내시경,200406
+52,방병원,http://www.ysbang.net/kr/healthCenter/health_07.php,1,초음파클리닉,200406
+56,방병원,http://www.ysbang.net/kr/member/treatment_reserve_list.php,1,예약확인,200406
+59,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_08.php,1,조직재생신경성형술,200406
+60,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_02.php,1,신경성형술,200406
+61,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_03.php,1,신경차단술,200406
+62,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_04.php,1,체외충격파,200406
+63,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_05.php,1,척추교정 도수치료,200406
+64,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_01_06.php,1,물리치료,200406
+66,방병원,http://www.ysbang.net/kr/informationUse/unpaid.php,1,비급여목록표,200406
+67,방병원,http://www.ysbang.net/kr/inquiry/online_reserve.php,1,진료예약,200406
+68,방병원,http://www.ysbang.net/kr/informationUse/issuance.php,1,증명서발급,200406
+0,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_03_02.php,1,주사치료,200406
+1,방병원,http://www.ysbang.net/kr/treatmentCenter/treatment_03_03.php,1,물리치료,200406
+0,오정본병원,http://www.ojbonhospital.co.kr/nonsurgical/index.jsp,1,비수술척추센터,200406
+0,광명21세기병원,http://www.gwangmyeong21.com/page/1_1.php,1,진료,200406
+1,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_1.php,1,21세기 치료노하우,200406
+2,광명21세기병원,http://www.gwangmyeong21.com/page/31_1.php,1,뇌신경검진,200406
+3,광명21세기병원,http://www.gwangmyeong21.com/page/32_1.php,1,종합검진,200406
+5,광명21세기병원,http://www.gwangmyeong21.com/page/1_3.php,1,의료진소개,200406
+7,광명21세기병원,http://www.gwangmyeong21.com/page/1_5.php,1,증명서발급안내,200406
+8,광명21세기병원,http://www.gwangmyeong21.com/page/1_6.php,1,비급여공지,200406
+9,광명21세기병원,http://www.gwangmyeong21.com/page/3_2_1.php,1,중점진료,200406
+10,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_1.php,1,비수술치료,200406
+11,광명21세기병원,http://www.gwangmyeong21.com/page/3_4_1.php,1,내과치료,200406
+12,광명21세기병원,http://www.gwangmyeong21.com/page/31_2.php,1,검사목적,200406
+13,광명21세기병원,http://www.gwangmyeong21.com/page/32_2.php,1,정밀검진,200406
+18,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_2.php,1,- 인공디스크치환술,200406
+19,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_3.php,1,- 미세현미경수술,200406
+20,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_4.php,1,- 목디스크와치료,200406
+21,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_5.php,1,- 척추유합술,200406
+22,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_6.php,1,- 무수혈척추융합수술,200406
+23,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_7.php,1,- 척추연성고정술,200406
+24,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_8.php,1,- 척추압박골절치료,200406
+25,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_9.php,1,- 고주파열치료술(IDET),200406
+26,광명21세기병원,http://www.gwangmyeong21.com/page/3_1_10.php,1,- 플라즈마(고주파)감압술,200406
+27,광명21세기병원,http://www.gwangmyeong21.com/page/3_2_2.php,1,- 자기관절보존수술법,200406
+28,광명21세기병원,http://www.gwangmyeong21.com/page/3_2_3.php,1,- 어깨관절내시경,200406
+29,광명21세기병원,http://www.gwangmyeong21.com/page/3_2_4.php,1,- 무릎관절내시경,200406
+30,광명21세기병원,http://www.gwangmyeong21.com/page/3_2_5.php,1,- 줄기세포연골재생치료,200406
+31,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_4.php,1,- 선택적신경치료,200406
+32,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_5.php,1,- 무중력감압치료(MID),200406
+33,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_6.php,1,- 체외충격파치료(ESWT),200406
+34,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_8.php,1,- 통증치료,200406
+35,광명21세기병원,http://www.gwangmyeong21.com/page/3_3_9.php,1,- 도수,200406
+36,광명21세기병원,http://www.gwangmyeong21.com/page/3_4_2.php,1,- 순환기내과,200406
+38,광명21세기병원,http://www.gwangmyeong21.com/page/3_4_4.php,1,- 갑상선,200406
+40,광명21세기병원,http://www.gwangmyeong21.com/page/policy.php,1,개인정보취급방침,200406
+41,광명21세기병원,http://www.gwangmyeong21.com/page/provision.php,1,이용약관,200406
+2,단디병원,http://dandihos.com/html/?pCode=11,1,의료진 소개,200406
+4,단디병원,http://dandihos.com/html/?pCode=13,1,첨단의료장비,200406
+5,단디병원,http://dandihos.com/html/?pCode=14,1,진료안내,200406
+6,단디병원,http://dandihos.com/html/?pCode=15,1,비수술클리닉,200406
+7,단디병원,http://dandihos.com/html/?pCode=16,1,냉각고주파 수핵성형술(IDET),200406
+8,단디병원,http://dandihos.com/html/?pCode=17,1,박동성 고주파 치료(PRF),200406
+9,단디병원,http://dandihos.com/html/?pCode=19,1,체외충격파 치료술,200406
+10,단디병원,http://dandihos.com/html/?pCode=20,1,증식치료(프롤로테라피),200406
+11,단디병원,http://dandihos.com/html/?pCode=69,1,척추클리닉,200406
+12,단디병원,http://dandihos.com/html/?pCode=72,1,허리질환,200406
+13,단디병원,http://dandihos.com/html/?pCode=44,1,관절클리닉,200406
+14,단디병원,http://dandihos.com/html/?pCode=51,1,팔꿈치질환,200406
+15,단디병원,http://dandihos.com/html/?pCode=53,1,손목질환,200406
+16,단디병원,http://dandihos.com/html/?pCode=56,1,고관절질환,200406
+17,단디병원,http://dandihos.com/html/?pCode=59,1,무릎질환,200406
+18,단디병원,http://dandihos.com/html/?pCode=63,1,발목질환,200406
+19,단디병원,http://dandihos.com/html/?pCode=65,1,족부질환,200406
+20,단디병원,http://dandihos.com/html/?pCode=30,1,줄기세포·인공관절클리닉,200406
+21,단디병원,http://dandihos.com/html/?pCode=81,1,로봇(Mako) 인공관절수술,200406
+23,단디병원,http://dandihos.com/html/?pCode=34,1,내과 • 내시경클리닉,200406
+24,단디병원,http://dandihos.com/html/?pCode=96,1,내시경,200406
+25,단디병원,http://dandihos.com/html/?pCode=35,1,초음파검사,200406
+26,단디병원,http://dandihos.com/html/?pCode=36,1,비만치료,200406
+29,단디병원,http://dandihos.com/html/?pCode=40,1,진료문의,200406
+31,단디병원,http://dandihos.com/html/?pCode=42,1,증명서발급안내,200406
+32,단디병원,http://dandihos.com/html/?pCode=43,1,비급여수가안내,200406
+0,심정병원,http://www.shimjeong.co.kr/chn/,1,CHN,200406
+2,심정병원,http://www.shimjeong.co.kr/c/vision,1,진료이념,200406
+3,심정병원,http://www.shimjeong.co.kr/c/doctor,1,의료진 소개,200406
+6,심정병원,http://www.shimjeong.co.kr/c/1523371421,1,진료센터,200406
+7,심정병원,http://www.shimjeong.co.kr/c/1523374401,1,관절센터,200406
+8,심정병원,http://www.shimjeong.co.kr/c/1523375469,1,비수술센터,200406
+11,심정병원,http://www.shimjeong.co.kr/c/schedule,1,이용안내,200406
+12,심정병원,http://www.shimjeong.co.kr/c/procedure,1,외래 진료절차,200406
+14,심정병원,http://www.shimjeong.co.kr/c/certi_info,1,증명서 발급안내,200406
+16,심정병원,http://www.shimjeong.co.kr/c/1523371454,1,척추 질환,200406
+17,심정병원,http://www.shimjeong.co.kr/c/1523372274,1,비수술적 치료,200406
+18,심정병원,http://www.shimjeong.co.kr/c/1523372498,1,수술적 치료,200406
+19,심정병원,http://www.shimjeong.co.kr/c/1523374460,1,관절 질환,200406
+20,심정병원,http://www.shimjeong.co.kr/c/1523374991,1,비수술적 치료,200406
+21,심정병원,http://www.shimjeong.co.kr/c/1523375121,1,수술적 치료,200406
+22,심정병원,http://www.shimjeong.co.kr/c/1523375543,1,통증 질환,200406
+23,심정병원,http://www.shimjeong.co.kr/c/1523375615,1,통증 치료,200406
+25,심정병원,http://www.shimjeong.co.kr/c/1527940233,1,신경계재활센터,200406
+26,심정병원,http://www.shimjeong.co.kr/c/1523376361,1,만성질환 클리닉,200406
+28,심정병원,http://www.shimjeong.co.kr/c/1523376655,1,성인병 예방 클리닉,200406
+29,심정병원,http://www.shimjeong.co.kr/c/1523377184,1,건강검진,200406
+30,심정병원,http://www.shimjeong.co.kr/c/1523377395,1,성인예방접종,200406
+31,심정병원,http://www.shimjeong.co.kr/c/rights,1,환자권리장전,200406
+33,심정병원,http://www.shimjeong.co.kr/c/provision,1,이용약관,200406
+34,심정병원,http://www.shimjeong.co.kr/c/privacy,1,개인정보취급방침,200406
+0,더조은병원,https://www.joeun4u.com/professional_Center/spine/index.jsp,1,전문진료센터,200406
+1,더조은병원,https://www.joeun4u.com/professional_Center/joint/index.jsp,1,관절센터,200406
+2,더조은병원,https://www.joeun4u.com/professional_Center/nonsurgical/index.jsp,1,비수술센터,200406
+3,더조은병원,https://www.joeun4u.com/professional_Center/health/index.jsp,1,건강증진센터,200406
+4,더조은병원,https://www.joeun4u.com/professional_Center/gymnastics/index.jsp,1,재활물리치료센터,200406
+5,더조은병원,https://www.joeun4u.com/professional_Center/medicine/index.jsp,1,"소화기,순환기내과센터",200406
+6,더조은병원,https://www.joeun4u.com/professional_Center/woman/index.jsp,1,여성클리닉센터,200406
+7,더조은병원,https://www.joeun4u.com/professional_Center/nonsurgical/nonsurgical_doctor/index.jsp?center=3,1,의료진 안내,200406
+0,사랑플러스병원,http://www.sarang-plus.com/?id=Spine-Center/Conservative-Treatment-Clinic,1,[내용확인],200406
+0,의료법인 성지의료재단 제천성지병원,http://www.jcsjmedi.co.kr/page.php?Main=3&sub=9,1,비수술적 치료,200406
+1,전주우리병원,http://www.jjwoori.co.kr/page/sub1_2,1,"
+                                의료진소개                              ",200406
+5,전주우리병원,http://www.jjwoori.co.kr/page/sub1_6,1,"
+                                진료안내                              ",200406
+7,전주우리병원,http://www.jjwoori.co.kr/page/sub2_1,1,"
+                    척추질환                  ",200406
+8,전주우리병원,http://www.jjwoori.co.kr/page/sub2_2,1,"
+                                목디스크                              ",200406
+9,전주우리병원,http://www.jjwoori.co.kr/page/sub2_3,1,"
+                                척추관",200406
+10,전주우리병원,http://www.jjwoori.co.kr/page/sub2_4,1,"
+                                척추측만증                              ",200406
+11,전주우리병원,http://www.jjwoori.co.kr/page/sub2_5,1,"
+                                척추분리증	                              ",200406
+13,전주우리병원,http://www.jjwoori.co.kr/page/sub3_1,1,"
+                    비수술적치료센터                  ",200406
+15,전주우리병원,http://www.jjwoori.co.kr/page/sub3_3,1,"
+                                경막외강감압신경성형술                              ",200406
+16,전주우리병원,http://www.jjwoori.co.kr/page/sub3_8,1,"
+                                경막외풍선확장술                              ",200406
+17,전주우리병원,http://www.jjwoori.co.kr/page/sub3_5,1,"
+                                플라즈마수핵감압술                              ",200406
+18,전주우리병원,http://www.jjwoori.co.kr/page/sub3_6,1,"
+                                척추압박골절치료	                              ",200406
+19,전주우리병원,http://www.jjwoori.co.kr/page/sub3_7,1,"
+                                내시경디스크제거술                              ",200406
+20,전주우리병원,http://www.jjwoori.co.kr/page/sub4_1,1,"
+                    최소침습수술센터                  ",200406
+21,전주우리병원,http://www.jjwoori.co.kr/page/sub4_2,1,"
+                                미세현미경디스크수술경추	                              ",200406
+22,전주우리병원,http://www.jjwoori.co.kr/page/sub4_3,1,"
+                                인공디스크치환술                              ",200406
+23,전주우리병원,http://www.jjwoori.co.kr/page/sub4_4,1,"
+                                최소침습척추고정술                              ",200406
+24,전주우리병원,http://www.jjwoori.co.kr/page/sub4_5,1,"
+                                연성고정술                              ",200406
+25,전주우리병원,http://www.jjwoori.co.kr/page/sub5_1,1,"
+                    척추영상진단센터                  ",200406
+26,전주우리병원,http://www.jjwoori.co.kr/page/sub5_2,1,"
+                                CT(컴퓨터 단층촬영)                              ",200406
+27,전주우리병원,http://www.jjwoori.co.kr/page/sub5_3,1,"
+                                BMD(골밀도검사)                              ",200406
+28,전주우리병원,http://www.jjwoori.co.kr/page/sub5_4,1,"
+                                DITI(적외선 체열검사)                              ",200406
+29,전주우리병원,http://www.jjwoori.co.kr/page/sub5_5,1,"
+                                Ultra Sonogram(초음파검사)                              ",200406
+30,전주우리병원,http://www.jjwoori.co.kr/page/sub6_1,1,"
+                    우리척추재활센터                  ",200406
+32,전주우리병원,http://www.jjwoori.co.kr/page/sub6_3,1,"
+                                레이저통증치료                              ",200406
+33,전주우리병원,http://www.jjwoori.co.kr/page/sub6_8,1,"
+                                운동치료                              ",200406
+34,전주우리병원,http://www.jjwoori.co.kr/page/sub6_5,1,"
+                                물리치료                              ",200406
+36,전주우리병원,http://www.jjwoori.co.kr/page/sub7_3_1,1,"
+                                수술후관리법                              ",200406
+37,전주우리병원,http://www.jjwoori.co.kr/page/sub7_4_1,1,"
+                                척추운동법                              ",200406
+38,전주우리병원,http://www.jjwoori.co.kr/page/sub1_8,1,개인정보 보호방침,200406
+39,전주우리병원,http://www.jjwoori.co.kr/page/sub1_9,1,CCTV 운용지침,200406
+40,전주우리병원,http://www.jjwoori.co.kr/page/sub1_11,1,환자권리장전,200406
+41,전주우리병원,http://www.jjwoori.co.kr/page/sub7_10,1,비급여항목안내,200406
+3,전주우리병원,http://www.jjwoori.co.kr/bbs_shop/read.htm?board_code=board3&idx=197942&cate_sub_idx=0,1,"
+
+
+									 ACHIEVA 3.0T TX MRI 도입																										
+2020-03-13
+
+",200406
+6,전주우리병원,http://www.jjwoori.co.kr/bbs_shop/read.htm?board_code=board3&idx=196995&cate_sub_idx=0,1,"
+
+
+									2020년 설 연휴 진료안내																										
+2020-01-23
+
+",200406
+7,전주우리병원,http://www.jjwoori.co.kr/bbs_shop/read.htm?board_code=board3&idx=195599&cate_sub_idx=0,1,"
+
+
+									2019년 추석연휴 진료안내																										
+2019-09-09
+
+",200406
+12,전주우리병원,http://www.jjwoori.co.kr/bbs_shop/read.htm?board_code=woori&idx=195192&cate_sub_idx=0,1,"
+
+
+									2019년 06월 29일(토) 에 시행한 전주우리병원 야유회																										
+2019-07-04
+
+",200406
+0,서울우리병원,http://www.seoulwoori.net/dcenter1.html,1,척추비수술센터,200406
+0,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/board.php?bo_table=notice&wr_id=30,1,[병원소식]4월 15일국회의원선거일 정상진료,200406
+4,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/board.php?bo_table=doctor,1,의료진 소개,200406
+5,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0106,1,통증명의 문동언이 걸어온길,200406
+6,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0107,1,통증제로프로젝트,200406
+11,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0201,1,척추,200406
+12,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0202,1,척추관 협착증,200406
+13,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0203,1,목디스크,200406
+14,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0204,1,척추 수술 후 통증증후군,200406
+15,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0205,1,척추압박골절,200406
+16,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0206,1,기타허리질환,200406
+17,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page030101,1,관절,200406
+18,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page030201,1,"팔꿈치, 손목, 손 통증",200406
+19,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page030301,1,"무릎, 발목, 발 통증",200406
+20,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page030401,1,"골반,엉덩관절통증",200406
+23,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0501,1,기타통증,200406
+24,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0502,1,근근막 통증증후군,200406
+25,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0503,1,섬유근육통,200406
+26,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0504,1,복합부위통증증후군,200406
+27,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0505,1,삼차신경통,200406
+28,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0506,1,비정형안면통,200406
+30,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0508,1,기타안면통증,200406
+31,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060101,1,주요치료,200406
+32,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060102,1,척추 비수술 치료,200406
+33,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060201,1,신경주사치료(차단술),200406
+34,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060204,1,고주파열응고술,200406
+35,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060302,1,수압팽창 도수치료,200406
+36,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060303,1,체외충격파 치료,200406
+37,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060401,1,도수운동치료,200406
+38,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060501,1,재활 및 운동치료,200406
+42,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0704,1,제증명발급,200406
+43,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/board.php?bo_table=review,1,시술후기,200406
+45,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060107,1,신경성형술,200406
+46,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060103,1,고주파 수핵 감압술,200406
+47,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060104,1,추간공내시경레이저술,200406
+48,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060105,1,경막외 내시경 레이저술,200406
+49,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page060106,1,경피적(풍선) 척추성형술,200406
+50,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=page0105,1,진료시간오시는길,200406
+52,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=provision,1,이용약관,200406
+53,문동언마취통증의학과의원,http://www.mpainclinic.com/bbs/content.php?co_id=privacy,1,개인정보취급방침,200406

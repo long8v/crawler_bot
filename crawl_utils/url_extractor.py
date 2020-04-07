@@ -31,7 +31,7 @@ def setOption(driver, option_value):
 def onclick_regular(url):
     return url.split("href=")[1].replace("'","").replace(";", "")
 
-def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
+def sub(url, visited=set([]), if_dom=False, start_root=True, use_selenium=False, get_option=False):
     '''
     input : parsed(dom)
     output : sub_pages(list), visited(set)
@@ -43,15 +43,16 @@ def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
         parsed = url
     else:
         parsed = parsing(url)
+    if use_selenium:
+        driver = get_driver(url)
 
     for _ in parsed.find_all(['div', 'span', 'a']):
-        if get_option and _.has_attr('onclick'):
+        if use_selenium and _.has_attr('onclick'):
             try:
                 if 'href=' in _['onclick']:
                     sub_pages.append((_.text, \
                         urljoin(url, onclick_regular(_["onclick"]))))
                 else:
-                    driver = get_driver(url)
                     script = _['onclick'].split(';')[0]
                     driver.execute_script(script)
                     sub_pages.append((script, driver.current_url))                
@@ -59,7 +60,6 @@ def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
                 pass
     if get_option:
         for options in parsed.select('select'):
-            driver = get_driver(url)
             for _ in options.select('option'):    
                 try: 
                     sub_pages.append(setOption(driver, _['value']))
@@ -89,11 +89,10 @@ def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
                 else:
                     sub_pages.append((text, link))
                     visited.update([link])
-        if get_option and _.has_attr('href') and 'javascript:' in _["href"].lower():
+        if use_selenium and _.has_attr('href') and 'javascript:' in _["href"].lower():
                 script = _["href"].split(':')[-1]
                 try:
                     if script not in [';', 'void(0)']:
-                        driver = get_driver(url)
                         driver.execute_script(script)
                         sub_pages.append((script, driver.current_url))
                 except Exception as e:
@@ -105,7 +104,7 @@ def sub(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
     return sub_pages, visited
 
 
-def sub_pages(url, visited=set([]), if_dom=False, start_root=True, get_option=False):
+def sub_pages(url, visited=set([]), use_selenium=False, if_dom=False, start_root=True, get_option=False):
     '''
     input : url(str)
     output : sub_pages(list), visited(set)
@@ -117,7 +116,7 @@ def sub_pages(url, visited=set([]), if_dom=False, start_root=True, get_option=Fa
     if str(url).startswith("http"):
         parsed = parsing(url)
         if parsed:
-            sub_pages, visited = sub(url, if_dom=if_dom, start_root=start_root, get_option=get_option)
+            sub_pages, visited = sub(url, use_selenium=use_selenium,if_dom=if_dom, start_root=start_root, get_option=get_option)
             if not sub_pages:
                 parsed = parsing_dynamic(url)
                 sub_pages, visited = sub(url)

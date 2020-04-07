@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import time
 from pydash import *
+from itertools import zip_longest
 from collections import Counter
 from crawl_utils.html_request import *
 from crawl_utils.bot_utils import *
@@ -23,7 +24,7 @@ def get_table_element(dom):
 
     get element whose tag name is 'td' or 'th' or 'dd'
     '''
-    return dom.find_all(['td', 'th', 'dd'])
+    return dom.find_all(['td', 'th', 'dd', 'strong'])
 
 def get_template(row):
     '''
@@ -136,18 +137,32 @@ def get_table_column(table):
     '''
     columns = []
     columns_final = []
+    pop_int = 1
     trs = table.find_all('tr')
     if len(trs) > 1:
         for tr in trs:
             columns.append(get_table_element(tr))
         first_row = get_template(columns[0])
-        if any(first_row):
+        if any(first_row) :
+            pop_int += 1 
             second_row = [strip_all(c.text) for c in columns[1]]
-            return (merge_template(first_row, second_row), 2)      
+            if len(set(first_row)) == 1:
+                columns.pop(0)
+                first_row = get_template(columns[0])
+                pop_int += 1
+                while not first_row:
+                    columns.pop(0)
+                    pop_int += 1
+                    first_row = get_template(columns[0])
+                second_row = [strip_all(c.text) for c in columns[1]]
+                return (merge_template(first_row, second_row), pop_int)  
+            else:
+                return (merge_template(first_row, second_row), pop_int)      
         else:
-            return (get_row(columns[0]), 1)
+            return (get_row(columns[0]), pop_int)
     else:
-        return (get_row(get_table_element(trs[0])), 1)
+        return (get_row(get_table_element(trs[0])), pop_int)
+    
     
 def tbody_parsing(rows):
     '''
@@ -176,7 +191,7 @@ def tbody_parsing(rows):
         element_list.append(merge_template(template, emnt))
     return element_list
 
-def table_parsing(url, use_selenium=False, save_image=False):
+def table_parsing(url, use_selenium=False, is_driver=False, save_image=False):
     '''
     input : url(str)
     output : list of table(DataFrame)
@@ -188,8 +203,11 @@ def table_parsing(url, use_selenium=False, save_image=False):
     columns_list = []
     driver = ""
     if use_selenium:
-        driver = get_driver(url)
-        time.sleep(3)
+        if is_driver:
+            driver = url
+        else:
+            driver = get_driver(url)
+            time.sleep(3)
         soup = BeautifulSoup(driver.page_source, 'lxml')
         tables = soup.find_all('table')
     else:
@@ -209,7 +227,7 @@ def table_parsing(url, use_selenium=False, save_image=False):
             columns = list(map(strip_all, columns))
             i = 1
             table_df = pd.DataFrame()
-            for key, value in zip(columns, zip(*element_list)):
+            for key, value in zip(columns, zip_longest(*element_list)):
                 if key not in table_df:
                     table_df[key] = [v for v in list(value)]         
                 else:

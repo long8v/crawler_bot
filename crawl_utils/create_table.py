@@ -18,7 +18,7 @@ def get_html_table(main_sub_pages, depth=1):
         HSPT_CHILDREN_URL = pd.DataFrame({'hspt_name':[], 'url':[],'depth':[],'text':[]})
         zipped = list(zip(*contents))
         if len(zipped):
-            HSPT_CHILDREN_URL["text"] = ['{}/{}'.format(hspt, _) for _ in zipped[0]]
+            HSPT_CHILDREN_URL["text"] = ['{}'.format(_) for _ in zipped[0]]
             HSPT_CHILDREN_URL["url"] = list(zipped[1])
             HSPT_CHILDREN_URL["depth"] = [depth for _ in range(len(contents))]
             HSPT_CHILDREN_URL["hspt_name"] = [hspt for _ in range(len(contents))]

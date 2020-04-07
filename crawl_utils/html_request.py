@@ -16,6 +16,7 @@ def download(url,params={},retries=0):
     resp = None
     user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36'
     header = {"user-agent":user_agent}
+    # header= {}
     try:
         resp = requests.get(url,params=params,headers=header)
         resp.raise_for_status() #error/event 발생하면 except로 가게해라 
