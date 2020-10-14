@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/long8v/crawler_bot.svg)](http://hits.dwyl.com/long8v/crawler_bot)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flong8v%2Fcrawler_bot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # crawler_bot
 해당 프로젝트는 다양한 html 양식의 사이트에서 원하는 메뉴의 내용을 가져오기 위해 개발되었습니다.
 html_request, main_site_extractor, url_extractor, 
