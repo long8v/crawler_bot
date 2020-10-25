@@ -36,6 +36,7 @@ html의 table 태그를 활용하여 parsing을 하는 모듈입니다
 병합 셀을 처리하기 위하여 rowspan, colspan attribute를 활용하였습니다
 이중 컬럼의 경우, 첫번째 컬럼이 rowspan이 있을 경우에만 컬럼 제목이 잘 들어갑니다
 그렇지 못한 컬럼의 경우 0, 1, 2, ..등으로 넘버링해서 들어가게 됩니다
+...pd.read_html이 있다는 것을 뒤늦게 앎
 
 ## create_table
 csv 파일로 만들어야 하기 때문에 DataFrame 형태로 만드는 모듈입니다
